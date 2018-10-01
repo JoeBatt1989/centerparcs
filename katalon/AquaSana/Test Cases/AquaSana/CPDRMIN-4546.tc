@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Newsletter Sign up</description>
+   <name>CPDRMIN-4546</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>287e5e10-309b-47d1-807c-3bf58927bc6f</testCaseGuid>
+</TestCaseEntity>

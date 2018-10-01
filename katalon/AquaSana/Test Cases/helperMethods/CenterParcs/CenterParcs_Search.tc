@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Search for a lodge</description>
+   <name>CenterParcs_Search</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5b543669-ac25-4e50-89c9-fc06ce97fbe7</testCaseGuid>
+</TestCaseEntity>

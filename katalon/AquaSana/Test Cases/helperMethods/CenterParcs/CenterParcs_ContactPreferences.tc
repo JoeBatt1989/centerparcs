@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Set the contact preferences for a user</description>
+   <name>CenterParcs_ContactPreferences</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0aa5351e-67e8-4e6c-9e24-77325122b388</testCaseGuid>
+</TestCaseEntity>

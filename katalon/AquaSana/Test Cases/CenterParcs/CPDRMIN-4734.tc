@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Registration - Correct details
+
+Check in Gigya - to be done</description>
+   <name>CPDRMIN-4734</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>456f6cf3-1f71-4e64-aeff-1dc7501021ba</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f4663c14-9a19-47c6-9923-df0096dd693c</id>
+      <masked>false</masked>
+      <name>errorMessageText</name>
+   </variable>
+</TestCaseEntity>

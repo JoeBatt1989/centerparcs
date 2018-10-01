@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Claim a booking</description>
+   <name>CenterParcs_Logout</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>23e26b91-f060-498f-8e58-f03be2b60c35</testCaseGuid>
+</TestCaseEntity>

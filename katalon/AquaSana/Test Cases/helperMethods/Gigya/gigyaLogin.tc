@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Gigya login script to check for details</description>
+   <name>gigyaLogin</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>eecb225e-bbf4-45c4-a941-e38a953c169f</testCaseGuid>
+</TestCaseEntity>

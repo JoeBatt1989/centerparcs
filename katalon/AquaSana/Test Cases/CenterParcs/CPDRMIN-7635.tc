@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Accept cookie policy</description>
+   <name>CPDRMIN-7635</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a2ebc25e-f8c7-47bb-a650-99e82ca17eec</testCaseGuid>
+</TestCaseEntity>

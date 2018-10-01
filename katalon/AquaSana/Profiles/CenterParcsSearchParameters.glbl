@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>CenterParcsSearchParameters</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description>WF = Whinfell Forest, SF = Sherwood Forest, EF = Elveden Forest WO = Woburn Forest, LF = Longleat Forest, IR =  Longford Forest</description>
+      <initValue>'WF'</initValue>
+      <name>village</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>1, 2 or 3</description>
+      <initValue>'1'</initValue>
+      <name>lodges</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Standard is 2, change to greater than 2 if more are required or less if less are required</description>
+      <initValue>2</initValue>
+      <name>adults</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>0</initValue>
+      <name>children2_5</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>0</initValue>
+      <name>children6_16</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>0</initValue>
+      <name>dogs</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

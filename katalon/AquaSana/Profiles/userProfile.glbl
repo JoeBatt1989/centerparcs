@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>userProfile</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description>Will be generated as part of SettingUserDetails test case</description>
+      <initValue>'Test'</initValue>
+      <name>emailAddress</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Will be generated as part of SettingUserDetails test case</description>
+      <initValue>'Test'</initValue>
+      <name>firstName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Will be generated as part of SettingUserDetails test case</description>
+      <initValue>'Test'</initValue>
+      <name>lastName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>true</initValue>
+      <name>emailComms</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>true</initValue>
+      <name>postComms</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>true</initValue>
+      <name>smsComms</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

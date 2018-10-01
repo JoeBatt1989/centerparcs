@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Automatically sends an email for DW checking</description>
+   <name>sendDwEmail (NEEDS TO BE FINISHED)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1ad3707e-3e72-4c0c-b292-e448577d2069</testCaseGuid>
+</TestCaseEntity>

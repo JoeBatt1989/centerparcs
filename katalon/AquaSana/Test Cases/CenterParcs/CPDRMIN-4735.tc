@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Account creation &amp; Login - Try to register against an account that already exists</description>
+   <name>CPDRMIN-4735</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>efda774c-4b62-4e0e-862b-3bc37cc8f18c</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>337f699c-3aa5-4ed8-959d-6b925bb82143</id>
+      <masked>false</masked>
+      <name>errorMessageText</name>
+   </variable>
+</TestCaseEntity>
