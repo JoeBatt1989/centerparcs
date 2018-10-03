@@ -15,7 +15,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('helperMethods/Generic/SettingUserDetails'), [:], FailureHandling.STOP_ON_FAILURE)
 
-GlobalVariable.emailComms = true
+GlobalVariable.emailComms = false
 
 GlobalVariable.postComms = false
 

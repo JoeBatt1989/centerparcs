@@ -15,6 +15,10 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('helperMethods/Generic/SettingUserDetails'), [:], FailureHandling.STOP_ON_FAILURE)
 
+GlobalVariable.emailComms = false 
+GlobalVariable.postComms = false 
+GlobalVariable.smsComms = false
+
 WebUI.openBrowser('https://uat.centerparcs.co.uk')
 
 WebUI.maximizeWindow()
@@ -22,10 +26,6 @@ WebUI.maximizeWindow()
 WebUI.callTestCase(findTestCase('helperMethods/CenterParcs/CenterParcs_Register_Base'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('helperMethods/CenterParcs/CenterParcs_Register_Additional'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.scrollToElement(findTestObject('CenterParcs/Centerparcs_my_profile/emailCommsPref'), 0)
-
-WebUI.check(findTestObject('CenterParcs/Centerparcs_my_profile/emailCommsPref'))
 
 WebUI.click(findTestObject('CenterParcs/Centerparcs_my_profile/updateDetailsBtn'))
 

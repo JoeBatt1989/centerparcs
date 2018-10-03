@@ -8,8 +8,8 @@ import internal.GlobalVariable as GlobalVariable
 private void runScript() {
 	
 	java.lang.String MAILER_HOST = "smtp.gmail.com"
-	java.lang.String MAILER_USER = "joe.batt@answerdigital.com" // Needs to be changed 
-	java.lang.String MAILER_PASS = "Inter5933" // Needs to be changed 
+	java.lang.String MAILER_USER = "centerparcsauto@gmail.com" 
+	java.lang.String MAILER_PASS = "P455word123" 
 	int MAILER_PORT = 465
 	
 	Properties properties = System.getProperties()
@@ -26,7 +26,7 @@ private void runScript() {
 	message.setFrom("no.reply@example.org")
 	message.setRecipient(Message.RecipientType.TO, new InternetAddress("joe.batt@centerparcs.co.uk"))
 	message.setSubject("Data Warehouse Check")
-	message.setText("Would you check the following details in DW please?" 
+	message.setText("Would you check the following details in DW after 24 hours please?" 
 		+"\r\n"
 		+"\r\n Username: cpsit.tester1+" + GlobalVariable.emailAddress +"@gmail.com" 
 		+"\r\n Email Preferences: " + GlobalVariable.emailComms
