@@ -88,8 +88,8 @@
 	<classpathentry kind="lib" path="C:/Users/BattJ/Desktop/Katalon_Studio_Windows_64-5.5/plugins/wsdl4j_1.6.2.jar"/>
 	<classpathentry kind="lib" path="C:/Users/BattJ/Desktop/Katalon_Studio_Windows_64-5.5/plugins/com.google.oauth-client.google-oauth-client_1.22.0.jar"/>
 	<classpathentry kind="lib" path="C:/Users/BattJ/Desktop/Katalon_Studio_Windows_64-5.5/plugins/com.google.http-client.google-http-client_1.22.0.jar"/>
-	<classpathentry kind="lib" path="C:/development/CenterparcsTestDemos/katalon/AquaSana/Drivers/javax.mail-1.6.2.jar"/>
-	<classpathentry kind="lib" path="C:/development/CenterparcsTestDemos/katalon/AquaSana/Drivers/javax.mail-api-1.6.2.jar"/>
+	<classpathentry kind="lib" path="C:/development/Centerparcs/katalon/AquaSana/Drivers/javax.mail-1.6.2.jar"/>
+	<classpathentry kind="lib" path="C:/development/Centerparcs/katalon/AquaSana/Drivers/javax.mail-api-1.6.2.jar"/>
 	<classpathentry exported="true" kind="con" path="GROOVY_SUPPORT"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

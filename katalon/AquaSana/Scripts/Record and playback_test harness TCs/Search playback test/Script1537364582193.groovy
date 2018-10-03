@@ -21,3 +21,4 @@ WebUI.waitForElementVisible(findTestObject('CenterParcs/Centerparcs - homepage/s
 
 WebUI.callTestCase(findTestCase('helperMethods/CenterParcs/CenterParcs_Search'), [:], FailureHandling.STOP_ON_FAILURE)
 
+sleep(3000)
