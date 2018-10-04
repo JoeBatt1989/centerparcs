@@ -21,6 +21,8 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('helperMethods/Generic/SettingUserDetails'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.callTestCase(findTestCase('helperMethods/Generic/SettingGuestDetails'), [:], FailureHandling.STOP_ON_FAILURE)
+
 GlobalVariable.emailComms = false
 
 GlobalVariable.postComms = false
@@ -42,4 +44,10 @@ WebUI.callTestCase(findTestCase('helperMethods/CenterParcs/CenterParcs_Booking_E
 WebUI.callTestCase(findTestCase('helperMethods/CenterParcs/CenterParcs_Booking_YourDetails_Register'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('helperMethods/CenterParcs/CenterParcs_Booking_GuestDetails'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('helperMethods/CenterParcs/CenterParcs_Booking_CBSoon'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('helperMethods/CenterParcs/CenterParcs_Booking_Payment'), [:], FailureHandling.STOP_ON_FAILURE)
+
+sleep(4000)
 

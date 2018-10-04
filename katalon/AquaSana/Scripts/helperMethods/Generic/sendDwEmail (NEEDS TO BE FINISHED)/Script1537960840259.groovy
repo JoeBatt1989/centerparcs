@@ -28,7 +28,7 @@ private void runScript() {
 	message.setSubject("Data Warehouse Check")
 	message.setText("Would you check the following details in DW after 24 hours please?" 
 		+"\r\n"
-		+"\r\n Username: cpsit.tester1+" + GlobalVariable.guestEmailAddress +"@gmail.com" 
+		+"\r\n Username: cpsit.tester1+" + GlobalVariable.emailAddress +"@gmail.com" 
 		+"\r\n Email Preferences: " + GlobalVariable.emailComms
 		+"\r\n Post Preferences: " + GlobalVariable.postComms
 		+"\r\n SMS Preferences: " + GlobalVariable.smsComms)

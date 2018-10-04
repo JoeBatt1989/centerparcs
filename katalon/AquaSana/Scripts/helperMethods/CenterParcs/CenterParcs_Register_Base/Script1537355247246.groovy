@@ -29,11 +29,11 @@ WebUI.waitForElementVisible(findTestObject('CenterParcs/Centerparcs Login_Regist
 
 WebUI.selectOptionByValue(findTestObject('CenterParcs/Centerparcs Login_Register/Register/titleDropDown'), 'OTHR', true)
 
-WebUI.setText(findTestObject('CenterParcs/Centerparcs Login_Register/Register/inputFirstName'), GlobalVariable.guestFirstName)
+WebUI.setText(findTestObject('CenterParcs/Centerparcs Login_Register/Register/inputFirstName'), GlobalVariable.firstName)
 
-WebUI.setText(findTestObject('CenterParcs/Centerparcs Login_Register/Register/inputLastName'), GlobalVariable.guestLastName)
+WebUI.setText(findTestObject('CenterParcs/Centerparcs Login_Register/Register/inputLastName'), GlobalVariable.lastName)
 
-WebUI.setText(findTestObject('CenterParcs/Centerparcs Login_Register/Register/emailAddress'), ('cpsit.tester1+' + GlobalVariable.guestEmailAddress) + 
+WebUI.setText(findTestObject('CenterParcs/Centerparcs Login_Register/Register/emailAddress'), ('cpsit.tester1+' + GlobalVariable.emailAddress) + 
     '@gmail.com')
 
 WebUI.setText(findTestObject('CenterParcs/Centerparcs Login_Register/Register/password'), 'Password123')

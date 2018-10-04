@@ -17,21 +17,21 @@ WebUI.waitForElementVisible(findTestObject('CenterParcs/CenterParks - Booking Jo
 
 WebUI.scrollToElement(findTestObject('CenterParcs/CenterParks - Booking Journey/Your Details/email'), 0)
 
-WebUI.setText(findTestObject('CenterParcs/CenterParks - Booking Journey/Your Details/email'), ('cpsit.tester1+' + GlobalVariable.guestEmailAddress) + 
+WebUI.setText(findTestObject('CenterParcs/CenterParks - Booking Journey/Your Details/email'), ('cpsit.tester1+' + GlobalVariable.emailAddress) + 
     '@gmail.com')
 
 WebUI.waitForElementClickable(findTestObject('CenterParcs/CenterParks - Booking Journey/Your Details/verifyEmailBtn'), 0)
 
 WebUI.click(findTestObject('CenterParcs/CenterParks - Booking Journey/Your Details/verifyEmailBtn'))
 
-WebUI.waitForElementClickable(findTestObject('CenterParcs/CenterParks - Booking Journey/Your Details/titleDropDown'), 0)
+WebUI.waitForElementVisible(findTestObject('CenterParcs/CenterParks - Booking Journey/Your Details/titleDropDown'), 0)
 
 WebUI.selectOptionByValue(findTestObject('CenterParcs/CenterParks - Booking Journey/Your Details/titleDropDown'), 'OTHR', 
     true)
 
-WebUI.setText(findTestObject('CenterParcs/CenterParks - Booking Journey/Your Details/firstName'), GlobalVariable.guestFirstName)
+WebUI.setText(findTestObject('CenterParcs/CenterParks - Booking Journey/Your Details/firstName'), GlobalVariable.firstName)
 
-WebUI.setText(findTestObject('CenterParcs/CenterParks - Booking Journey/Your Details/lastName'), GlobalVariable.guestLastName)
+WebUI.setText(findTestObject('CenterParcs/CenterParks - Booking Journey/Your Details/lastName'), GlobalVariable.lastName)
 
 WebUI.selectOptionByValue(findTestObject('CenterParcs/CenterParks - Booking Journey/Your Details/dobDayDropDown'), '1', 
     true)

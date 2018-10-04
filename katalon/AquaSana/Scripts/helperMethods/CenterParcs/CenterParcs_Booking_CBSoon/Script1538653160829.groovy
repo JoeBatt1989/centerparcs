@@ -13,19 +13,13 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-GlobalVariable.emailAddress = 'winston'
+WebUI.waitForElementVisible(findTestObject('CenterParcs/CenterParks - Booking Journey/CBSoon/bookerSurname'), 0)
 
-GlobalVariable.firstName = 'Tony'
+WebUI.scrollToElement(findTestObject('CenterParcs/CenterParks - Booking Journey/CBSoon/noInsuranceRadio'), 0)
 
-GlobalVariable.lastName = 'Test'
+WebUI.click(findTestObject('CenterParcs/CenterParks - Booking Journey/CBSoon/noInsuranceRadio'))
 
-WebUI.callTestCase(findTestCase('helperMethods/CenterParcs/CenterParcs_Register_Base'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.waitForElementClickable(findTestObject('CenterParcs/CenterParks - Booking Journey/CBSoon/continueBtn'), 0)
 
-WebUI.click(findTestObject('CenterParcs/Centerparcs Login_Register/Register/inputFirstName'))
-
-WebUI.waitForElementVisible(findTestObject('CenterParcs/Centerparcs Login_Register/Register/accountAlreadyExists'), 0)
-
-//errorMessageText = WebUI.getText(findTestObject('CenterParcs/Centerparcs Login_Register/Register/accountAlreadyExists'))
-
-//assert errorMessageText == "We recognise your email address. If you have previously made a booking on Center Parcs or Aqua Sana, please follow the forgotten password link on the sign in page, to reset your password."
+WebUI.click(findTestObject('CenterParcs/CenterParks - Booking Journey/CBSoon/continueBtn'))
 

@@ -20,7 +20,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
-GlobalVariable.guestEmailAddress = 'cpsit.tester1+winston@gmail.com'
+GlobalVariable.emailAddress = 'cpsit.tester1+winston@gmail.com'
 
 WebUI.openBrowser('https://uat.aquasana.co.uk')
 
@@ -30,7 +30,7 @@ WebUI.click(findTestObject('AquaSana/AquaSana - login/Signin button'))
 
 WebUI.verifyElementVisible(findTestObject('AquaSana/AquaSana - login/Submit button'))
 
-WebUI.sendKeys(findTestObject('AquaSana/AquaSana - login/Username Field'), ('cpsit.tester1+' + GlobalVariable.guestEmailAddress) + 
+WebUI.sendKeys(findTestObject('AquaSana/AquaSana - login/Username Field'), ('cpsit.tester1+' + GlobalVariable.emailAddress) + 
     '@gmail.com')
 
 WebUI.sendKeys(findTestObject('AquaSana/AquaSana - login/Password field'), 'Password123')

@@ -26,7 +26,8 @@ WebUI.setText(findTestObject('CenterParcs/CenterParks - Booking Journey/Guest De
 
 WebUI.setText(findTestObject('CenterParcs/CenterParks - Booking Journey/Guest Details/lastName'), GlobalVariable.guestLastName)
 
-WebUI.setText(findTestObject('CenterParcs/CenterParks - Booking Journey/Guest Details/email'), GlobalVariable.guestEmailAddress)
+WebUI.setText(findTestObject('CenterParcs/CenterParks - Booking Journey/Guest Details/email'), ('cpsit.tester1+' + GlobalVariable.guestEmailAddress) + 
+    '@gmail.com')
 
 WebUI.waitForElementClickable(findTestObject('CenterParcs/CenterParks - Booking Journey/Guest Details/guestDetailsNextBtn'), 
     0)
@@ -35,7 +36,9 @@ WebUI.click(findTestObject('CenterParcs/CenterParks - Booking Journey/Guest Deta
 
 WebUI.waitForElementClickable(findTestObject('CenterParcs/CenterParks - Booking Journey/Guest Details/carDropDown'), 0)
 
-WebUI.selectOptionByValue(findTestObject(null), '0', true)
+WebUI.selectOptionByValue(findTestObject('CenterParcs/CenterParks - Booking Journey/Guest Details/carDropDown'), '0', true)
 
 WebUI.waitForElementClickable(findTestObject('CenterParcs/CenterParks - Booking Journey/Guest Details/continueBtn'), 0)
+
+WebUI.click(findTestObject('CenterParcs/CenterParks - Booking Journey/Guest Details/continueBtn'), FailureHandling.STOP_ON_FAILURE)
 
