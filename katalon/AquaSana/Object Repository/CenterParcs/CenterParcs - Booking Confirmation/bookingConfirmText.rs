@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>expiryDateMonth</name>
+   <name>bookingConfirmText</name>
    <tag></tag>
-   <elementGuidId>d79ed416-15f1-48bd-bfd2-fc5d682a1c15</elementGuidId>
+   <elementGuidId>0c362ccd-64b6-4364-ae7b-20bc35b58d96</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id = 'expiryDateMonth']</value>
+         <value>//*[(contains(text(), 'Your booking confirmation') or contains(., 'Your booking confirmation'))]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <matchCondition>contains</matchCondition>
+      <name>text</name>
       <type>Main</type>
-      <value>expiryDateMonth</value>
+      <value>Your booking confirmation</value>
    </webElementProperties>
 </WebElementEntity>
