@@ -49,6 +49,5 @@ WebUI.callTestCase(findTestCase('helperMethods/CenterParcs/CenterParcs_Booking_C
 
 WebUI.callTestCase(findTestCase('helperMethods/CenterParcs/CenterParcs_Booking_Payment'), [:], FailureHandling.STOP_ON_FAILURE)
 
-not_run: WebUI.waitForElementVisible(findTestObject('CenterParcs/CenterParcs - Booking Confirmation/bookingConfirmText'), 
-    0)
+WebUI.waitForElementVisible(findTestObject('CenterParcs/CenterParcs - Booking Confirmation/bookingConfirmText'), 0)
 
