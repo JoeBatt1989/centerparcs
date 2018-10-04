@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Setting up a random email address</description>
+   <name>SettingGuestDetails</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d3a5af26-595f-4cd2-ac9d-a3d08a276b9f</testCaseGuid>
+</TestCaseEntity>

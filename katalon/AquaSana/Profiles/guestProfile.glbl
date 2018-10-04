@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>guestProfile</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description>Will be generated as part of SettingUserDetails test case</description>
+      <initValue>'Test'</initValue>
+      <name>guestEmailAddress</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Will be generated as part of SettingUserDetails test case</description>
+      <initValue>'Test'</initValue>
+      <name>guestFirstName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Will be generated as part of SettingUserDetails test case</description>
+      <initValue>'Test'</initValue>
+      <name>guestLastName</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

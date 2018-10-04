@@ -19,7 +19,7 @@ WebUI.selectOptionByValue(findTestObject('AquaSana/AquaSana - Payment/Card Detai
 
 WebUI.setText(findTestObject('AquaSana/AquaSana - Payment/Card Details/cardNumber'), '4929492949294929')
 
-WebUI.setText(findTestObject('AquaSana/AquaSana - Payment/Card Details/cardName'), (GlobalVariable.firstName + ' ') + GlobalVariable.lastName)
+WebUI.setText(findTestObject('AquaSana/AquaSana - Payment/Card Details/cardName'), (GlobalVariable.guestFirstName + ' ') + GlobalVariable.guestLastName)
 
 WebUI.setText(findTestObject('AquaSana/AquaSana - Payment/Card Details/validFrom'), '01/2018')
 

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>CenterParcs_Booking_YourDetails</name>
+   <name>CenterParcs_Booking_GuestDetails</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>02217765-e7fe-4a1b-aad8-0380bfbd3056</testCaseGuid>
+   <testCaseGuid>4058c548-72ca-4f18-9bfc-7ceaf506a5d1</testCaseGuid>
 </TestCaseEntity>

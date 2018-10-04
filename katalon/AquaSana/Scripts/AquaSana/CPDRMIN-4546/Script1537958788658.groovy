@@ -29,12 +29,12 @@ WebUI.click(findTestObject('AquaSana/AquaSana - Homepage/Header Links/Help Links
 
 WebUI.waitForElementVisible(findTestObject('AquaSana/AquaSana - Email Sign Up/signUpText'), 0)
 
-WebUI.setText(findTestObject('AquaSana/AquaSana - Email Sign Up/emailAddress'), ('cpsit.tester1+' + GlobalVariable.emailAddress) + 
+WebUI.setText(findTestObject('AquaSana/AquaSana - Email Sign Up/emailAddress'), ('cpsit.tester1+' + GlobalVariable.guestEmailAddress) + 
     '@gmail.com')
 
-WebUI.setText(findTestObject('AquaSana/AquaSana - Email Sign Up/firstName'), GlobalVariable.firstName)
+WebUI.setText(findTestObject('AquaSana/AquaSana - Email Sign Up/firstName'), GlobalVariable.guestFirstName)
 
-WebUI.setText(findTestObject('AquaSana/AquaSana - Email Sign Up/lastName'), GlobalVariable.lastName)
+WebUI.setText(findTestObject('AquaSana/AquaSana - Email Sign Up/lastName'), GlobalVariable.guestLastName)
 
 WebUI.click(findTestObject('AquaSana/AquaSana - Email Sign Up/registerBtn'))
 

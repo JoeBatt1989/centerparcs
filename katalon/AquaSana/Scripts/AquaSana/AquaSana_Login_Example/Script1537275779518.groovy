@@ -13,7 +13,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-GlobalVariable.emailAddress = 'cpsit.tester1+winston@gmail.com'
+GlobalVariable.guestEmailAddress = 'cpsit.tester1+winston@gmail.com'
 
 WebUI.callTestCase(findTestCase('helperMethods/AquaSana/AquaSana_Login_New_User'), [:], FailureHandling.STOP_ON_FAILURE)
 

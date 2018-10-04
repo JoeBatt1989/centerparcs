@@ -23,7 +23,7 @@ WebUI.click(findTestObject('CenterParcs/Centerparcs - homepage/signIn_btn'))
 
 WebUI.waitForElementVisible(findTestObject('CenterParcs/Centerparcs Login_Register/LogIn/submitBtn'), 0)
 
-WebUI.sendKeys(findTestObject('CenterParcs/Centerparcs Login_Register/LogIn/inputUserName'), ('cpsit.tester1+' + GlobalVariable.emailAddress) + 
+WebUI.sendKeys(findTestObject('CenterParcs/Centerparcs Login_Register/LogIn/inputUserName'), ('cpsit.tester1+' + GlobalVariable.guestEmailAddress) + 
     '@gmail.com')
 
 WebUI.sendKeys(findTestObject('CenterParcs/Centerparcs Login_Register/LogIn/inputPassword'), 'Password123')

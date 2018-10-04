@@ -39,5 +39,7 @@ WebUI.callTestCase(findTestCase('helperMethods/CenterParcs/CenterParcs_Booking_L
 
 WebUI.callTestCase(findTestCase('helperMethods/CenterParcs/CenterParcs_Booking_Extras'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('helperMethods/CenterParcs/CenterParcs_Booking_YourDetails'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('helperMethods/CenterParcs/CenterParcs_Booking_YourDetails_Register'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('helperMethods/CenterParcs/CenterParcs_Booking_GuestDetails'), [:], FailureHandling.STOP_ON_FAILURE)
 

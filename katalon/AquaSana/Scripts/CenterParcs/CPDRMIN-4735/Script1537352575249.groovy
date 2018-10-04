@@ -13,11 +13,11 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-GlobalVariable.emailAddress = 'winston'
+GlobalVariable.guestEmailAddress = 'winston'
 
-GlobalVariable.firstName = 'Tony'
+GlobalVariable.guestFirstName = 'Tony'
 
-GlobalVariable.lastName = 'Test'
+GlobalVariable.guestLastName = 'Test'
 
 WebUI.callTestCase(findTestCase('helperMethods/CenterParcs/CenterParcs_Register_Base'), [:], FailureHandling.STOP_ON_FAILURE)
 

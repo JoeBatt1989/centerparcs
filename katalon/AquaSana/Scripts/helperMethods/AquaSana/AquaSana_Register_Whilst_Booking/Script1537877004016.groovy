@@ -21,16 +21,16 @@ WebUI.callTestCase(findTestCase('helperMethods/Generic/SettingUserDetails'), [:]
 
 WebUI.waitForElementVisible(findTestObject('AquaSana/AquaSana - Create Account/emailAddress'), 0)
 
-WebUI.setText(findTestObject('AquaSana/AquaSana - Create Account/emailAddress'), ('cpsit.tester1+' + GlobalVariable.emailAddress) + 
+WebUI.setText(findTestObject('AquaSana/AquaSana - Create Account/emailAddress'), ('cpsit.tester1+' + GlobalVariable.guestEmailAddress) + 
     '@gmail.com')
 
 WebUI.setText(findTestObject('AquaSana/AquaSana - Create Account/password'), 'Password123')
 
 WebUI.setText(findTestObject('AquaSana/AquaSana - Create Account/passwordRe-enter'), 'Password123')
 
-WebUI.setText(findTestObject('AquaSana/AquaSana - Create Account/firstName'), GlobalVariable.firstName)
+WebUI.setText(findTestObject('AquaSana/AquaSana - Create Account/firstName'), GlobalVariable.guestFirstName)
 
-WebUI.setText(findTestObject('AquaSana/AquaSana - Create Account/lastName'), GlobalVariable.lastName)
+WebUI.setText(findTestObject('AquaSana/AquaSana - Create Account/lastName'), GlobalVariable.guestLastName)
 
 WebUI.submit(findTestObject('AquaSana/AquaSana - Create Account/registerBtn'))
 

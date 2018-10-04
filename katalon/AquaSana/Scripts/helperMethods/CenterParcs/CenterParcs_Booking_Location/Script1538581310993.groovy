@@ -31,7 +31,9 @@ WebUI.waitForElementVisible(findTestObject('CenterParcs/CenterParks - Booking Jo
 WebUI.scrollToElement(findTestObject('CenterParcs/CenterParks - Booking Journey/Choose your Location/noPreferenceRadioBtn'), 
     0)
 
-noPrefRadioButton = driver.findElement(By.cssSelector('#locationOptions_0_1'))
+//noPrefRadioButton = driver.findElement(By.cssSelector('#locationOptions_0_1'))
+
+noPrefRadioButton = driver.findElement(By.cssSelector('#js-accordion-form-area-0 div fieldset div:last-child input'))
 
 Actions actions = new Actions(driver)
 
