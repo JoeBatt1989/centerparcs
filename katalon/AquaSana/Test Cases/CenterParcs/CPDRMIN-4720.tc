@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Account Management - User gets locked out of account</description>
+   <name>CPDRMIN-4720</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2b598ce3-405b-4595-9fe3-3c63665bd8c8</testCaseGuid>
+</TestCaseEntity>

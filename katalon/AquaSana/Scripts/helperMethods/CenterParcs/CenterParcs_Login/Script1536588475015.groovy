@@ -12,10 +12,7 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-
-not_run: WebUI.openBrowser('https://uat.centerparcs.co.uk')
-
-not_run: WebUI.maximizeWindow()
+import junit.framework.Assert as Assert
 
 WebUI.waitForElementVisible(findTestObject('CenterParcs/Centerparcs - homepage/signInRegisterBtn'), 0)
 
@@ -26,9 +23,24 @@ WebUI.waitForElementVisible(findTestObject('CenterParcs/Centerparcs Login_Regist
 WebUI.sendKeys(findTestObject('CenterParcs/Centerparcs Login_Register/LogIn/inputUserName'), ('cpsit.tester1+' + GlobalVariable.emailAddress) + 
     '@gmail.com')
 
-WebUI.sendKeys(findTestObject('CenterParcs/Centerparcs Login_Register/LogIn/inputPassword'), 'Password123')
+WebUI.sendKeys(findTestObject('CenterParcs/Centerparcs Login_Register/LogIn/inputPassword'), GlobalVariable.currentPassword)
 
 WebUI.click(findTestObject('CenterParcs/Centerparcs Login_Register/LogIn/submitBtn'))
 
-WebUI.waitForElementVisible(findTestObject('CenterParcs/Centerparcs_homepage_logged_in/Find_out_how_it_works'), 0)
+if (GlobalVariable.currentPassword == 'Password123') {
+    WebUI.waitForElementVisible(findTestObject('CenterParcs/Centerparcs_homepage_logged_in/Find_out_how_it_works'), 0)
+} else {
+    for (int i = 0; i < 2; i++) {
+		sleep(1000)
+        WebUI.waitForElementVisible(findTestObject('CenterParcs/Centerparcs Login_Register/LogIn/loginErrorMessage'), 0)
+
+        WebUI.click(findTestObject('CenterParcs/Centerparcs Login_Register/LogIn/submitBtn'))
+    }
+    sleep(1000)
+    WebUI.waitForElementVisible(findTestObject('CenterParcs/Centerparcs Login_Register/LogIn/loginErrorMessage'), 0)
+
+    String errorText = WebUI.getText(findTestObject('CenterParcs/Centerparcs Login_Register/LogIn/loginErrorMessage'), FailureHandling.STOP_ON_FAILURE)
+
+    Assert.assertTrue(errorText == 'You have been temporarily locked out of your account for 5 minutes.')
+}
 

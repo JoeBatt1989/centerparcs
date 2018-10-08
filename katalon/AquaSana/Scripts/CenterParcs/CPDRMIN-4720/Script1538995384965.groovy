@@ -13,9 +13,9 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-GlobalVariable.emailAddress = 'winston'
+GlobalVariable.currentPassword = 'PasswordWrong1'
 
-GlobalVariable.currentPassword = 'Password123'
+GlobalVariable.emailAddress = 'winston'
 
 WebUI.openBrowser('https://uat.centerparcs.co.uk')
 
@@ -23,9 +23,19 @@ WebUI.maximizeWindow()
 
 WebUI.callTestCase(findTestCase('helperMethods/CenterParcs/CenterParcs_Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('CenterParcs/Centerparcs - homepage/Header Links/Discover Center Parcs/DiscoverCPTab'))
+WebUI.closeBrowser()
 
-WebUI.click(findTestObject('CenterParcs/Centerparcs - homepage/Header Links/Discover Center Parcs/activitiesLink'))
+sleep(5 * (60 * 1000))
 
-WebUI.waitForElementVisible(findTestObject('CenterParcs/CenterParcs - Activities/actvitiesText'), 0)
+GlobalVariable.currentPassword = 'Password123'
+
+GlobalVariable.emailAddress = 'winston'
+
+WebUI.openBrowser('https://uat.centerparcs.co.uk')
+
+WebUI.maximizeWindow()
+
+WebUI.callTestCase(findTestCase('helperMethods/CenterParcs/CenterParcs_Login'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.closeBrowser()
 
