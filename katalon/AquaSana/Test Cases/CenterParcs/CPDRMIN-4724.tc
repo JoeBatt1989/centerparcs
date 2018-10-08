@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User updates their password from the 'My Profile' page.</description>
+   <name>CPDRMIN-4724</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ae8bc375-006c-4cbe-a5bb-11da174972f5</testCaseGuid>
+</TestCaseEntity>

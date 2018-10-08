@@ -10,20 +10,20 @@ import com.kms.katalon.core.testcase.TestCase as TestCase
 import com.kms.katalon.core.testdata.TestData as TestData
 import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
-import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.By as By
-import org.openqa.selenium.WebDriver as WebDriver
-import org.openqa.selenium.WebElement as WebElement
 
-WebDriver driver = DriverFactory.getWebDriver()
+WebUI.waitForElementVisible(findTestObject('CenterParcs/Centerparcs_my_profile/myDetailsHeader'), 0)
 
-userMenu = driver.findElements(By.xpath('//*[@class = \'subnav__myprofile__username\']'))
+WebUI.scrollToElement(findTestObject('CenterParcs/Centerparcs_my_profile/editDetailsBtn'), 0)
 
-userMenu[0].click()
+WebUI.click(findTestObject('CenterParcs/Centerparcs_my_profile/editDetailsBtn'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('CenterParcs/Centerparcs_homepage_logged_in/signOut'), 0)
+WebUI.sendKeys(findTestObject('CenterParcs/Centerparcs_my_profile/newPassword'), GlobalVariable.newPassword)
 
-WebUI.click(findTestObject('CenterParcs/Centerparcs_homepage_logged_in/signOut'), FailureHandling.STOP_ON_FAILURE)
+WebUI.scrollToElement(findTestObject('CenterParcs/Centerparcs_my_profile/updateDetailsBtn'), 0)
+
+WebUI.click(findTestObject('CenterParcs/Centerparcs_my_profile/updateDetailsBtn'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.waitForElementVisible(findTestObject('CenterParcs/Centerparcs_my_profile/savedText'), 0)
 

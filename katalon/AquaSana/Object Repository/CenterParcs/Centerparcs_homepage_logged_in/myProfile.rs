@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>myProfile</name>
+   <tag></tag>
+   <elementGuidId>d0afb9dd-3d3e-4a8d-820c-7524d9227960</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[4]/div/div[1]/header/div[1]/ul/li[2]/div/div/ul/li[1]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <value>/html/body/div[4]/div/div[1]/header/div[1]/ul/li[2]/div/div/ul/li[1]/a</value>
+   </webElementXpaths>
+</WebElementEntity>

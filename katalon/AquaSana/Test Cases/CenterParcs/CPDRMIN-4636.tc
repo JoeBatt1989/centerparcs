@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test to carry out caliming a booking.</description>
+   <name>CPDRMIN-4636</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bff107ac-1c45-45de-8502-cee95b598984</testCaseGuid>
+</TestCaseEntity>
