@@ -45,7 +45,6 @@ driver.findElement(By.cssSelector("[type='submit']")).click()
 
 //WebUI.click(findTestObject('CenterParcs/CenterParks - Booking Journey/Payment/paymentConfirmBtn'), FailureHandling.STOP_ON_FAILURE)
 
-
 not_run: Actions actions = new Actions(driver)
 
 not_run: paymentConfirmBtn = driver.findElement(By.cssSelector('.cardContainer input'))

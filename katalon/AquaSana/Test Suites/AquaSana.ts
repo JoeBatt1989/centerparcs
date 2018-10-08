@@ -70,4 +70,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/AquaSana/CPDRMIN-4551</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>d367a3fe-1cc3-42b9-a9bf-3a5baa751d1a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/AquaSana/CPDRMIN-4538</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

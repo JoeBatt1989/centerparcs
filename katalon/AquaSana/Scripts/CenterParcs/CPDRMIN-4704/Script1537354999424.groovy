@@ -21,6 +21,8 @@ GlobalVariable.postComms = false
 
 GlobalVariable.smsComms = false
 
+GlobalVariable.currentPassword = 'Password123'
+
 WebUI.openBrowser('https://uat.centerparcs.co.uk')
 
 WebUI.maximizeWindow()
@@ -29,7 +31,15 @@ WebUI.callTestCase(findTestCase('helperMethods/CenterParcs/CenterParcs_Register_
 
 WebUI.callTestCase(findTestCase('helperMethods/CenterParcs/CenterParcs_Register_Additional'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('CenterParcs/CenterParcs - My Profile/updateDetailsBtn'))
+WebUI.closeBrowser()
 
-WebUI.waitForElementVisible(findTestObject('CenterParcs/CenterParcs - Homepage_logged_in/myBookingMenu'), 0)
+WebUI.openBrowser('https://uat.aquasana.co.uk')
+
+WebUI.maximizeWindow()
+
+WebUI.waitForElementVisible(findTestObject('AquaSana/AquaSana - login/signInBtn'), 0)
+
+WebUI.click(findTestObject('AquaSana/AquaSana - login/signInBtn'))
+
+WebUI.callTestCase(findTestCase('helperMethods/AquaSana/AquaSana_Login_Existing_User'), [:], FailureHandling.STOP_ON_FAILURE)
 

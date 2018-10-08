@@ -52,5 +52,7 @@ WebUI.callTestCase(findTestCase('helperMethods/CenterParcs/CenterParcs_Booking_P
 not_run: WebUI.waitForElementVisible(findTestObject('CenterParcs/CenterParcs - Booking Confirmation/bookingConfirmText'), 
     0)
 
+sleep(5000)
+
 WebUI.callTestCase(findTestCase('helperMethods/Generic/sendDwEmail (NEEDS TO BE FINISHED)'), [:], FailureHandling.STOP_ON_FAILURE)
 

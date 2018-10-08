@@ -1,0 +1,2009 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="CenterParcs" time="508" tests="9" failures="0" errors="0">
+   <testsuite name="CenterParcs" tests="9" failures="0" errors="0" time="508" timestamp="2018-10-08 16:11:59" hostname="BattJ - ANS-A429.mshome.net" id="Test Suites/CenterParcs">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\development\\Centerparcs\\katalon\\AquaSana\\Reports\\CenterParcs\\20181008_161157"/>
+         <property name="logFiles" value="C:\\development\\Centerparcs\\katalon\\AquaSana\\Reports\\CenterParcs\\20181008_161157\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="BattJ - ANS-A429.mshome.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.7.0.1"/>
+         <property name="browser" value="Chrome 69.0.3497.100"/>
+         <property name="hostAddress" value="172.22.216.17"/>
+         <property name="sessionId" value="c53de8a17558f0c851ac8e498704b097"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/CenterParcs/CPDRMIN-7698" classname="Test Cases/CenterParcs/CPDRMIN-7698" status="PASSED">
+         <system-out><![CDATA[2018-10-08 16:11:59 - [TEST_CASE][PASSED] - Test Cases/CenterParcs/CPDRMIN-7698: Test Cases/CenterParcs/CPDRMIN-7698
+
+2018-10-08 16:11:59 - [TEST_STEP][PASSED] - Statement - emailAddress = "winston": null
+
+2018-10-08 16:11:59 - [TEST_STEP][PASSED] - Statement - currentPassword = "Password123": null
+
+2018-10-08 16:11:59 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://uat.centerparcs.co.uk'
+
+2018-10-08 16:12:05 - [MESSAGE][PASSED] - Browser is opened with url: 'https://uat.centerparcs.co.uk'
+
+2018-10-08 16:12:05 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-10-08 16:12:06 - [MESSAGE][PASSED] - Current window maximized
+
+2018-10-08 16:12:06 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/helperMethods/CenterParcs/CenterParcs_Login' successfully
+
+2018-10-08 16:12:06 - [TEST_CASE][PASSED] - Test Cases/helperMethods/CenterParcs/CenterParcs_Login: Test Cases/helperMethods/CenterParcs/CenterParcs_Login
+
+2018-10-08 16:12:06 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/CenterParcs/Centerparcs - homepage/signInRegisterBtn' is visible
+
+2018-10-08 16:12:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2018-10-08 16:12:06 - [MESSAGE][PASSED] - Object 'Object Repository/CenterParcs/Centerparcs - homepage/signInRegisterBtn' is visible
+
+2018-10-08 16:12:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CenterParcs/Centerparcs - homepage/signInRegisterBtn' is clicked on
+
+2018-10-08 16:12:08 - [MESSAGE][PASSED] - Object: 'Object Repository/CenterParcs/Centerparcs - homepage/signInRegisterBtn' is clicked on
+
+2018-10-08 16:12:08 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/CenterParcs/Centerparcs - Login_Register/LogIn/submitBtn' is visible
+
+2018-10-08 16:12:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2018-10-08 16:12:08 - [MESSAGE][PASSED] - Object 'Object Repository/CenterParcs/Centerparcs - Login_Register/LogIn/submitBtn' is visible
+
+2018-10-08 16:12:08 - [TEST_STEP][PASSED] - sendKeys: Keys 'cpsit.tester1+winston@gmail.com' sent to object: 'Object Repository/CenterParcs/Centerparcs - Login_Register/LogIn/inputUserName'
+
+2018-10-08 16:12:08 - [MESSAGE][PASSED] - Keys 'cpsit.tester1+winston@gmail.com' sent to object: 'Object Repository/CenterParcs/Centerparcs - Login_Register/LogIn/inputUserName'
+
+2018-10-08 16:12:08 - [TEST_STEP][PASSED] - sendKeys: Keys 'Password123' sent to object: 'Object Repository/CenterParcs/Centerparcs - Login_Register/LogIn/inputPassword'
+
+2018-10-08 16:12:08 - [MESSAGE][PASSED] - Keys 'Password123' sent to object: 'Object Repository/CenterParcs/Centerparcs - Login_Register/LogIn/inputPassword'
+
+2018-10-08 16:12:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CenterParcs/Centerparcs - Login_Register/LogIn/submitBtn' is clicked on
+
+2018-10-08 16:12:09 - [MESSAGE][PASSED] - Object: 'Object Repository/CenterParcs/Centerparcs - Login_Register/LogIn/submitBtn' is clicked on
+
+2018-10-08 16:12:09 - [TEST_STEP][PASSED] - Statement - If (currentPassword == "Password123"): Object 'Object Repository/CenterParcs/CenterParcs - Homepage_logged_in/Find_out_how_it_works' is visible
+
+2018-10-08 16:12:09 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/CenterParcs/CenterParcs - Homepage_logged_in/Find_out_how_it_works' is visible
+
+2018-10-08 16:12:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2018-10-08 16:12:12 - [MESSAGE][PASSED] - Object 'Object Repository/CenterParcs/CenterParcs - Homepage_logged_in/Find_out_how_it_works' is visible
+
+2018-10-08 16:12:12 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/helperMethods/CenterParcs/CenterParcs_Login' successfully
+
+2018-10-08 16:12:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CenterParcs/Centerparcs - homepage/Header Links/Discover Center Parcs/DiscoverCPTab' is clicked on
+
+2018-10-08 16:12:12 - [MESSAGE][PASSED] - Object: 'Object Repository/CenterParcs/Centerparcs - homepage/Header Links/Discover Center Parcs/DiscoverCPTab' is clicked on
+
+2018-10-08 16:12:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CenterParcs/Centerparcs - homepage/Header Links/Discover Center Parcs/activitiesLink' is clicked on
+
+2018-10-08 16:12:13 - [MESSAGE][PASSED] - Object: 'Object Repository/CenterParcs/Centerparcs - homepage/Header Links/Discover Center Parcs/activitiesLink' is clicked on
+
+2018-10-08 16:12:13 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/CenterParcs/CenterParcs - Activities/actvitiesText' is visible
+
+2018-10-08 16:12:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2018-10-08 16:12:13 - [MESSAGE][PASSED] - Object 'Object Repository/CenterParcs/CenterParcs - Activities/actvitiesText' is visible
+
+2018-10-08 16:12:13 - [TEST_STEP][PASSED] - Start listener action : tearDown: Browser is closed
+
+2018-10-08 16:12:13 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-10-08 16:12:14 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CenterParcs/CPDRMIN-4702" classname="Test Cases/CenterParcs/CPDRMIN-4702" status="PASSED">
+         <system-out><![CDATA[2018-10-08 16:12:14 - [TEST_CASE][PASSED] - Test Cases/CenterParcs/CPDRMIN-4702: Test Cases/CenterParcs/CPDRMIN-4702
+
+2018-10-08 16:12:14 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://uat.centerparcs.co.uk'
+
+2018-10-08 16:12:18 - [MESSAGE][PASSED] - Browser is opened with url: 'https://uat.centerparcs.co.uk'
+
+2018-10-08 16:12:18 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-10-08 16:12:20 - [MESSAGE][PASSED] - Current window maximized
+
+2018-10-08 16:12:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CenterParcs/Centerparcs - homepage/signInRegisterBtn' is clicked on
+
+2018-10-08 16:12:21 - [MESSAGE][PASSED] - Object: 'Object Repository/CenterParcs/Centerparcs - homepage/signInRegisterBtn' is clicked on
+
+2018-10-08 16:12:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CenterParcs/Centerparcs - Login_Register/LogIn/registerTab' is clicked on
+
+2018-10-08 16:12:21 - [MESSAGE][PASSED] - Object: 'Object Repository/CenterParcs/Centerparcs - Login_Register/LogIn/registerTab' is clicked on
+
+2018-10-08 16:12:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CenterParcs/Centerparcs - Login_Register/Register/input_Communication_Tickbox.sub' is clicked on
+
+2018-10-08 16:12:22 - [MESSAGE][PASSED] - Object: 'Object Repository/CenterParcs/Centerparcs - Login_Register/Register/input_Communication_Tickbox.sub' is clicked on
+
+2018-10-08 16:12:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CenterParcs/Centerparcs - Login_Register/Register/input_Communication_Tickbox.sub' is clicked on
+
+2018-10-08 16:12:22 - [MESSAGE][PASSED] - Object: 'Object Repository/CenterParcs/Centerparcs - Login_Register/Register/input_Communication_Tickbox.sub' is clicked on
+
+2018-10-08 16:12:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CenterParcs/Centerparcs - Login_Register/Register/input_Communication_Tickbox.sub' is clicked on
+
+2018-10-08 16:12:22 - [MESSAGE][PASSED] - Object: 'Object Repository/CenterParcs/Centerparcs - Login_Register/Register/input_Communication_Tickbox.sub' is clicked on
+
+2018-10-08 16:12:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CenterParcs/Centerparcs - Login_Register/Register/input_Communication_Tickbox.sub' is clicked on
+
+2018-10-08 16:12:22 - [MESSAGE][PASSED] - Object: 'Object Repository/CenterParcs/Centerparcs - Login_Register/Register/input_Communication_Tickbox.sub' is clicked on
+
+2018-10-08 16:12:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CenterParcs/Centerparcs - Login_Register/Register/input_Communication_Tickbox.sub' is clicked on
+
+2018-10-08 16:12:22 - [MESSAGE][PASSED] - Object: 'Object Repository/CenterParcs/Centerparcs - Login_Register/Register/input_Communication_Tickbox.sub' is clicked on
+
+2018-10-08 16:12:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CenterParcs/Centerparcs - Login_Register/Register/input_Communication_Tickbox.sub' is clicked on
+
+2018-10-08 16:12:22 - [MESSAGE][PASSED] - Object: 'Object Repository/CenterParcs/Centerparcs - Login_Register/Register/input_Communication_Tickbox.sub' is clicked on
+
+2018-10-08 16:12:22 - [TEST_STEP][PASSED] - Start listener action : tearDown: Browser is closed
+
+2018-10-08 16:12:22 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-10-08 16:12:23 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CenterParcs/CPDRMIN-4720" classname="Test Cases/CenterParcs/CPDRMIN-4720" status="PASSED">
+         <system-out><![CDATA[2018-10-08 16:12:23 - [TEST_CASE][PASSED] - Test Cases/CenterParcs/CPDRMIN-4720: Test Cases/CenterParcs/CPDRMIN-4720
+
+2018-10-08 16:12:23 - [TEST_STEP][PASSED] - Statement - currentPassword = "PasswordWrong1": null
+
+2018-10-08 16:12:23 - [TEST_STEP][PASSED] - Statement - emailAddress = "winston": null
+
+2018-10-08 16:12:23 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://uat.centerparcs.co.uk'
+
+2018-10-08 16:12:27 - [MESSAGE][PASSED] - Browser is opened with url: 'https://uat.centerparcs.co.uk'
+
+2018-10-08 16:12:27 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-10-08 16:12:28 - [MESSAGE][PASSED] - Current window maximized
+
+2018-10-08 16:12:28 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/helperMethods/CenterParcs/CenterParcs_Login' successfully
+
+2018-10-08 16:12:28 - [TEST_CASE][PASSED] - Test Cases/helperMethods/CenterParcs/CenterParcs_Login: Test Cases/helperMethods/CenterParcs/CenterParcs_Login
+
+2018-10-08 16:12:28 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/CenterParcs/Centerparcs - homepage/signInRegisterBtn' is visible
+
+2018-10-08 16:12:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2018-10-08 16:12:28 - [MESSAGE][PASSED] - Object 'Object Repository/CenterParcs/Centerparcs - homepage/signInRegisterBtn' is visible
+
+2018-10-08 16:12:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CenterParcs/Centerparcs - homepage/signInRegisterBtn' is clicked on
+
+2018-10-08 16:12:30 - [MESSAGE][PASSED] - Object: 'Object Repository/CenterParcs/Centerparcs - homepage/signInRegisterBtn' is clicked on
+
+2018-10-08 16:12:30 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/CenterParcs/Centerparcs - Login_Register/LogIn/submitBtn' is visible
+
+2018-10-08 16:12:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2018-10-08 16:12:30 - [MESSAGE][PASSED] - Object 'Object Repository/CenterParcs/Centerparcs - Login_Register/LogIn/submitBtn' is visible
+
+2018-10-08 16:12:30 - [TEST_STEP][PASSED] - sendKeys: Keys 'cpsit.tester1+winston@gmail.com' sent to object: 'Object Repository/CenterParcs/Centerparcs - Login_Register/LogIn/inputUserName'
+
+2018-10-08 16:12:30 - [MESSAGE][PASSED] - Keys 'cpsit.tester1+winston@gmail.com' sent to object: 'Object Repository/CenterParcs/Centerparcs - Login_Register/LogIn/inputUserName'
+
+2018-10-08 16:12:30 - [TEST_STEP][PASSED] - sendKeys: Keys 'PasswordWrong1' sent to object: 'Object Repository/CenterParcs/Centerparcs - Login_Register/LogIn/inputPassword'
+
+2018-10-08 16:12:30 - [MESSAGE][PASSED] - Keys 'PasswordWrong1' sent to object: 'Object Repository/CenterParcs/Centerparcs - Login_Register/LogIn/inputPassword'
+
+2018-10-08 16:12:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CenterParcs/Centerparcs - Login_Register/LogIn/submitBtn' is clicked on
+
+2018-10-08 16:12:31 - [MESSAGE][PASSED] - Object: 'Object Repository/CenterParcs/Centerparcs - Login_Register/LogIn/submitBtn' is clicked on
+
+2018-10-08 16:12:31 - [TEST_STEP][PASSED] - Statement - If (currentPassword == "Password123"): null
+
+2018-10-08 16:12:31 - [TEST_STEP][PASSED] - Statement - Else: null
+
+2018-10-08 16:12:31 - [TEST_STEP][PASSED] - Statement - For ([i = 0, i < 2, (i++)]): Object: 'Object Repository/CenterParcs/Centerparcs - Login_Register/LogIn/submitBtn' is clicked on
+
+2018-10-08 16:12:31 - [TEST_STEP][PASSED] - Statement - sleep(1000): null
+
+2018-10-08 16:12:32 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/CenterParcs/Centerparcs - Login_Register/LogIn/loginErrorMessage' is visible
+
+2018-10-08 16:12:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2018-10-08 16:12:32 - [MESSAGE][PASSED] - Object 'Object Repository/CenterParcs/Centerparcs - Login_Register/LogIn/loginErrorMessage' is visible
+
+2018-10-08 16:12:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CenterParcs/Centerparcs - Login_Register/LogIn/submitBtn' is clicked on
+
+2018-10-08 16:12:32 - [MESSAGE][PASSED] - Object: 'Object Repository/CenterParcs/Centerparcs - Login_Register/LogIn/submitBtn' is clicked on
+
+2018-10-08 16:12:32 - [TEST_STEP][PASSED] - Statement - sleep(1000): null
+
+2018-10-08 16:12:33 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/CenterParcs/Centerparcs - Login_Register/LogIn/loginErrorMessage' is visible
+
+2018-10-08 16:12:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2018-10-08 16:12:33 - [MESSAGE][PASSED] - Object 'Object Repository/CenterParcs/Centerparcs - Login_Register/LogIn/loginErrorMessage' is visible
+
+2018-10-08 16:12:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CenterParcs/Centerparcs - Login_Register/LogIn/submitBtn' is clicked on
+
+2018-10-08 16:12:33 - [MESSAGE][PASSED] - Object: 'Object Repository/CenterParcs/Centerparcs - Login_Register/LogIn/submitBtn' is clicked on
+
+2018-10-08 16:12:33 - [TEST_STEP][PASSED] - Statement - sleep(1000): null
+
+2018-10-08 16:12:34 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/CenterParcs/Centerparcs - Login_Register/LogIn/loginErrorMessage' is visible
+
+2018-10-08 16:12:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2018-10-08 16:12:34 - [MESSAGE][PASSED] - Object 'Object Repository/CenterParcs/Centerparcs - Login_Register/LogIn/loginErrorMessage' is visible
+
+2018-10-08 16:12:34 - [TEST_STEP][PASSED] - Statement - errorText = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(CenterParcs/Centerparcs - Login_Register/LogIn/loginErrorMessage), STOP_ON_FAILURE): Text of object 'Object Repository/CenterParcs/Centerparcs - Login_Register/LogIn/loginErrorMessage' is: 'You have been temporarily locked out of your account for 5 minutes.'
+
+2018-10-08 16:12:34 - [MESSAGE][PASSED] - Text of object 'Object Repository/CenterParcs/Centerparcs - Login_Register/LogIn/loginErrorMessage' is: 'You have been temporarily locked out of your account for 5 minutes.'
+
+2018-10-08 16:12:34 - [TEST_STEP][PASSED] - Statement - junit.framework.Assert.assertTrue(errorText == "You have been temporarily locked out of your account for 5 minutes."): null
+
+2018-10-08 16:12:34 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/helperMethods/CenterParcs/CenterParcs_Login' successfully
+
+2018-10-08 16:12:34 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-10-08 16:12:35 - [MESSAGE][PASSED] - Browser is closed
+
+2018-10-08 16:12:35 - [TEST_STEP][PASSED] - Statement - sleep(5 * 60 * 1000): null
+
+2018-10-08 16:17:35 - [TEST_STEP][PASSED] - Statement - currentPassword = "Password123": null
+
+2018-10-08 16:17:35 - [TEST_STEP][PASSED] - Statement - emailAddress = "winston": null
+
+2018-10-08 16:17:35 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://uat.centerparcs.co.uk'
+
+2018-10-08 16:17:39 - [MESSAGE][PASSED] - Browser is opened with url: 'https://uat.centerparcs.co.uk'
+
+2018-10-08 16:17:39 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-10-08 16:17:40 - [MESSAGE][PASSED] - Current window maximized
+
+2018-10-08 16:17:40 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/helperMethods/CenterParcs/CenterParcs_Login' successfully
+
+2018-10-08 16:17:40 - [TEST_CASE][PASSED] - Test Cases/helperMethods/CenterParcs/CenterParcs_Login: Test Cases/helperMethods/CenterParcs/CenterParcs_Login
+
+2018-10-08 16:17:40 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/CenterParcs/Centerparcs - homepage/signInRegisterBtn' is visible
+
+2018-10-08 16:17:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2018-10-08 16:17:40 - [MESSAGE][PASSED] - Object 'Object Repository/CenterParcs/Centerparcs - homepage/signInRegisterBtn' is visible
+
+2018-10-08 16:17:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CenterParcs/Centerparcs - homepage/signInRegisterBtn' is clicked on
+
+2018-10-08 16:17:42 - [MESSAGE][PASSED] - Object: 'Object Repository/CenterParcs/Centerparcs - homepage/signInRegisterBtn' is clicked on
+
+2018-10-08 16:17:42 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/CenterParcs/Centerparcs - Login_Register/LogIn/submitBtn' is visible
+
+2018-10-08 16:17:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2018-10-08 16:17:42 - [MESSAGE][PASSED] - Object 'Object Repository/CenterParcs/Centerparcs - Login_Register/LogIn/submitBtn' is visible
+
+2018-10-08 16:17:42 - [TEST_STEP][PASSED] - sendKeys: Keys 'cpsit.tester1+winston@gmail.com' sent to object: 'Object Repository/CenterParcs/Centerparcs - Login_Register/LogIn/inputUserName'
+
+2018-10-08 16:17:42 - [MESSAGE][PASSED] - Keys 'cpsit.tester1+winston@gmail.com' sent to object: 'Object Repository/CenterParcs/Centerparcs - Login_Register/LogIn/inputUserName'
+
+2018-10-08 16:17:42 - [TEST_STEP][PASSED] - sendKeys: Keys 'Password123' sent to object: 'Object Repository/CenterParcs/Centerparcs - Login_Register/LogIn/inputPassword'
+
+2018-10-08 16:17:42 - [MESSAGE][PASSED] - Keys 'Password123' sent to object: 'Object Repository/CenterParcs/Centerparcs - Login_Register/LogIn/inputPassword'
+
+2018-10-08 16:17:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CenterParcs/Centerparcs - Login_Register/LogIn/submitBtn' is clicked on
+
+2018-10-08 16:17:43 - [MESSAGE][PASSED] - Object: 'Object Repository/CenterParcs/Centerparcs - Login_Register/LogIn/submitBtn' is clicked on
+
+2018-10-08 16:17:43 - [TEST_STEP][PASSED] - Statement - If (currentPassword == "Password123"): Object 'Object Repository/CenterParcs/CenterParcs - Homepage_logged_in/Find_out_how_it_works' is visible
+
+2018-10-08 16:17:43 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/CenterParcs/CenterParcs - Homepage_logged_in/Find_out_how_it_works' is visible
+
+2018-10-08 16:17:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2018-10-08 16:17:45 - [MESSAGE][PASSED] - Object 'Object Repository/CenterParcs/CenterParcs - Homepage_logged_in/Find_out_how_it_works' is visible
+
+2018-10-08 16:17:45 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/helperMethods/CenterParcs/CenterParcs_Login' successfully
+
+2018-10-08 16:17:45 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-10-08 16:17:45 - [MESSAGE][PASSED] - Browser is closed
+
+2018-10-08 16:17:45 - [TEST_STEP][PASSED] - Start listener action : tearDown: Browser is closed
+
+2018-10-08 16:17:45 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-10-08 16:17:45 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CenterParcs/CPDRMIN-4704" classname="Test Cases/CenterParcs/CPDRMIN-4704" status="PASSED">
+         <system-out><![CDATA[2018-10-08 16:17:45 - [TEST_CASE][PASSED] - Test Cases/CenterParcs/CPDRMIN-4704: Test Cases/CenterParcs/CPDRMIN-4704
+
+2018-10-08 16:17:46 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/helperMethods/Generic/SettingUserDetails' successfully
+
+2018-10-08 16:17:46 - [TEST_CASE][PASSED] - Test Cases/helperMethods/Generic/SettingUserDetails: Test Cases/helperMethods/Generic/SettingUserDetails
+
+2018-10-08 16:17:46 - [TEST_STEP][PASSED] - Statement - charset = (A..Z) + (0..9).join(): null
+
+2018-10-08 16:17:46 - [TEST_STEP][PASSED] - Statement - length = 9: null
+
+2018-10-08 16:17:46 - [TEST_STEP][PASSED] - Statement - randomString = org.apache.commons.lang.RandomStringUtils.random(length, charset.toCharArray()): null
+
+2018-10-08 16:17:46 - [TEST_STEP][PASSED] - Statement - emailAddress = randomString: null
+
+2018-10-08 16:17:46 - [TEST_STEP][PASSED] - Statement - firstNames = ["Ben", "Pete", "Lucy", "James", "Polly", "Laura", "Henry", "Robert", "Steph", "Megan", "Joe", "Scott", "Hannah", "Jim"]: null
+
+2018-10-08 16:17:46 - [TEST_STEP][PASSED] - Statement - lastNames = ["Small", "Bishop", "Cooke", "Watson", "Levy", "Green", "Morgan", "Simmonds", "Holmes", "Hays", "Hill", "Fowler", "Lyon", "Graham"]: null
+
+2018-10-08 16:17:46 - [TEST_STEP][PASSED] - Statement - java.util.Collections.shuffle(firstNames): null
+
+2018-10-08 16:17:46 - [TEST_STEP][PASSED] - Statement - java.util.Collections.shuffle(lastNames): null
+
+2018-10-08 16:17:46 - [TEST_STEP][PASSED] - Statement - firstName = firstNames[1]: null
+
+2018-10-08 16:17:46 - [TEST_STEP][PASSED] - Statement - lastName = lastNames[1]: null
+
+2018-10-08 16:17:46 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/helperMethods/Generic/SettingUserDetails' successfully
+
+2018-10-08 16:17:46 - [TEST_STEP][PASSED] - Statement - emailComms = false: null
+
+2018-10-08 16:17:46 - [TEST_STEP][PASSED] - Statement - postComms = false: null
+
+2018-10-08 16:17:46 - [TEST_STEP][PASSED] - Statement - smsComms = false: null
+
+2018-10-08 16:17:46 - [TEST_STEP][PASSED] - Statement - currentPassword = "Password123": null
+
+2018-10-08 16:17:46 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://uat.centerparcs.co.uk'
+
+2018-10-08 16:17:50 - [MESSAGE][PASSED] - Browser is opened with url: 'https://uat.centerparcs.co.uk'
+
+2018-10-08 16:17:50 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-10-08 16:17:51 - [MESSAGE][PASSED] - Current window maximized
+
+2018-10-08 16:17:51 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/helperMethods/CenterParcs/CenterParcs_Register_Base' successfully
+
+2018-10-08 16:17:51 - [TEST_CASE][PASSED] - Test Cases/helperMethods/CenterParcs/CenterParcs_Register_Base: Test Cases/helperMethods/CenterParcs/CenterParcs_Register_Base
+
+2018-10-08 16:17:51 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/CenterParcs/Centerparcs - homepage/signInRegisterBtn' is visible
+
+2018-10-08 16:17:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2018-10-08 16:17:51 - [MESSAGE][PASSED] - Object 'Object Repository/CenterParcs/Centerparcs - homepage/signInRegisterBtn' is visible
+
+2018-10-08 16:17:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CenterParcs/Centerparcs - homepage/signInRegisterBtn' is clicked on
+
+2018-10-08 16:17:52 - [MESSAGE][PASSED] - Object: 'Object Repository/CenterParcs/Centerparcs - homepage/signInRegisterBtn' is clicked on
+
+2018-10-08 16:17:52 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/CenterParcs/Centerparcs - Login_Register/LogIn/submitBtn' is visible
+
+2018-10-08 16:17:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2018-10-08 16:17:53 - [MESSAGE][PASSED] - Object 'Object Repository/CenterParcs/Centerparcs - Login_Register/LogIn/submitBtn' is visible
+
+2018-10-08 16:17:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CenterParcs/Centerparcs - Login_Register/LogIn/registerTab' is clicked on
+
+2018-10-08 16:17:53 - [MESSAGE][PASSED] - Object: 'Object Repository/CenterParcs/Centerparcs - Login_Register/LogIn/registerTab' is clicked on
+
+2018-10-08 16:17:53 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/CenterParcs/Centerparcs - Login_Register/Register/inputFirstName' is visible
+
+2018-10-08 16:17:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2018-10-08 16:17:54 - [MESSAGE][PASSED] - Object 'Object Repository/CenterParcs/Centerparcs - Login_Register/Register/inputFirstName' is visible
+
+2018-10-08 16:17:54 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'OTHR' are selected in object 'Object Repository/CenterParcs/Centerparcs - Login_Register/Register/titleDropDown'  using regular expression
+
+2018-10-08 16:17:54 - [MESSAGE][PASSED] - All options with value 'OTHR' are selected in object 'Object Repository/CenterParcs/Centerparcs - Login_Register/Register/titleDropDown'  using regular expression
+
+2018-10-08 16:17:54 - [TEST_STEP][PASSED] - setText: Text 'Henry' is set on object 'Object Repository/CenterParcs/Centerparcs - Login_Register/Register/inputFirstName'
+
+2018-10-08 16:17:54 - [MESSAGE][PASSED] - Text 'Henry' is set on object 'Object Repository/CenterParcs/Centerparcs - Login_Register/Register/inputFirstName'
+
+2018-10-08 16:17:54 - [TEST_STEP][PASSED] - setText: Text 'Bishop' is set on object 'Object Repository/CenterParcs/Centerparcs - Login_Register/Register/inputLastName'
+
+2018-10-08 16:17:54 - [MESSAGE][PASSED] - Text 'Bishop' is set on object 'Object Repository/CenterParcs/Centerparcs - Login_Register/Register/inputLastName'
+
+2018-10-08 16:17:54 - [TEST_STEP][PASSED] - setText: Text 'cpsit.tester1+L8B6Q5QIB@gmail.com' is set on object 'Object Repository/CenterParcs/Centerparcs - Login_Register/Register/emailAddress'
+
+2018-10-08 16:17:55 - [MESSAGE][PASSED] - Text 'cpsit.tester1+L8B6Q5QIB@gmail.com' is set on object 'Object Repository/CenterParcs/Centerparcs - Login_Register/Register/emailAddress'
+
+2018-10-08 16:17:55 - [TEST_STEP][PASSED] - setText: Text 'Password123' is set on object 'Object Repository/CenterParcs/Centerparcs - Login_Register/Register/password'
+
+2018-10-08 16:17:55 - [MESSAGE][PASSED] - Text 'Password123' is set on object 'Object Repository/CenterParcs/Centerparcs - Login_Register/Register/password'
+
+2018-10-08 16:17:55 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2018-10-08 16:17:55 - [TEST_STEP][PASSED] - Statement - registerButton = driver.findElements(org.openqa.selenium.By.xpath("//*[@value = 'Create an account']")): null
+
+2018-10-08 16:17:55 - [TEST_STEP][PASSED] - Statement - registerButton[1].submit(): null
+
+2018-10-08 16:17:55 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/helperMethods/CenterParcs/CenterParcs_Register_Base' successfully
+
+2018-10-08 16:17:55 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/helperMethods/CenterParcs/CenterParcs_Register_Additional' successfully
+
+2018-10-08 16:17:55 - [TEST_CASE][PASSED] - Test Cases/helperMethods/CenterParcs/CenterParcs_Register_Additional: Test Cases/helperMethods/CenterParcs/CenterParcs_Register_Additional
+
+2018-10-08 16:17:55 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/CenterParcs/CenterParcs - My Profile/dobDayDropDown' is visible
+
+2018-10-08 16:17:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2018-10-08 16:17:58 - [MESSAGE][PASSED] - Object 'Object Repository/CenterParcs/CenterParcs - My Profile/dobDayDropDown' is visible
+
+2018-10-08 16:17:58 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '1' are selected in object 'Object Repository/CenterParcs/CenterParcs - My Profile/dobDayDropDown'  using regular expression
+
+2018-10-08 16:17:58 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/CenterParcs/CenterParcs - My Profile/dobDayDropDown'  using regular expression
+
+2018-10-08 16:17:58 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '1' are selected in object 'Object Repository/CenterParcs/CenterParcs - My Profile/dobMonthDropDown'  using regular expression
+
+2018-10-08 16:17:59 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/CenterParcs/CenterParcs - My Profile/dobMonthDropDown'  using regular expression
+
+2018-10-08 16:17:59 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '1980' are selected in object 'Object Repository/CenterParcs/CenterParcs - My Profile/dobYearDropDown'  using regular expression
+
+2018-10-08 16:18:00 - [MESSAGE][PASSED] - All options with value '1980' are selected in object 'Object Repository/CenterParcs/CenterParcs - My Profile/dobYearDropDown'  using regular expression
+
+2018-10-08 16:18:00 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Mobile' are selected in object 'Object Repository/CenterParcs/CenterParcs - My Profile/contactTypeDropDown'  using regular expression
+
+2018-10-08 16:18:01 - [MESSAGE][PASSED] - All options with value 'Mobile' are selected in object 'Object Repository/CenterParcs/CenterParcs - My Profile/contactTypeDropDown'  using regular expression
+
+2018-10-08 16:18:01 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '+44' are selected in object 'Object Repository/CenterParcs/CenterParcs - My Profile/phoneCode' 
+
+2018-10-08 16:18:01 - [MESSAGE][PASSED] - All options with value '+44' are selected in object 'Object Repository/CenterParcs/CenterParcs - My Profile/phoneCode' 
+
+2018-10-08 16:18:01 - [TEST_STEP][PASSED] - setText: Text '7777777777' is set on object 'Object Repository/CenterParcs/Centerparcs - Login_Register/Register/phoneNumber'
+
+2018-10-08 16:18:01 - [MESSAGE][PASSED] - Text '7777777777' is set on object 'Object Repository/CenterParcs/Centerparcs - Login_Register/Register/phoneNumber'
+
+2018-10-08 16:18:01 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'UK' are selected in object 'Object Repository/CenterParcs/CenterParcs - My Profile/contryDropDown'  using regular expression
+
+2018-10-08 16:18:04 - [MESSAGE][PASSED] - All options with value 'UK' are selected in object 'Object Repository/CenterParcs/CenterParcs - My Profile/contryDropDown'  using regular expression
+
+2018-10-08 16:18:04 - [TEST_STEP][PASSED] - setText: Text 'NG22 9DP' is set on object 'Object Repository/CenterParcs/Centerparcs - Login_Register/Register/postcode'
+
+2018-10-08 16:18:04 - [MESSAGE][PASSED] - Text 'NG22 9DP' is set on object 'Object Repository/CenterParcs/Centerparcs - Login_Register/Register/postcode'
+
+2018-10-08 16:18:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CenterParcs/CenterParcs - My Profile/findAddressBtn' is clicked on
+
+2018-10-08 16:18:04 - [MESSAGE][PASSED] - Object: 'Object Repository/CenterParcs/CenterParcs - My Profile/findAddressBtn' is clicked on
+
+2018-10-08 16:18:04 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/CenterParcs/CenterParcs - My Profile/addressListSelection' successfully
+
+2018-10-08 16:18:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2018-10-08 16:18:05 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/CenterParcs/CenterParcs - My Profile/addressListSelection' successfully
+
+2018-10-08 16:18:05 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/CenterParcs/CenterParcs - My Profile/addressListSelection' is visible
+
+2018-10-08 16:18:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2018-10-08 16:18:05 - [MESSAGE][PASSED] - Object 'Object Repository/CenterParcs/CenterParcs - My Profile/addressListSelection' is visible
+
+2018-10-08 16:18:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CenterParcs/CenterParcs - My Profile/addressListSelection' is clicked on
+
+2018-10-08 16:18:05 - [MESSAGE][PASSED] - Object: 'Object Repository/CenterParcs/CenterParcs - My Profile/addressListSelection' is clicked on
+
+2018-10-08 16:18:05 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2018-10-08 16:18:05 - [TEST_STEP][PASSED] - Statement - actions = new org.openqa.selenium.interactions.Actions(driver): null
+
+2018-10-08 16:18:05 - [TEST_STEP][PASSED] - Statement - wait = new org.openqa.selenium.support.ui.WebDriverWait(driver, 10): null
+
+2018-10-08 16:18:05 - [TEST_STEP][PASSED] - Statement - If (emailComms == true): null
+
+2018-10-08 16:18:05 - [TEST_STEP][PASSED] - Statement - If (postComms == true): null
+
+2018-10-08 16:18:05 - [TEST_STEP][PASSED] - Statement - If (smsComms == true): null
+
+2018-10-08 16:18:05 - [TEST_STEP][PASSED] - Statement - sleep(1000): null
+
+2018-10-08 16:18:06 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/CenterParcs/CenterParcs - My Profile/updateDetailsBtn' successfully
+
+2018-10-08 16:18:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2018-10-08 16:18:06 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/CenterParcs/CenterParcs - My Profile/updateDetailsBtn' successfully
+
+2018-10-08 16:18:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CenterParcs/CenterParcs - My Profile/updateDetailsBtn' is clicked on
+
+2018-10-08 16:18:06 - [MESSAGE][PASSED] - Object: 'Object Repository/CenterParcs/CenterParcs - My Profile/updateDetailsBtn' is clicked on
+
+2018-10-08 16:18:06 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/CenterParcs/CenterParcs - My Profile/savedText' is visible
+
+2018-10-08 16:18:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2018-10-08 16:18:07 - [MESSAGE][PASSED] - Object 'Object Repository/CenterParcs/CenterParcs - My Profile/savedText' is visible
+
+2018-10-08 16:18:07 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/helperMethods/CenterParcs/CenterParcs_Register_Additional' successfully
+
+2018-10-08 16:18:07 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-10-08 16:18:07 - [MESSAGE][PASSED] - Browser is closed
+
+2018-10-08 16:18:07 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://uat.aquasana.co.uk'
+
+2018-10-08 16:18:11 - [MESSAGE][PASSED] - Browser is opened with url: 'https://uat.aquasana.co.uk'
+
+2018-10-08 16:18:11 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-10-08 16:18:12 - [MESSAGE][PASSED] - Current window maximized
+
+2018-10-08 16:18:12 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/AquaSana/AquaSana - login/signInBtn' is visible
+
+2018-10-08 16:18:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2018-10-08 16:18:12 - [MESSAGE][PASSED] - Object 'Object Repository/AquaSana/AquaSana - login/signInBtn' is visible
+
+2018-10-08 16:18:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AquaSana/AquaSana - login/signInBtn' is clicked on
+
+2018-10-08 16:18:14 - [MESSAGE][PASSED] - Object: 'Object Repository/AquaSana/AquaSana - login/signInBtn' is clicked on
+
+2018-10-08 16:18:14 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/helperMethods/AquaSana/AquaSana_Login_Existing_User' successfully
+
+2018-10-08 16:18:14 - [TEST_CASE][PASSED] - Test Cases/helperMethods/AquaSana/AquaSana_Login_Existing_User: Test Cases/helperMethods/AquaSana/AquaSana_Login_Existing_User
+
+2018-10-08 16:18:14 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/AquaSana/AquaSana - login/Submit button' is visible
+
+2018-10-08 16:18:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2018-10-08 16:18:15 - [MESSAGE][PASSED] - Object 'Object Repository/AquaSana/AquaSana - login/Submit button' is visible
+
+2018-10-08 16:18:15 - [TEST_STEP][PASSED] - sendKeys: Keys 'cpsit.tester1+L8B6Q5QIB@gmail.com' sent to object: 'Object Repository/AquaSana/AquaSana - login/Username Field'
+
+2018-10-08 16:18:15 - [MESSAGE][PASSED] - Keys 'cpsit.tester1+L8B6Q5QIB@gmail.com' sent to object: 'Object Repository/AquaSana/AquaSana - login/Username Field'
+
+2018-10-08 16:18:15 - [TEST_STEP][PASSED] - sendKeys: Keys 'Password123' sent to object: 'Object Repository/AquaSana/AquaSana - login/Password field'
+
+2018-10-08 16:18:15 - [MESSAGE][PASSED] - Keys 'Password123' sent to object: 'Object Repository/AquaSana/AquaSana - login/Password field'
+
+2018-10-08 16:18:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AquaSana/AquaSana - login/Submit button' is clicked on
+
+2018-10-08 16:18:15 - [MESSAGE][PASSED] - Object: 'Object Repository/AquaSana/AquaSana - login/Submit button' is clicked on
+
+2018-10-08 16:18:15 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/AquaSana/AquaSana - Homepage logged in/Welcome Message' is not present after 5 second(s)
+
+2018-10-08 16:18:21 - [MESSAGE][WARNING] - Object 'Object Repository/AquaSana/AquaSana - Homepage logged in/Welcome Message' is not present after 5 second(s)
+
+2018-10-08 16:18:21 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/helperMethods/AquaSana/AquaSana_Login_Existing_User' successfully
+
+2018-10-08 16:18:21 - [TEST_STEP][PASSED] - Start listener action : tearDown: Browser is closed
+
+2018-10-08 16:18:21 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-10-08 16:18:22 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CenterParcs/CPDRMIN-4734" classname="Test Cases/CenterParcs/CPDRMIN-4734" status="PASSED">
+         <system-out><![CDATA[2018-10-08 16:18:22 - [TEST_CASE][PASSED] - Test Cases/CenterParcs/CPDRMIN-4734: Test Cases/CenterParcs/CPDRMIN-4734
+
+2018-10-08 16:18:22 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/helperMethods/Generic/SettingUserDetails' successfully
+
+2018-10-08 16:18:22 - [TEST_CASE][PASSED] - Test Cases/helperMethods/Generic/SettingUserDetails: Test Cases/helperMethods/Generic/SettingUserDetails
+
+2018-10-08 16:18:22 - [TEST_STEP][PASSED] - Statement - charset = (A..Z) + (0..9).join(): null
+
+2018-10-08 16:18:22 - [TEST_STEP][PASSED] - Statement - length = 9: null
+
+2018-10-08 16:18:22 - [TEST_STEP][PASSED] - Statement - randomString = org.apache.commons.lang.RandomStringUtils.random(length, charset.toCharArray()): null
+
+2018-10-08 16:18:22 - [TEST_STEP][PASSED] - Statement - emailAddress = randomString: null
+
+2018-10-08 16:18:22 - [TEST_STEP][PASSED] - Statement - firstNames = ["Ben", "Pete", "Lucy", "James", "Polly", "Laura", "Henry", "Robert", "Steph", "Megan", "Joe", "Scott", "Hannah", "Jim"]: null
+
+2018-10-08 16:18:22 - [TEST_STEP][PASSED] - Statement - lastNames = ["Small", "Bishop", "Cooke", "Watson", "Levy", "Green", "Morgan", "Simmonds", "Holmes", "Hays", "Hill", "Fowler", "Lyon", "Graham"]: null
+
+2018-10-08 16:18:22 - [TEST_STEP][PASSED] - Statement - java.util.Collections.shuffle(firstNames): null
+
+2018-10-08 16:18:22 - [TEST_STEP][PASSED] - Statement - java.util.Collections.shuffle(lastNames): null
+
+2018-10-08 16:18:22 - [TEST_STEP][PASSED] - Statement - firstName = firstNames[1]: null
+
+2018-10-08 16:18:22 - [TEST_STEP][PASSED] - Statement - lastName = lastNames[1]: null
+
+2018-10-08 16:18:22 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/helperMethods/Generic/SettingUserDetails' successfully
+
+2018-10-08 16:18:22 - [TEST_STEP][PASSED] - Statement - emailComms = true: null
+
+2018-10-08 16:18:22 - [TEST_STEP][PASSED] - Statement - postComms = false: null
+
+2018-10-08 16:18:22 - [TEST_STEP][PASSED] - Statement - smsComms = false: null
+
+2018-10-08 16:18:22 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://uat.centerparcs.co.uk'
+
+2018-10-08 16:18:26 - [MESSAGE][PASSED] - Browser is opened with url: 'https://uat.centerparcs.co.uk'
+
+2018-10-08 16:18:26 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-10-08 16:18:27 - [MESSAGE][PASSED] - Current window maximized
+
+2018-10-08 16:18:27 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/helperMethods/CenterParcs/CenterParcs_Register_Base' successfully
+
+2018-10-08 16:18:27 - [TEST_CASE][PASSED] - Test Cases/helperMethods/CenterParcs/CenterParcs_Register_Base: Test Cases/helperMethods/CenterParcs/CenterParcs_Register_Base
+
+2018-10-08 16:18:27 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/CenterParcs/Centerparcs - homepage/signInRegisterBtn' is visible
+
+2018-10-08 16:18:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2018-10-08 16:18:27 - [MESSAGE][PASSED] - Object 'Object Repository/CenterParcs/Centerparcs - homepage/signInRegisterBtn' is visible
+
+2018-10-08 16:18:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CenterParcs/Centerparcs - homepage/signInRegisterBtn' is clicked on
+
+2018-10-08 16:18:28 - [MESSAGE][PASSED] - Object: 'Object Repository/CenterParcs/Centerparcs - homepage/signInRegisterBtn' is clicked on
+
+2018-10-08 16:18:28 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/CenterParcs/Centerparcs - Login_Register/LogIn/submitBtn' is visible
+
+2018-10-08 16:18:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2018-10-08 16:18:29 - [MESSAGE][PASSED] - Object 'Object Repository/CenterParcs/Centerparcs - Login_Register/LogIn/submitBtn' is visible
+
+2018-10-08 16:18:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CenterParcs/Centerparcs - Login_Register/LogIn/registerTab' is clicked on
+
+2018-10-08 16:18:29 - [MESSAGE][PASSED] - Object: 'Object Repository/CenterParcs/Centerparcs - Login_Register/LogIn/registerTab' is clicked on
+
+2018-10-08 16:18:29 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/CenterParcs/Centerparcs - Login_Register/Register/inputFirstName' is visible
+
+2018-10-08 16:18:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2018-10-08 16:18:29 - [MESSAGE][PASSED] - Object 'Object Repository/CenterParcs/Centerparcs - Login_Register/Register/inputFirstName' is visible
+
+2018-10-08 16:18:29 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'OTHR' are selected in object 'Object Repository/CenterParcs/Centerparcs - Login_Register/Register/titleDropDown'  using regular expression
+
+2018-10-08 16:18:30 - [MESSAGE][PASSED] - All options with value 'OTHR' are selected in object 'Object Repository/CenterParcs/Centerparcs - Login_Register/Register/titleDropDown'  using regular expression
+
+2018-10-08 16:18:30 - [TEST_STEP][PASSED] - setText: Text 'Polly' is set on object 'Object Repository/CenterParcs/Centerparcs - Login_Register/Register/inputFirstName'
+
+2018-10-08 16:18:30 - [MESSAGE][PASSED] - Text 'Polly' is set on object 'Object Repository/CenterParcs/Centerparcs - Login_Register/Register/inputFirstName'
+
+2018-10-08 16:18:30 - [TEST_STEP][PASSED] - setText: Text 'Watson' is set on object 'Object Repository/CenterParcs/Centerparcs - Login_Register/Register/inputLastName'
+
+2018-10-08 16:18:30 - [MESSAGE][PASSED] - Text 'Watson' is set on object 'Object Repository/CenterParcs/Centerparcs - Login_Register/Register/inputLastName'
+
+2018-10-08 16:18:30 - [TEST_STEP][PASSED] - setText: Text 'cpsit.tester1+KI870RNF5@gmail.com' is set on object 'Object Repository/CenterParcs/Centerparcs - Login_Register/Register/emailAddress'
+
+2018-10-08 16:18:30 - [MESSAGE][PASSED] - Text 'cpsit.tester1+KI870RNF5@gmail.com' is set on object 'Object Repository/CenterParcs/Centerparcs - Login_Register/Register/emailAddress'
+
+2018-10-08 16:18:30 - [TEST_STEP][PASSED] - setText: Text 'Password123' is set on object 'Object Repository/CenterParcs/Centerparcs - Login_Register/Register/password'
+
+2018-10-08 16:18:30 - [MESSAGE][PASSED] - Text 'Password123' is set on object 'Object Repository/CenterParcs/Centerparcs - Login_Register/Register/password'
+
+2018-10-08 16:18:30 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2018-10-08 16:18:30 - [TEST_STEP][PASSED] - Statement - registerButton = driver.findElements(org.openqa.selenium.By.xpath("//*[@value = 'Create an account']")): null
+
+2018-10-08 16:18:30 - [TEST_STEP][PASSED] - Statement - registerButton[1].submit(): null
+
+2018-10-08 16:18:31 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/helperMethods/CenterParcs/CenterParcs_Register_Base' successfully
+
+2018-10-08 16:18:31 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/helperMethods/CenterParcs/CenterParcs_Register_Additional' successfully
+
+2018-10-08 16:18:31 - [TEST_CASE][PASSED] - Test Cases/helperMethods/CenterParcs/CenterParcs_Register_Additional: Test Cases/helperMethods/CenterParcs/CenterParcs_Register_Additional
+
+2018-10-08 16:18:31 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/CenterParcs/CenterParcs - My Profile/dobDayDropDown' is visible
+
+2018-10-08 16:18:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2018-10-08 16:18:34 - [MESSAGE][PASSED] - Object 'Object Repository/CenterParcs/CenterParcs - My Profile/dobDayDropDown' is visible
+
+2018-10-08 16:18:34 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '1' are selected in object 'Object Repository/CenterParcs/CenterParcs - My Profile/dobDayDropDown'  using regular expression
+
+2018-10-08 16:18:34 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/CenterParcs/CenterParcs - My Profile/dobDayDropDown'  using regular expression
+
+2018-10-08 16:18:34 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '1' are selected in object 'Object Repository/CenterParcs/CenterParcs - My Profile/dobMonthDropDown'  using regular expression
+
+2018-10-08 16:18:34 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/CenterParcs/CenterParcs - My Profile/dobMonthDropDown'  using regular expression
+
+2018-10-08 16:18:34 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '1980' are selected in object 'Object Repository/CenterParcs/CenterParcs - My Profile/dobYearDropDown'  using regular expression
+
+2018-10-08 16:18:36 - [MESSAGE][PASSED] - All options with value '1980' are selected in object 'Object Repository/CenterParcs/CenterParcs - My Profile/dobYearDropDown'  using regular expression
+
+2018-10-08 16:18:36 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Mobile' are selected in object 'Object Repository/CenterParcs/CenterParcs - My Profile/contactTypeDropDown'  using regular expression
+
+2018-10-08 16:18:36 - [MESSAGE][PASSED] - All options with value 'Mobile' are selected in object 'Object Repository/CenterParcs/CenterParcs - My Profile/contactTypeDropDown'  using regular expression
+
+2018-10-08 16:18:36 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '+44' are selected in object 'Object Repository/CenterParcs/CenterParcs - My Profile/phoneCode' 
+
+2018-10-08 16:18:37 - [MESSAGE][PASSED] - All options with value '+44' are selected in object 'Object Repository/CenterParcs/CenterParcs - My Profile/phoneCode' 
+
+2018-10-08 16:18:37 - [TEST_STEP][PASSED] - setText: Text '7777777777' is set on object 'Object Repository/CenterParcs/Centerparcs - Login_Register/Register/phoneNumber'
+
+2018-10-08 16:18:37 - [MESSAGE][PASSED] - Text '7777777777' is set on object 'Object Repository/CenterParcs/Centerparcs - Login_Register/Register/phoneNumber'
+
+2018-10-08 16:18:37 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'UK' are selected in object 'Object Repository/CenterParcs/CenterParcs - My Profile/contryDropDown'  using regular expression
+
+2018-10-08 16:18:40 - [MESSAGE][PASSED] - All options with value 'UK' are selected in object 'Object Repository/CenterParcs/CenterParcs - My Profile/contryDropDown'  using regular expression
+
+2018-10-08 16:18:40 - [TEST_STEP][PASSED] - setText: Text 'NG22 9DP' is set on object 'Object Repository/CenterParcs/Centerparcs - Login_Register/Register/postcode'
+
+2018-10-08 16:18:40 - [MESSAGE][PASSED] - Text 'NG22 9DP' is set on object 'Object Repository/CenterParcs/Centerparcs - Login_Register/Register/postcode'
+
+2018-10-08 16:18:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CenterParcs/CenterParcs - My Profile/findAddressBtn' is clicked on
+
+2018-10-08 16:18:40 - [MESSAGE][PASSED] - Object: 'Object Repository/CenterParcs/CenterParcs - My Profile/findAddressBtn' is clicked on
+
+2018-10-08 16:18:40 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/CenterParcs/CenterParcs - My Profile/addressListSelection' successfully
+
+2018-10-08 16:18:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2018-10-08 16:18:40 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/CenterParcs/CenterParcs - My Profile/addressListSelection' successfully
+
+2018-10-08 16:18:40 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/CenterParcs/CenterParcs - My Profile/addressListSelection' is visible
+
+2018-10-08 16:18:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2018-10-08 16:18:40 - [MESSAGE][PASSED] - Object 'Object Repository/CenterParcs/CenterParcs - My Profile/addressListSelection' is visible
+
+2018-10-08 16:18:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CenterParcs/CenterParcs - My Profile/addressListSelection' is clicked on
+
+2018-10-08 16:18:41 - [MESSAGE][PASSED] - Object: 'Object Repository/CenterParcs/CenterParcs - My Profile/addressListSelection' is clicked on
+
+2018-10-08 16:18:41 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2018-10-08 16:18:41 - [TEST_STEP][PASSED] - Statement - actions = new org.openqa.selenium.interactions.Actions(driver): null
+
+2018-10-08 16:18:41 - [TEST_STEP][PASSED] - Statement - wait = new org.openqa.selenium.support.ui.WebDriverWait(driver, 10): null
+
+2018-10-08 16:18:41 - [TEST_STEP][PASSED] - Statement - If (emailComms == true): null
+
+2018-10-08 16:18:41 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/CenterParcs/CenterParcs - My Profile/postcodeInput' successfully
+
+2018-10-08 16:18:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2018-10-08 16:18:41 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/CenterParcs/CenterParcs - My Profile/postcodeInput' successfully
+
+2018-10-08 16:18:41 - [TEST_STEP][PASSED] - Statement - wait.until(org.openqa.selenium.support.ui.ExpectedConditions.visibilityOfElementLocated(org.openqa.selenium.By.cssSelector("#subscribe_cp_email"))): null
+
+2018-10-08 16:18:41 - [TEST_STEP][PASSED] - Statement - emailCheckBox = driver.findElement(org.openqa.selenium.By.cssSelector("#subscribe_cp_email")): null
+
+2018-10-08 16:18:41 - [TEST_STEP][PASSED] - Statement - actions.moveToElement(emailCheckBox).click().perform(): null
+
+2018-10-08 16:18:41 - [TEST_STEP][PASSED] - Statement - If (postComms == true): null
+
+2018-10-08 16:18:41 - [TEST_STEP][PASSED] - Statement - If (smsComms == true): null
+
+2018-10-08 16:18:41 - [TEST_STEP][PASSED] - Statement - sleep(1000): null
+
+2018-10-08 16:18:42 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/CenterParcs/CenterParcs - My Profile/updateDetailsBtn' successfully
+
+2018-10-08 16:18:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2018-10-08 16:18:42 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/CenterParcs/CenterParcs - My Profile/updateDetailsBtn' successfully
+
+2018-10-08 16:18:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CenterParcs/CenterParcs - My Profile/updateDetailsBtn' is clicked on
+
+2018-10-08 16:18:42 - [MESSAGE][PASSED] - Object: 'Object Repository/CenterParcs/CenterParcs - My Profile/updateDetailsBtn' is clicked on
+
+2018-10-08 16:18:42 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/CenterParcs/CenterParcs - My Profile/savedText' is visible
+
+2018-10-08 16:18:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2018-10-08 16:18:42 - [MESSAGE][PASSED] - Object 'Object Repository/CenterParcs/CenterParcs - My Profile/savedText' is visible
+
+2018-10-08 16:18:42 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/helperMethods/CenterParcs/CenterParcs_Register_Additional' successfully
+
+2018-10-08 16:18:42 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/helperMethods/Generic/sendDwEmail (NEEDS TO BE FINISHED)' successfully
+
+2018-10-08 16:18:42 - [TEST_CASE][PASSED] - Test Cases/helperMethods/Generic/sendDwEmail (NEEDS TO BE FINISHED): Test Cases/helperMethods/Generic/sendDwEmail (NEEDS TO BE FINISHED)
+
+2018-10-08 16:18:43 - [TEST_STEP][PASSED] - Statement - runScript(): null
+
+2018-10-08 16:18:43 - [TEST_STEP][PASSED] - Statement - MAILER_HOST = "smtp.gmail.com": null
+
+2018-10-08 16:18:43 - [TEST_STEP][PASSED] - Statement - MAILER_USER = "centerparcsauto@gmail.com": null
+
+2018-10-08 16:18:43 - [TEST_STEP][PASSED] - Statement - MAILER_PASS = "P455word123": null
+
+2018-10-08 16:18:43 - [TEST_STEP][PASSED] - Statement - MAILER_PORT = 465: null
+
+2018-10-08 16:18:43 - [TEST_STEP][PASSED] - Statement - properties = java.lang.System.getProperties(): null
+
+2018-10-08 16:18:43 - [TEST_STEP][PASSED] - Statement - properties.put("mail.smtp.host", MAILER_HOST): null
+
+2018-10-08 16:18:43 - [TEST_STEP][PASSED] - Statement - properties.put("mail.smtp.user", MAILER_USER): null
+
+2018-10-08 16:18:43 - [TEST_STEP][PASSED] - Statement - properties.put("mail.smtp.password", MAILER_PASS): null
+
+2018-10-08 16:18:43 - [TEST_STEP][PASSED] - Statement - properties.put("mail.smtp.port", MAILER_PORT): null
+
+2018-10-08 16:18:43 - [TEST_STEP][PASSED] - Statement - properties.put("mail.smtp.socketFactory.port", MAILER_PORT): null
+
+2018-10-08 16:18:43 - [TEST_STEP][PASSED] - Statement - properties.put("mail.smtp.socketFactory.class", "javax.net.ssl.SSLSocketFactory"): null
+
+2018-10-08 16:18:43 - [TEST_STEP][PASSED] - Statement - session = javax.mail.Session.getDefaultInstance(properties): null
+
+2018-10-08 16:18:43 - [TEST_STEP][PASSED] - Statement - message = new javax.mail.internet.MimeMessage(session): null
+
+2018-10-08 16:18:43 - [TEST_STEP][PASSED] - Statement - message.setFrom("no.reply@example.org"): null
+
+2018-10-08 16:18:43 - [TEST_STEP][PASSED] - Statement - message.setRecipient(TO, new javax.mail.internet.InternetAddress(joe.batt@centerparcs.co.uk)): null
+
+2018-10-08 16:18:43 - [TEST_STEP][PASSED] - Statement - message.setSubject("Data Warehouse Check"): null
+
+2018-10-08 16:18:43 - [TEST_STEP][PASSED] - Statement - message.setText("Would you check the following details in DW after 24 hours please?" + "
+" + "
+ Username: cpsit.tester1+" + emailAddress + "@gmail.com" + "
+ Email Preferences: " + emailComms + "
+ Post Preferences: " + postComms + "
+ SMS Preferences: " + smsComms): null
+
+2018-10-08 16:18:43 - [TEST_STEP][PASSED] - Statement - transport = session.getTransport("smtp"): null
+
+2018-10-08 16:18:43 - [TEST_STEP][PASSED] - Statement - transport.connect(MAILER_HOST, MAILER_PORT, MAILER_USER, MAILER_PASS): null
+
+2018-10-08 16:18:43 - [TEST_STEP][PASSED] - Statement - transport.sendMessage(message, message.getAllRecipients()): null
+
+2018-10-08 16:18:44 - [TEST_STEP][PASSED] - Statement - transport.close(): null
+
+2018-10-08 16:18:44 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/helperMethods/Generic/sendDwEmail (NEEDS TO BE FINISHED)' successfully
+
+2018-10-08 16:18:44 - [TEST_STEP][PASSED] - Start listener action : tearDown: Browser is closed
+
+2018-10-08 16:18:44 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-10-08 16:18:45 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CenterParcs/CPDRMIN-4735" classname="Test Cases/CenterParcs/CPDRMIN-4735" status="PASSED">
+         <system-out><![CDATA[2018-10-08 16:18:45 - [TEST_CASE][PASSED] - Test Cases/CenterParcs/CPDRMIN-4735: Test Cases/CenterParcs/CPDRMIN-4735
+
+2018-10-08 16:18:45 - [TEST_STEP][PASSED] - Statement - emailAddress = "winston": null
+
+2018-10-08 16:18:45 - [TEST_STEP][PASSED] - Statement - firstName = "Tony": null
+
+2018-10-08 16:18:45 - [TEST_STEP][PASSED] - Statement - lastName = "Test": null
+
+2018-10-08 16:18:45 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://uat.centerparcs.co.uk'
+
+2018-10-08 16:18:50 - [MESSAGE][PASSED] - Browser is opened with url: 'https://uat.centerparcs.co.uk'
+
+2018-10-08 16:18:50 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-10-08 16:18:51 - [MESSAGE][PASSED] - Current window maximized
+
+2018-10-08 16:18:51 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/helperMethods/CenterParcs/CenterParcs_Register_Base' successfully
+
+2018-10-08 16:18:51 - [TEST_CASE][PASSED] - Test Cases/helperMethods/CenterParcs/CenterParcs_Register_Base: Test Cases/helperMethods/CenterParcs/CenterParcs_Register_Base
+
+2018-10-08 16:18:51 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/CenterParcs/Centerparcs - homepage/signInRegisterBtn' is visible
+
+2018-10-08 16:18:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2018-10-08 16:18:51 - [MESSAGE][PASSED] - Object 'Object Repository/CenterParcs/Centerparcs - homepage/signInRegisterBtn' is visible
+
+2018-10-08 16:18:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CenterParcs/Centerparcs - homepage/signInRegisterBtn' is clicked on
+
+2018-10-08 16:18:52 - [MESSAGE][PASSED] - Object: 'Object Repository/CenterParcs/Centerparcs - homepage/signInRegisterBtn' is clicked on
+
+2018-10-08 16:18:52 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/CenterParcs/Centerparcs - Login_Register/LogIn/submitBtn' is visible
+
+2018-10-08 16:18:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2018-10-08 16:18:53 - [MESSAGE][PASSED] - Object 'Object Repository/CenterParcs/Centerparcs - Login_Register/LogIn/submitBtn' is visible
+
+2018-10-08 16:18:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CenterParcs/Centerparcs - Login_Register/LogIn/registerTab' is clicked on
+
+2018-10-08 16:18:53 - [MESSAGE][PASSED] - Object: 'Object Repository/CenterParcs/Centerparcs - Login_Register/LogIn/registerTab' is clicked on
+
+2018-10-08 16:18:53 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/CenterParcs/Centerparcs - Login_Register/Register/inputFirstName' is visible
+
+2018-10-08 16:18:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2018-10-08 16:18:53 - [MESSAGE][PASSED] - Object 'Object Repository/CenterParcs/Centerparcs - Login_Register/Register/inputFirstName' is visible
+
+2018-10-08 16:18:53 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'OTHR' are selected in object 'Object Repository/CenterParcs/Centerparcs - Login_Register/Register/titleDropDown'  using regular expression
+
+2018-10-08 16:18:54 - [MESSAGE][PASSED] - All options with value 'OTHR' are selected in object 'Object Repository/CenterParcs/Centerparcs - Login_Register/Register/titleDropDown'  using regular expression
+
+2018-10-08 16:18:54 - [TEST_STEP][PASSED] - setText: Text 'Tony' is set on object 'Object Repository/CenterParcs/Centerparcs - Login_Register/Register/inputFirstName'
+
+2018-10-08 16:18:54 - [MESSAGE][PASSED] - Text 'Tony' is set on object 'Object Repository/CenterParcs/Centerparcs - Login_Register/Register/inputFirstName'
+
+2018-10-08 16:18:54 - [TEST_STEP][PASSED] - setText: Text 'Test' is set on object 'Object Repository/CenterParcs/Centerparcs - Login_Register/Register/inputLastName'
+
+2018-10-08 16:18:54 - [MESSAGE][PASSED] - Text 'Test' is set on object 'Object Repository/CenterParcs/Centerparcs - Login_Register/Register/inputLastName'
+
+2018-10-08 16:18:54 - [TEST_STEP][PASSED] - setText: Text 'cpsit.tester1+winston@gmail.com' is set on object 'Object Repository/CenterParcs/Centerparcs - Login_Register/Register/emailAddress'
+
+2018-10-08 16:18:54 - [MESSAGE][PASSED] - Text 'cpsit.tester1+winston@gmail.com' is set on object 'Object Repository/CenterParcs/Centerparcs - Login_Register/Register/emailAddress'
+
+2018-10-08 16:18:54 - [TEST_STEP][PASSED] - setText: Text 'Password123' is set on object 'Object Repository/CenterParcs/Centerparcs - Login_Register/Register/password'
+
+2018-10-08 16:18:54 - [MESSAGE][PASSED] - Text 'Password123' is set on object 'Object Repository/CenterParcs/Centerparcs - Login_Register/Register/password'
+
+2018-10-08 16:18:54 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2018-10-08 16:18:54 - [TEST_STEP][PASSED] - Statement - registerButton = driver.findElements(org.openqa.selenium.By.xpath("//*[@value = 'Create an account']")): null
+
+2018-10-08 16:18:54 - [TEST_STEP][PASSED] - Statement - registerButton[1].submit(): null
+
+2018-10-08 16:18:55 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/helperMethods/CenterParcs/CenterParcs_Register_Base' successfully
+
+2018-10-08 16:18:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CenterParcs/Centerparcs - Login_Register/Register/inputFirstName' is clicked on
+
+2018-10-08 16:18:55 - [MESSAGE][PASSED] - Object: 'Object Repository/CenterParcs/Centerparcs - Login_Register/Register/inputFirstName' is clicked on
+
+2018-10-08 16:18:55 - [TEST_STEP][PASSED] - waitForElementVisible: Web element with id: 'Object Repository/CenterParcs/Centerparcs - Login_Register/Register/accountAlreadyExists' located by 'By.cssSelector: .gigya-error-msg .gigya-error-msg-active .gigya-error-code-400003' not found
+
+2018-10-08 16:18:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2018-10-08 16:19:05 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/CenterParcs/Centerparcs - Login_Register/Register/accountAlreadyExists' located by 'By.cssSelector: .gigya-error-msg .gigya-error-msg-active .gigya-error-code-400003' not found
+
+2018-10-08 16:19:05 - [TEST_STEP][PASSED] - Start listener action : tearDown: Browser is closed
+
+2018-10-08 16:19:05 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-10-08 16:19:06 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CenterParcs/CPDRMIN-7626" classname="Test Cases/CenterParcs/CPDRMIN-7626" status="PASSED">
+         <system-out><![CDATA[2018-10-08 16:19:06 - [TEST_CASE][PASSED] - Test Cases/CenterParcs/CPDRMIN-7626: Test Cases/CenterParcs/CPDRMIN-7626
+
+2018-10-08 16:19:06 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/helperMethods/Generic/SettingUserDetails' successfully
+
+2018-10-08 16:19:06 - [TEST_CASE][PASSED] - Test Cases/helperMethods/Generic/SettingUserDetails: Test Cases/helperMethods/Generic/SettingUserDetails
+
+2018-10-08 16:19:06 - [TEST_STEP][PASSED] - Statement - charset = (A..Z) + (0..9).join(): null
+
+2018-10-08 16:19:06 - [TEST_STEP][PASSED] - Statement - length = 9: null
+
+2018-10-08 16:19:06 - [TEST_STEP][PASSED] - Statement - randomString = org.apache.commons.lang.RandomStringUtils.random(length, charset.toCharArray()): null
+
+2018-10-08 16:19:06 - [TEST_STEP][PASSED] - Statement - emailAddress = randomString: null
+
+2018-10-08 16:19:06 - [TEST_STEP][PASSED] - Statement - firstNames = ["Ben", "Pete", "Lucy", "James", "Polly", "Laura", "Henry", "Robert", "Steph", "Megan", "Joe", "Scott", "Hannah", "Jim"]: null
+
+2018-10-08 16:19:06 - [TEST_STEP][PASSED] - Statement - lastNames = ["Small", "Bishop", "Cooke", "Watson", "Levy", "Green", "Morgan", "Simmonds", "Holmes", "Hays", "Hill", "Fowler", "Lyon", "Graham"]: null
+
+2018-10-08 16:19:06 - [TEST_STEP][PASSED] - Statement - java.util.Collections.shuffle(firstNames): null
+
+2018-10-08 16:19:06 - [TEST_STEP][PASSED] - Statement - java.util.Collections.shuffle(lastNames): null
+
+2018-10-08 16:19:06 - [TEST_STEP][PASSED] - Statement - firstName = firstNames[1]: null
+
+2018-10-08 16:19:06 - [TEST_STEP][PASSED] - Statement - lastName = lastNames[1]: null
+
+2018-10-08 16:19:06 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/helperMethods/Generic/SettingUserDetails' successfully
+
+2018-10-08 16:19:06 - [TEST_STEP][PASSED] - Statement - emailComms = false: null
+
+2018-10-08 16:19:06 - [TEST_STEP][PASSED] - Statement - postComms = false: null
+
+2018-10-08 16:19:06 - [TEST_STEP][PASSED] - Statement - smsComms = false: null
+
+2018-10-08 16:19:06 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://uat.centerparcs.co.uk'
+
+2018-10-08 16:19:10 - [MESSAGE][PASSED] - Browser is opened with url: 'https://uat.centerparcs.co.uk'
+
+2018-10-08 16:19:10 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-10-08 16:19:11 - [MESSAGE][PASSED] - Current window maximized
+
+2018-10-08 16:19:11 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/helperMethods/CenterParcs/CenterParcs_Register_Base' successfully
+
+2018-10-08 16:19:11 - [TEST_CASE][PASSED] - Test Cases/helperMethods/CenterParcs/CenterParcs_Register_Base: Test Cases/helperMethods/CenterParcs/CenterParcs_Register_Base
+
+2018-10-08 16:19:11 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/CenterParcs/Centerparcs - homepage/signInRegisterBtn' is visible
+
+2018-10-08 16:19:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2018-10-08 16:19:11 - [MESSAGE][PASSED] - Object 'Object Repository/CenterParcs/Centerparcs - homepage/signInRegisterBtn' is visible
+
+2018-10-08 16:19:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CenterParcs/Centerparcs - homepage/signInRegisterBtn' is clicked on
+
+2018-10-08 16:19:13 - [MESSAGE][PASSED] - Object: 'Object Repository/CenterParcs/Centerparcs - homepage/signInRegisterBtn' is clicked on
+
+2018-10-08 16:19:13 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/CenterParcs/Centerparcs - Login_Register/LogIn/submitBtn' is visible
+
+2018-10-08 16:19:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2018-10-08 16:19:14 - [MESSAGE][PASSED] - Object 'Object Repository/CenterParcs/Centerparcs - Login_Register/LogIn/submitBtn' is visible
+
+2018-10-08 16:19:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CenterParcs/Centerparcs - Login_Register/LogIn/registerTab' is clicked on
+
+2018-10-08 16:19:14 - [MESSAGE][PASSED] - Object: 'Object Repository/CenterParcs/Centerparcs - Login_Register/LogIn/registerTab' is clicked on
+
+2018-10-08 16:19:14 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/CenterParcs/Centerparcs - Login_Register/Register/inputFirstName' is visible
+
+2018-10-08 16:19:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2018-10-08 16:19:14 - [MESSAGE][PASSED] - Object 'Object Repository/CenterParcs/Centerparcs - Login_Register/Register/inputFirstName' is visible
+
+2018-10-08 16:19:14 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'OTHR' are selected in object 'Object Repository/CenterParcs/Centerparcs - Login_Register/Register/titleDropDown'  using regular expression
+
+2018-10-08 16:19:14 - [MESSAGE][PASSED] - All options with value 'OTHR' are selected in object 'Object Repository/CenterParcs/Centerparcs - Login_Register/Register/titleDropDown'  using regular expression
+
+2018-10-08 16:19:14 - [TEST_STEP][PASSED] - setText: Text 'Jim' is set on object 'Object Repository/CenterParcs/Centerparcs - Login_Register/Register/inputFirstName'
+
+2018-10-08 16:19:15 - [MESSAGE][PASSED] - Text 'Jim' is set on object 'Object Repository/CenterParcs/Centerparcs - Login_Register/Register/inputFirstName'
+
+2018-10-08 16:19:15 - [TEST_STEP][PASSED] - setText: Text 'Levy' is set on object 'Object Repository/CenterParcs/Centerparcs - Login_Register/Register/inputLastName'
+
+2018-10-08 16:19:15 - [MESSAGE][PASSED] - Text 'Levy' is set on object 'Object Repository/CenterParcs/Centerparcs - Login_Register/Register/inputLastName'
+
+2018-10-08 16:19:15 - [TEST_STEP][PASSED] - setText: Text 'cpsit.tester1+DXAJU0RXC@gmail.com' is set on object 'Object Repository/CenterParcs/Centerparcs - Login_Register/Register/emailAddress'
+
+2018-10-08 16:19:15 - [MESSAGE][PASSED] - Text 'cpsit.tester1+DXAJU0RXC@gmail.com' is set on object 'Object Repository/CenterParcs/Centerparcs - Login_Register/Register/emailAddress'
+
+2018-10-08 16:19:15 - [TEST_STEP][PASSED] - setText: Text 'Password123' is set on object 'Object Repository/CenterParcs/Centerparcs - Login_Register/Register/password'
+
+2018-10-08 16:19:15 - [MESSAGE][PASSED] - Text 'Password123' is set on object 'Object Repository/CenterParcs/Centerparcs - Login_Register/Register/password'
+
+2018-10-08 16:19:15 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2018-10-08 16:19:15 - [TEST_STEP][PASSED] - Statement - registerButton = driver.findElements(org.openqa.selenium.By.xpath("//*[@value = 'Create an account']")): null
+
+2018-10-08 16:19:15 - [TEST_STEP][PASSED] - Statement - registerButton[1].submit(): null
+
+2018-10-08 16:19:15 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/helperMethods/CenterParcs/CenterParcs_Register_Base' successfully
+
+2018-10-08 16:19:15 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/helperMethods/CenterParcs/CenterParcs_Register_Additional' successfully
+
+2018-10-08 16:19:15 - [TEST_CASE][PASSED] - Test Cases/helperMethods/CenterParcs/CenterParcs_Register_Additional: Test Cases/helperMethods/CenterParcs/CenterParcs_Register_Additional
+
+2018-10-08 16:19:15 - [TEST_STEP][PASSED] - waitForElementVisible: Web element with id: 'Object Repository/CenterParcs/CenterParcs - My Profile/dobDayDropDown' located by 'By.xpath: //select[@name = 'dob_day' and @id = 'dob_day' and (text() = '
+                        
+                        
+                            1
+                        
+                            2
+                        
+                            3
+                        
+                            4
+                        
+                            5
+                        
+                            6
+                        
+                            7
+                        
+                            8
+                        
+                            9
+                        
+                            10
+                        
+                            11
+                        
+                            12
+                        
+                            13
+                        
+                            14
+                        
+                            15
+                        
+                            16
+                        
+                            17
+                        
+                            18
+                        
+                            19
+                        
+                            20
+                        
+                            21
+                        
+                            22
+                        
+                            23
+                        
+                            24
+                        
+                            25
+                        
+                            26
+                        
+                            27
+                        
+                            28
+                        
+                            29
+                        
+                            30
+                        
+                            31
+                        
+                    ' or . = '
+                        
+                        
+                            1
+                        
+                            2
+                        
+                            3
+                        
+                            4
+                        
+                            5
+                        
+                            6
+                        
+                            7
+                        
+                            8
+                        
+                            9
+                        
+                            10
+                        
+                            11
+                        
+                            12
+                        
+                            13
+                        
+                            14
+                        
+                            15
+                        
+                            16
+                        
+                            17
+                        
+                            18
+                        
+                            19
+                        
+                            20
+                        
+                            21
+                        
+                            22
+                        
+                            23
+                        
+                            24
+                        
+                            25
+                        
+                            26
+                        
+                            27
+                        
+                            28
+                        
+                            29
+                        
+                            30
+                        
+                            31
+                        
+                    ')]' not found
+
+2018-10-08 16:19:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2018-10-08 16:19:26 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/CenterParcs/CenterParcs - My Profile/dobDayDropDown' located by 'By.xpath: //select[@name = 'dob_day' and @id = 'dob_day' and (text() = '
+                        
+                        
+                            1
+                        
+                            2
+                        
+                            3
+                        
+                            4
+                        
+                            5
+                        
+                            6
+                        
+                            7
+                        
+                            8
+                        
+                            9
+                        
+                            10
+                        
+                            11
+                        
+                            12
+                        
+                            13
+                        
+                            14
+                        
+                            15
+                        
+                            16
+                        
+                            17
+                        
+                            18
+                        
+                            19
+                        
+                            20
+                        
+                            21
+                        
+                            22
+                        
+                            23
+                        
+                            24
+                        
+                            25
+                        
+                            26
+                        
+                            27
+                        
+                            28
+                        
+                            29
+                        
+                            30
+                        
+                            31
+                        
+                    ' or . = '
+                        
+                        
+                            1
+                        
+                            2
+                        
+                            3
+                        
+                            4
+                        
+                            5
+                        
+                            6
+                        
+                            7
+                        
+                            8
+                        
+                            9
+                        
+                            10
+                        
+                            11
+                        
+                            12
+                        
+                            13
+                        
+                            14
+                        
+                            15
+                        
+                            16
+                        
+                            17
+                        
+                            18
+                        
+                            19
+                        
+                            20
+                        
+                            21
+                        
+                            22
+                        
+                            23
+                        
+                            24
+                        
+                            25
+                        
+                            26
+                        
+                            27
+                        
+                            28
+                        
+                            29
+                        
+                            30
+                        
+                            31
+                        
+                    ')]' not found
+
+2018-10-08 16:19:26 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '1' are selected in object 'Object Repository/CenterParcs/CenterParcs - My Profile/dobDayDropDown'  using regular expression
+
+2018-10-08 16:19:33 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/CenterParcs/CenterParcs - My Profile/dobDayDropDown'  using regular expression
+
+2018-10-08 16:19:33 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '1' are selected in object 'Object Repository/CenterParcs/CenterParcs - My Profile/dobMonthDropDown'  using regular expression
+
+2018-10-08 16:19:33 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/CenterParcs/CenterParcs - My Profile/dobMonthDropDown'  using regular expression
+
+2018-10-08 16:19:33 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '1980' are selected in object 'Object Repository/CenterParcs/CenterParcs - My Profile/dobYearDropDown'  using regular expression
+
+2018-10-08 16:19:35 - [MESSAGE][PASSED] - All options with value '1980' are selected in object 'Object Repository/CenterParcs/CenterParcs - My Profile/dobYearDropDown'  using regular expression
+
+2018-10-08 16:19:35 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Mobile' are selected in object 'Object Repository/CenterParcs/CenterParcs - My Profile/contactTypeDropDown'  using regular expression
+
+2018-10-08 16:19:35 - [MESSAGE][PASSED] - All options with value 'Mobile' are selected in object 'Object Repository/CenterParcs/CenterParcs - My Profile/contactTypeDropDown'  using regular expression
+
+2018-10-08 16:19:35 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '+44' are selected in object 'Object Repository/CenterParcs/CenterParcs - My Profile/phoneCode' 
+
+2018-10-08 16:19:36 - [MESSAGE][PASSED] - All options with value '+44' are selected in object 'Object Repository/CenterParcs/CenterParcs - My Profile/phoneCode' 
+
+2018-10-08 16:19:36 - [TEST_STEP][PASSED] - setText: Text '7777777777' is set on object 'Object Repository/CenterParcs/Centerparcs - Login_Register/Register/phoneNumber'
+
+2018-10-08 16:19:36 - [MESSAGE][PASSED] - Text '7777777777' is set on object 'Object Repository/CenterParcs/Centerparcs - Login_Register/Register/phoneNumber'
+
+2018-10-08 16:19:36 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'UK' are selected in object 'Object Repository/CenterParcs/CenterParcs - My Profile/contryDropDown'  using regular expression
+
+2018-10-08 16:19:38 - [MESSAGE][PASSED] - All options with value 'UK' are selected in object 'Object Repository/CenterParcs/CenterParcs - My Profile/contryDropDown'  using regular expression
+
+2018-10-08 16:19:38 - [TEST_STEP][PASSED] - setText: Text 'NG22 9DP' is set on object 'Object Repository/CenterParcs/Centerparcs - Login_Register/Register/postcode'
+
+2018-10-08 16:19:39 - [MESSAGE][PASSED] - Text 'NG22 9DP' is set on object 'Object Repository/CenterParcs/Centerparcs - Login_Register/Register/postcode'
+
+2018-10-08 16:19:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CenterParcs/CenterParcs - My Profile/findAddressBtn' is clicked on
+
+2018-10-08 16:19:39 - [MESSAGE][PASSED] - Object: 'Object Repository/CenterParcs/CenterParcs - My Profile/findAddressBtn' is clicked on
+
+2018-10-08 16:19:39 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/CenterParcs/CenterParcs - My Profile/addressListSelection' successfully
+
+2018-10-08 16:19:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2018-10-08 16:19:39 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/CenterParcs/CenterParcs - My Profile/addressListSelection' successfully
+
+2018-10-08 16:19:39 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/CenterParcs/CenterParcs - My Profile/addressListSelection' is visible
+
+2018-10-08 16:19:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2018-10-08 16:19:39 - [MESSAGE][PASSED] - Object 'Object Repository/CenterParcs/CenterParcs - My Profile/addressListSelection' is visible
+
+2018-10-08 16:19:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CenterParcs/CenterParcs - My Profile/addressListSelection' is clicked on
+
+2018-10-08 16:19:39 - [MESSAGE][PASSED] - Object: 'Object Repository/CenterParcs/CenterParcs - My Profile/addressListSelection' is clicked on
+
+2018-10-08 16:19:39 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2018-10-08 16:19:39 - [TEST_STEP][PASSED] - Statement - actions = new org.openqa.selenium.interactions.Actions(driver): null
+
+2018-10-08 16:19:39 - [TEST_STEP][PASSED] - Statement - wait = new org.openqa.selenium.support.ui.WebDriverWait(driver, 10): null
+
+2018-10-08 16:19:39 - [TEST_STEP][PASSED] - Statement - If (emailComms == true): null
+
+2018-10-08 16:19:39 - [TEST_STEP][PASSED] - Statement - If (postComms == true): null
+
+2018-10-08 16:19:39 - [TEST_STEP][PASSED] - Statement - If (smsComms == true): null
+
+2018-10-08 16:19:39 - [TEST_STEP][PASSED] - Statement - sleep(1000): null
+
+2018-10-08 16:19:40 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/CenterParcs/CenterParcs - My Profile/updateDetailsBtn' successfully
+
+2018-10-08 16:19:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2018-10-08 16:19:40 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/CenterParcs/CenterParcs - My Profile/updateDetailsBtn' successfully
+
+2018-10-08 16:19:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CenterParcs/CenterParcs - My Profile/updateDetailsBtn' is clicked on
+
+2018-10-08 16:19:41 - [MESSAGE][PASSED] - Object: 'Object Repository/CenterParcs/CenterParcs - My Profile/updateDetailsBtn' is clicked on
+
+2018-10-08 16:19:41 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/CenterParcs/CenterParcs - My Profile/savedText' is visible
+
+2018-10-08 16:19:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2018-10-08 16:19:41 - [MESSAGE][PASSED] - Object 'Object Repository/CenterParcs/CenterParcs - My Profile/savedText' is visible
+
+2018-10-08 16:19:41 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/helperMethods/CenterParcs/CenterParcs_Register_Additional' successfully
+
+2018-10-08 16:19:41 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/helperMethods/Generic/sendDwEmail (NEEDS TO BE FINISHED)' successfully
+
+2018-10-08 16:19:41 - [TEST_CASE][PASSED] - Test Cases/helperMethods/Generic/sendDwEmail (NEEDS TO BE FINISHED): Test Cases/helperMethods/Generic/sendDwEmail (NEEDS TO BE FINISHED)
+
+2018-10-08 16:19:41 - [TEST_STEP][PASSED] - Statement - runScript(): null
+
+2018-10-08 16:19:41 - [TEST_STEP][PASSED] - Statement - MAILER_HOST = "smtp.gmail.com": null
+
+2018-10-08 16:19:41 - [TEST_STEP][PASSED] - Statement - MAILER_USER = "centerparcsauto@gmail.com": null
+
+2018-10-08 16:19:41 - [TEST_STEP][PASSED] - Statement - MAILER_PASS = "P455word123": null
+
+2018-10-08 16:19:41 - [TEST_STEP][PASSED] - Statement - MAILER_PORT = 465: null
+
+2018-10-08 16:19:41 - [TEST_STEP][PASSED] - Statement - properties = java.lang.System.getProperties(): null
+
+2018-10-08 16:19:41 - [TEST_STEP][PASSED] - Statement - properties.put("mail.smtp.host", MAILER_HOST): null
+
+2018-10-08 16:19:41 - [TEST_STEP][PASSED] - Statement - properties.put("mail.smtp.user", MAILER_USER): null
+
+2018-10-08 16:19:41 - [TEST_STEP][PASSED] - Statement - properties.put("mail.smtp.password", MAILER_PASS): null
+
+2018-10-08 16:19:41 - [TEST_STEP][PASSED] - Statement - properties.put("mail.smtp.port", MAILER_PORT): null
+
+2018-10-08 16:19:41 - [TEST_STEP][PASSED] - Statement - properties.put("mail.smtp.socketFactory.port", MAILER_PORT): null
+
+2018-10-08 16:19:41 - [TEST_STEP][PASSED] - Statement - properties.put("mail.smtp.socketFactory.class", "javax.net.ssl.SSLSocketFactory"): null
+
+2018-10-08 16:19:41 - [TEST_STEP][PASSED] - Statement - session = javax.mail.Session.getDefaultInstance(properties): null
+
+2018-10-08 16:19:41 - [TEST_STEP][PASSED] - Statement - message = new javax.mail.internet.MimeMessage(session): null
+
+2018-10-08 16:19:41 - [TEST_STEP][PASSED] - Statement - message.setFrom("no.reply@example.org"): null
+
+2018-10-08 16:19:41 - [TEST_STEP][PASSED] - Statement - message.setRecipient(TO, new javax.mail.internet.InternetAddress(joe.batt@centerparcs.co.uk)): null
+
+2018-10-08 16:19:41 - [TEST_STEP][PASSED] - Statement - message.setSubject("Data Warehouse Check"): null
+
+2018-10-08 16:19:41 - [TEST_STEP][PASSED] - Statement - message.setText("Would you check the following details in DW after 24 hours please?" + "
+" + "
+ Username: cpsit.tester1+" + emailAddress + "@gmail.com" + "
+ Email Preferences: " + emailComms + "
+ Post Preferences: " + postComms + "
+ SMS Preferences: " + smsComms): null
+
+2018-10-08 16:19:41 - [TEST_STEP][PASSED] - Statement - transport = session.getTransport("smtp"): null
+
+2018-10-08 16:19:41 - [TEST_STEP][PASSED] - Statement - transport.connect(MAILER_HOST, MAILER_PORT, MAILER_USER, MAILER_PASS): null
+
+2018-10-08 16:19:42 - [TEST_STEP][PASSED] - Statement - transport.sendMessage(message, message.getAllRecipients()): null
+
+2018-10-08 16:19:42 - [TEST_STEP][PASSED] - Statement - transport.close(): null
+
+2018-10-08 16:19:42 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/helperMethods/Generic/sendDwEmail (NEEDS TO BE FINISHED)' successfully
+
+2018-10-08 16:19:42 - [TEST_STEP][PASSED] - Start listener action : tearDown: Browser is closed
+
+2018-10-08 16:19:42 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-10-08 16:19:43 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CenterParcs/CPDRMIN-7632" classname="Test Cases/CenterParcs/CPDRMIN-7632" status="PASSED">
+         <system-out><![CDATA[2018-10-08 16:19:43 - [TEST_CASE][PASSED] - Test Cases/CenterParcs/CPDRMIN-7632: Test Cases/CenterParcs/CPDRMIN-7632
+
+2018-10-08 16:19:43 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/helperMethods/Generic/SettingUserDetails' successfully
+
+2018-10-08 16:19:43 - [TEST_CASE][PASSED] - Test Cases/helperMethods/Generic/SettingUserDetails: Test Cases/helperMethods/Generic/SettingUserDetails
+
+2018-10-08 16:19:43 - [TEST_STEP][PASSED] - Statement - charset = (A..Z) + (0..9).join(): null
+
+2018-10-08 16:19:43 - [TEST_STEP][PASSED] - Statement - length = 9: null
+
+2018-10-08 16:19:43 - [TEST_STEP][PASSED] - Statement - randomString = org.apache.commons.lang.RandomStringUtils.random(length, charset.toCharArray()): null
+
+2018-10-08 16:19:43 - [TEST_STEP][PASSED] - Statement - emailAddress = randomString: null
+
+2018-10-08 16:19:43 - [TEST_STEP][PASSED] - Statement - firstNames = ["Ben", "Pete", "Lucy", "James", "Polly", "Laura", "Henry", "Robert", "Steph", "Megan", "Joe", "Scott", "Hannah", "Jim"]: null
+
+2018-10-08 16:19:43 - [TEST_STEP][PASSED] - Statement - lastNames = ["Small", "Bishop", "Cooke", "Watson", "Levy", "Green", "Morgan", "Simmonds", "Holmes", "Hays", "Hill", "Fowler", "Lyon", "Graham"]: null
+
+2018-10-08 16:19:43 - [TEST_STEP][PASSED] - Statement - java.util.Collections.shuffle(firstNames): null
+
+2018-10-08 16:19:43 - [TEST_STEP][PASSED] - Statement - java.util.Collections.shuffle(lastNames): null
+
+2018-10-08 16:19:43 - [TEST_STEP][PASSED] - Statement - firstName = firstNames[1]: null
+
+2018-10-08 16:19:43 - [TEST_STEP][PASSED] - Statement - lastName = lastNames[1]: null
+
+2018-10-08 16:19:43 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/helperMethods/Generic/SettingUserDetails' successfully
+
+2018-10-08 16:19:43 - [TEST_STEP][PASSED] - Statement - emailComms = false: null
+
+2018-10-08 16:19:43 - [TEST_STEP][PASSED] - Statement - postComms = false: null
+
+2018-10-08 16:19:43 - [TEST_STEP][PASSED] - Statement - smsComms = false: null
+
+2018-10-08 16:19:43 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://uat.centerparcs.co.uk'
+
+2018-10-08 16:19:48 - [MESSAGE][PASSED] - Browser is opened with url: 'https://uat.centerparcs.co.uk'
+
+2018-10-08 16:19:48 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-10-08 16:19:49 - [MESSAGE][PASSED] - Current window maximized
+
+2018-10-08 16:19:49 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/helperMethods/CenterParcs/CenterParcs_Register_Base' successfully
+
+2018-10-08 16:19:49 - [TEST_CASE][PASSED] - Test Cases/helperMethods/CenterParcs/CenterParcs_Register_Base: Test Cases/helperMethods/CenterParcs/CenterParcs_Register_Base
+
+2018-10-08 16:19:49 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/CenterParcs/Centerparcs - homepage/signInRegisterBtn' is visible
+
+2018-10-08 16:19:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2018-10-08 16:19:49 - [MESSAGE][PASSED] - Object 'Object Repository/CenterParcs/Centerparcs - homepage/signInRegisterBtn' is visible
+
+2018-10-08 16:19:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CenterParcs/Centerparcs - homepage/signInRegisterBtn' is clicked on
+
+2018-10-08 16:19:50 - [MESSAGE][PASSED] - Object: 'Object Repository/CenterParcs/Centerparcs - homepage/signInRegisterBtn' is clicked on
+
+2018-10-08 16:19:50 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/CenterParcs/Centerparcs - Login_Register/LogIn/submitBtn' is visible
+
+2018-10-08 16:19:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2018-10-08 16:19:51 - [MESSAGE][PASSED] - Object 'Object Repository/CenterParcs/Centerparcs - Login_Register/LogIn/submitBtn' is visible
+
+2018-10-08 16:19:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CenterParcs/Centerparcs - Login_Register/LogIn/registerTab' is clicked on
+
+2018-10-08 16:19:51 - [MESSAGE][PASSED] - Object: 'Object Repository/CenterParcs/Centerparcs - Login_Register/LogIn/registerTab' is clicked on
+
+2018-10-08 16:19:51 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/CenterParcs/Centerparcs - Login_Register/Register/inputFirstName' is visible
+
+2018-10-08 16:19:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2018-10-08 16:19:51 - [MESSAGE][PASSED] - Object 'Object Repository/CenterParcs/Centerparcs - Login_Register/Register/inputFirstName' is visible
+
+2018-10-08 16:19:51 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'OTHR' are selected in object 'Object Repository/CenterParcs/Centerparcs - Login_Register/Register/titleDropDown'  using regular expression
+
+2018-10-08 16:19:52 - [MESSAGE][PASSED] - All options with value 'OTHR' are selected in object 'Object Repository/CenterParcs/Centerparcs - Login_Register/Register/titleDropDown'  using regular expression
+
+2018-10-08 16:19:52 - [TEST_STEP][PASSED] - setText: Text 'James' is set on object 'Object Repository/CenterParcs/Centerparcs - Login_Register/Register/inputFirstName'
+
+2018-10-08 16:19:52 - [MESSAGE][PASSED] - Text 'James' is set on object 'Object Repository/CenterParcs/Centerparcs - Login_Register/Register/inputFirstName'
+
+2018-10-08 16:19:52 - [TEST_STEP][PASSED] - setText: Text 'Holmes' is set on object 'Object Repository/CenterParcs/Centerparcs - Login_Register/Register/inputLastName'
+
+2018-10-08 16:19:52 - [MESSAGE][PASSED] - Text 'Holmes' is set on object 'Object Repository/CenterParcs/Centerparcs - Login_Register/Register/inputLastName'
+
+2018-10-08 16:19:52 - [TEST_STEP][PASSED] - setText: Text 'cpsit.tester1+PSSZESFBB@gmail.com' is set on object 'Object Repository/CenterParcs/Centerparcs - Login_Register/Register/emailAddress'
+
+2018-10-08 16:19:52 - [MESSAGE][PASSED] - Text 'cpsit.tester1+PSSZESFBB@gmail.com' is set on object 'Object Repository/CenterParcs/Centerparcs - Login_Register/Register/emailAddress'
+
+2018-10-08 16:19:52 - [TEST_STEP][PASSED] - setText: Text 'Password123' is set on object 'Object Repository/CenterParcs/Centerparcs - Login_Register/Register/password'
+
+2018-10-08 16:19:52 - [MESSAGE][PASSED] - Text 'Password123' is set on object 'Object Repository/CenterParcs/Centerparcs - Login_Register/Register/password'
+
+2018-10-08 16:19:52 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2018-10-08 16:19:52 - [TEST_STEP][PASSED] - Statement - registerButton = driver.findElements(org.openqa.selenium.By.xpath("//*[@value = 'Create an account']")): null
+
+2018-10-08 16:19:52 - [TEST_STEP][PASSED] - Statement - registerButton[1].submit(): null
+
+2018-10-08 16:19:52 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/helperMethods/CenterParcs/CenterParcs_Register_Base' successfully
+
+2018-10-08 16:19:52 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/helperMethods/CenterParcs/CenterParcs_Register_Additional' successfully
+
+2018-10-08 16:19:52 - [TEST_CASE][PASSED] - Test Cases/helperMethods/CenterParcs/CenterParcs_Register_Additional: Test Cases/helperMethods/CenterParcs/CenterParcs_Register_Additional
+
+2018-10-08 16:19:52 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/CenterParcs/CenterParcs - My Profile/dobDayDropDown' is visible
+
+2018-10-08 16:19:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2018-10-08 16:19:55 - [MESSAGE][PASSED] - Object 'Object Repository/CenterParcs/CenterParcs - My Profile/dobDayDropDown' is visible
+
+2018-10-08 16:19:55 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '1' are selected in object 'Object Repository/CenterParcs/CenterParcs - My Profile/dobDayDropDown'  using regular expression
+
+2018-10-08 16:19:56 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/CenterParcs/CenterParcs - My Profile/dobDayDropDown'  using regular expression
+
+2018-10-08 16:19:56 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '1' are selected in object 'Object Repository/CenterParcs/CenterParcs - My Profile/dobMonthDropDown'  using regular expression
+
+2018-10-08 16:19:56 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/CenterParcs/CenterParcs - My Profile/dobMonthDropDown'  using regular expression
+
+2018-10-08 16:19:56 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '1980' are selected in object 'Object Repository/CenterParcs/CenterParcs - My Profile/dobYearDropDown'  using regular expression
+
+2018-10-08 16:19:58 - [MESSAGE][PASSED] - All options with value '1980' are selected in object 'Object Repository/CenterParcs/CenterParcs - My Profile/dobYearDropDown'  using regular expression
+
+2018-10-08 16:19:58 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Mobile' are selected in object 'Object Repository/CenterParcs/CenterParcs - My Profile/contactTypeDropDown'  using regular expression
+
+2018-10-08 16:19:58 - [MESSAGE][PASSED] - All options with value 'Mobile' are selected in object 'Object Repository/CenterParcs/CenterParcs - My Profile/contactTypeDropDown'  using regular expression
+
+2018-10-08 16:19:58 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '+44' are selected in object 'Object Repository/CenterParcs/CenterParcs - My Profile/phoneCode' 
+
+2018-10-08 16:19:58 - [MESSAGE][PASSED] - All options with value '+44' are selected in object 'Object Repository/CenterParcs/CenterParcs - My Profile/phoneCode' 
+
+2018-10-08 16:19:58 - [TEST_STEP][PASSED] - setText: Text '7777777777' is set on object 'Object Repository/CenterParcs/Centerparcs - Login_Register/Register/phoneNumber'
+
+2018-10-08 16:19:58 - [MESSAGE][PASSED] - Text '7777777777' is set on object 'Object Repository/CenterParcs/Centerparcs - Login_Register/Register/phoneNumber'
+
+2018-10-08 16:19:58 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'UK' are selected in object 'Object Repository/CenterParcs/CenterParcs - My Profile/contryDropDown'  using regular expression
+
+2018-10-08 16:20:01 - [MESSAGE][PASSED] - All options with value 'UK' are selected in object 'Object Repository/CenterParcs/CenterParcs - My Profile/contryDropDown'  using regular expression
+
+2018-10-08 16:20:01 - [TEST_STEP][PASSED] - setText: Text 'NG22 9DP' is set on object 'Object Repository/CenterParcs/Centerparcs - Login_Register/Register/postcode'
+
+2018-10-08 16:20:01 - [MESSAGE][PASSED] - Text 'NG22 9DP' is set on object 'Object Repository/CenterParcs/Centerparcs - Login_Register/Register/postcode'
+
+2018-10-08 16:20:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CenterParcs/CenterParcs - My Profile/findAddressBtn' is clicked on
+
+2018-10-08 16:20:01 - [MESSAGE][PASSED] - Object: 'Object Repository/CenterParcs/CenterParcs - My Profile/findAddressBtn' is clicked on
+
+2018-10-08 16:20:01 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/CenterParcs/CenterParcs - My Profile/addressListSelection' successfully
+
+2018-10-08 16:20:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2018-10-08 16:20:02 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/CenterParcs/CenterParcs - My Profile/addressListSelection' successfully
+
+2018-10-08 16:20:02 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/CenterParcs/CenterParcs - My Profile/addressListSelection' is visible
+
+2018-10-08 16:20:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2018-10-08 16:20:02 - [MESSAGE][PASSED] - Object 'Object Repository/CenterParcs/CenterParcs - My Profile/addressListSelection' is visible
+
+2018-10-08 16:20:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CenterParcs/CenterParcs - My Profile/addressListSelection' is clicked on
+
+2018-10-08 16:20:02 - [MESSAGE][PASSED] - Object: 'Object Repository/CenterParcs/CenterParcs - My Profile/addressListSelection' is clicked on
+
+2018-10-08 16:20:02 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2018-10-08 16:20:02 - [TEST_STEP][PASSED] - Statement - actions = new org.openqa.selenium.interactions.Actions(driver): null
+
+2018-10-08 16:20:02 - [TEST_STEP][PASSED] - Statement - wait = new org.openqa.selenium.support.ui.WebDriverWait(driver, 10): null
+
+2018-10-08 16:20:02 - [TEST_STEP][PASSED] - Statement - If (emailComms == true): null
+
+2018-10-08 16:20:02 - [TEST_STEP][PASSED] - Statement - If (postComms == true): null
+
+2018-10-08 16:20:02 - [TEST_STEP][PASSED] - Statement - If (smsComms == true): null
+
+2018-10-08 16:20:02 - [TEST_STEP][PASSED] - Statement - sleep(1000): null
+
+2018-10-08 16:20:03 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/CenterParcs/CenterParcs - My Profile/updateDetailsBtn' successfully
+
+2018-10-08 16:20:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2018-10-08 16:20:03 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/CenterParcs/CenterParcs - My Profile/updateDetailsBtn' successfully
+
+2018-10-08 16:20:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CenterParcs/CenterParcs - My Profile/updateDetailsBtn' is clicked on
+
+2018-10-08 16:20:03 - [MESSAGE][PASSED] - Object: 'Object Repository/CenterParcs/CenterParcs - My Profile/updateDetailsBtn' is clicked on
+
+2018-10-08 16:20:03 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/CenterParcs/CenterParcs - My Profile/savedText' is visible
+
+2018-10-08 16:20:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2018-10-08 16:20:04 - [MESSAGE][PASSED] - Object 'Object Repository/CenterParcs/CenterParcs - My Profile/savedText' is visible
+
+2018-10-08 16:20:04 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/helperMethods/CenterParcs/CenterParcs_Register_Additional' successfully
+
+2018-10-08 16:20:04 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2018-10-08 16:20:04 - [TEST_STEP][PASSED] - Statement - wait = new org.openqa.selenium.support.ui.WebDriverWait(driver, 10): null
+
+2018-10-08 16:20:04 - [TEST_STEP][PASSED] - Statement - userMenu = driver.findElements(org.openqa.selenium.By.xpath("//*[@class = 'subnav__myprofile__username']")): null
+
+2018-10-08 16:20:04 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/helperMethods/Generic/sendDwEmail (NEEDS TO BE FINISHED)' successfully
+
+2018-10-08 16:20:04 - [TEST_CASE][PASSED] - Test Cases/helperMethods/Generic/sendDwEmail (NEEDS TO BE FINISHED): Test Cases/helperMethods/Generic/sendDwEmail (NEEDS TO BE FINISHED)
+
+2018-10-08 16:20:04 - [TEST_STEP][PASSED] - Statement - runScript(): null
+
+2018-10-08 16:20:04 - [TEST_STEP][PASSED] - Statement - MAILER_HOST = "smtp.gmail.com": null
+
+2018-10-08 16:20:04 - [TEST_STEP][PASSED] - Statement - MAILER_USER = "centerparcsauto@gmail.com": null
+
+2018-10-08 16:20:04 - [TEST_STEP][PASSED] - Statement - MAILER_PASS = "P455word123": null
+
+2018-10-08 16:20:04 - [TEST_STEP][PASSED] - Statement - MAILER_PORT = 465: null
+
+2018-10-08 16:20:04 - [TEST_STEP][PASSED] - Statement - properties = java.lang.System.getProperties(): null
+
+2018-10-08 16:20:04 - [TEST_STEP][PASSED] - Statement - properties.put("mail.smtp.host", MAILER_HOST): null
+
+2018-10-08 16:20:04 - [TEST_STEP][PASSED] - Statement - properties.put("mail.smtp.user", MAILER_USER): null
+
+2018-10-08 16:20:04 - [TEST_STEP][PASSED] - Statement - properties.put("mail.smtp.password", MAILER_PASS): null
+
+2018-10-08 16:20:04 - [TEST_STEP][PASSED] - Statement - properties.put("mail.smtp.port", MAILER_PORT): null
+
+2018-10-08 16:20:04 - [TEST_STEP][PASSED] - Statement - properties.put("mail.smtp.socketFactory.port", MAILER_PORT): null
+
+2018-10-08 16:20:04 - [TEST_STEP][PASSED] - Statement - properties.put("mail.smtp.socketFactory.class", "javax.net.ssl.SSLSocketFactory"): null
+
+2018-10-08 16:20:04 - [TEST_STEP][PASSED] - Statement - session = javax.mail.Session.getDefaultInstance(properties): null
+
+2018-10-08 16:20:04 - [TEST_STEP][PASSED] - Statement - message = new javax.mail.internet.MimeMessage(session): null
+
+2018-10-08 16:20:04 - [TEST_STEP][PASSED] - Statement - message.setFrom("no.reply@example.org"): null
+
+2018-10-08 16:20:04 - [TEST_STEP][PASSED] - Statement - message.setRecipient(TO, new javax.mail.internet.InternetAddress(joe.batt@centerparcs.co.uk)): null
+
+2018-10-08 16:20:04 - [TEST_STEP][PASSED] - Statement - message.setSubject("Data Warehouse Check"): null
+
+2018-10-08 16:20:04 - [TEST_STEP][PASSED] - Statement - message.setText("Would you check the following details in DW after 24 hours please?" + "
+" + "
+ Username: cpsit.tester1+" + emailAddress + "@gmail.com" + "
+ Email Preferences: " + emailComms + "
+ Post Preferences: " + postComms + "
+ SMS Preferences: " + smsComms): null
+
+2018-10-08 16:20:04 - [TEST_STEP][PASSED] - Statement - transport = session.getTransport("smtp"): null
+
+2018-10-08 16:20:04 - [TEST_STEP][PASSED] - Statement - transport.connect(MAILER_HOST, MAILER_PORT, MAILER_USER, MAILER_PASS): null
+
+2018-10-08 16:20:04 - [TEST_STEP][PASSED] - Statement - transport.sendMessage(message, message.getAllRecipients()): null
+
+2018-10-08 16:20:05 - [TEST_STEP][PASSED] - Statement - transport.close(): null
+
+2018-10-08 16:20:05 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/helperMethods/Generic/sendDwEmail (NEEDS TO BE FINISHED)' successfully
+
+2018-10-08 16:20:05 - [TEST_STEP][PASSED] - Start listener action : tearDown: Browser is closed
+
+2018-10-08 16:20:05 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-10-08 16:20:06 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CenterParcs/CPDRMIN-7633" classname="Test Cases/CenterParcs/CPDRMIN-7633" status="PASSED">
+         <system-out><![CDATA[2018-10-08 16:20:06 - [TEST_CASE][PASSED] - Test Cases/CenterParcs/CPDRMIN-7633: Test Cases/CenterParcs/CPDRMIN-7633
+
+2018-10-08 16:20:06 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/helperMethods/Generic/SettingUserDetails' successfully
+
+2018-10-08 16:20:06 - [TEST_CASE][PASSED] - Test Cases/helperMethods/Generic/SettingUserDetails: Test Cases/helperMethods/Generic/SettingUserDetails
+
+2018-10-08 16:20:06 - [TEST_STEP][PASSED] - Statement - charset = (A..Z) + (0..9).join(): null
+
+2018-10-08 16:20:06 - [TEST_STEP][PASSED] - Statement - length = 9: null
+
+2018-10-08 16:20:06 - [TEST_STEP][PASSED] - Statement - randomString = org.apache.commons.lang.RandomStringUtils.random(length, charset.toCharArray()): null
+
+2018-10-08 16:20:06 - [TEST_STEP][PASSED] - Statement - emailAddress = randomString: null
+
+2018-10-08 16:20:06 - [TEST_STEP][PASSED] - Statement - firstNames = ["Ben", "Pete", "Lucy", "James", "Polly", "Laura", "Henry", "Robert", "Steph", "Megan", "Joe", "Scott", "Hannah", "Jim"]: null
+
+2018-10-08 16:20:06 - [TEST_STEP][PASSED] - Statement - lastNames = ["Small", "Bishop", "Cooke", "Watson", "Levy", "Green", "Morgan", "Simmonds", "Holmes", "Hays", "Hill", "Fowler", "Lyon", "Graham"]: null
+
+2018-10-08 16:20:06 - [TEST_STEP][PASSED] - Statement - java.util.Collections.shuffle(firstNames): null
+
+2018-10-08 16:20:06 - [TEST_STEP][PASSED] - Statement - java.util.Collections.shuffle(lastNames): null
+
+2018-10-08 16:20:06 - [TEST_STEP][PASSED] - Statement - firstName = firstNames[1]: null
+
+2018-10-08 16:20:06 - [TEST_STEP][PASSED] - Statement - lastName = lastNames[1]: null
+
+2018-10-08 16:20:06 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/helperMethods/Generic/SettingUserDetails' successfully
+
+2018-10-08 16:20:06 - [TEST_STEP][PASSED] - Statement - emailComms = true: null
+
+2018-10-08 16:20:06 - [TEST_STEP][PASSED] - Statement - postComms = true: null
+
+2018-10-08 16:20:06 - [TEST_STEP][PASSED] - Statement - smsComms = true: null
+
+2018-10-08 16:20:06 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://uat.centerparcs.co.uk'
+
+2018-10-08 16:20:10 - [MESSAGE][PASSED] - Browser is opened with url: 'https://uat.centerparcs.co.uk'
+
+2018-10-08 16:20:10 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-10-08 16:20:11 - [MESSAGE][PASSED] - Current window maximized
+
+2018-10-08 16:20:11 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/helperMethods/CenterParcs/CenterParcs_Register_Base' successfully
+
+2018-10-08 16:20:11 - [TEST_CASE][PASSED] - Test Cases/helperMethods/CenterParcs/CenterParcs_Register_Base: Test Cases/helperMethods/CenterParcs/CenterParcs_Register_Base
+
+2018-10-08 16:20:11 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/CenterParcs/Centerparcs - homepage/signInRegisterBtn' is visible
+
+2018-10-08 16:20:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2018-10-08 16:20:11 - [MESSAGE][PASSED] - Object 'Object Repository/CenterParcs/Centerparcs - homepage/signInRegisterBtn' is visible
+
+2018-10-08 16:20:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CenterParcs/Centerparcs - homepage/signInRegisterBtn' is clicked on
+
+2018-10-08 16:20:12 - [MESSAGE][PASSED] - Object: 'Object Repository/CenterParcs/Centerparcs - homepage/signInRegisterBtn' is clicked on
+
+2018-10-08 16:20:12 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/CenterParcs/Centerparcs - Login_Register/LogIn/submitBtn' is visible
+
+2018-10-08 16:20:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2018-10-08 16:20:13 - [MESSAGE][PASSED] - Object 'Object Repository/CenterParcs/Centerparcs - Login_Register/LogIn/submitBtn' is visible
+
+2018-10-08 16:20:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CenterParcs/Centerparcs - Login_Register/LogIn/registerTab' is clicked on
+
+2018-10-08 16:20:13 - [MESSAGE][PASSED] - Object: 'Object Repository/CenterParcs/Centerparcs - Login_Register/LogIn/registerTab' is clicked on
+
+2018-10-08 16:20:13 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/CenterParcs/Centerparcs - Login_Register/Register/inputFirstName' is visible
+
+2018-10-08 16:20:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2018-10-08 16:20:14 - [MESSAGE][PASSED] - Object 'Object Repository/CenterParcs/Centerparcs - Login_Register/Register/inputFirstName' is visible
+
+2018-10-08 16:20:14 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'OTHR' are selected in object 'Object Repository/CenterParcs/Centerparcs - Login_Register/Register/titleDropDown'  using regular expression
+
+2018-10-08 16:20:14 - [MESSAGE][PASSED] - All options with value 'OTHR' are selected in object 'Object Repository/CenterParcs/Centerparcs - Login_Register/Register/titleDropDown'  using regular expression
+
+2018-10-08 16:20:14 - [TEST_STEP][PASSED] - setText: Text 'Polly' is set on object 'Object Repository/CenterParcs/Centerparcs - Login_Register/Register/inputFirstName'
+
+2018-10-08 16:20:14 - [MESSAGE][PASSED] - Text 'Polly' is set on object 'Object Repository/CenterParcs/Centerparcs - Login_Register/Register/inputFirstName'
+
+2018-10-08 16:20:14 - [TEST_STEP][PASSED] - setText: Text 'Cooke' is set on object 'Object Repository/CenterParcs/Centerparcs - Login_Register/Register/inputLastName'
+
+2018-10-08 16:20:14 - [MESSAGE][PASSED] - Text 'Cooke' is set on object 'Object Repository/CenterParcs/Centerparcs - Login_Register/Register/inputLastName'
+
+2018-10-08 16:20:14 - [TEST_STEP][PASSED] - setText: Text 'cpsit.tester1+6NDSCNTO1@gmail.com' is set on object 'Object Repository/CenterParcs/Centerparcs - Login_Register/Register/emailAddress'
+
+2018-10-08 16:20:14 - [MESSAGE][PASSED] - Text 'cpsit.tester1+6NDSCNTO1@gmail.com' is set on object 'Object Repository/CenterParcs/Centerparcs - Login_Register/Register/emailAddress'
+
+2018-10-08 16:20:14 - [TEST_STEP][PASSED] - setText: Text 'Password123' is set on object 'Object Repository/CenterParcs/Centerparcs - Login_Register/Register/password'
+
+2018-10-08 16:20:14 - [MESSAGE][PASSED] - Text 'Password123' is set on object 'Object Repository/CenterParcs/Centerparcs - Login_Register/Register/password'
+
+2018-10-08 16:20:14 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2018-10-08 16:20:14 - [TEST_STEP][PASSED] - Statement - registerButton = driver.findElements(org.openqa.selenium.By.xpath("//*[@value = 'Create an account']")): null
+
+2018-10-08 16:20:15 - [TEST_STEP][PASSED] - Statement - registerButton[1].submit(): null
+
+2018-10-08 16:20:15 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/helperMethods/CenterParcs/CenterParcs_Register_Base' successfully
+
+2018-10-08 16:20:15 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/helperMethods/CenterParcs/CenterParcs_Register_Additional' successfully
+
+2018-10-08 16:20:15 - [TEST_CASE][PASSED] - Test Cases/helperMethods/CenterParcs/CenterParcs_Register_Additional: Test Cases/helperMethods/CenterParcs/CenterParcs_Register_Additional
+
+2018-10-08 16:20:15 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/CenterParcs/CenterParcs - My Profile/dobDayDropDown' is visible
+
+2018-10-08 16:20:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2018-10-08 16:20:17 - [MESSAGE][PASSED] - Object 'Object Repository/CenterParcs/CenterParcs - My Profile/dobDayDropDown' is visible
+
+2018-10-08 16:20:17 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '1' are selected in object 'Object Repository/CenterParcs/CenterParcs - My Profile/dobDayDropDown'  using regular expression
+
+2018-10-08 16:20:18 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/CenterParcs/CenterParcs - My Profile/dobDayDropDown'  using regular expression
+
+2018-10-08 16:20:18 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '1' are selected in object 'Object Repository/CenterParcs/CenterParcs - My Profile/dobMonthDropDown'  using regular expression
+
+2018-10-08 16:20:18 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/CenterParcs/CenterParcs - My Profile/dobMonthDropDown'  using regular expression
+
+2018-10-08 16:20:18 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '1980' are selected in object 'Object Repository/CenterParcs/CenterParcs - My Profile/dobYearDropDown'  using regular expression
+
+2018-10-08 16:20:20 - [MESSAGE][PASSED] - All options with value '1980' are selected in object 'Object Repository/CenterParcs/CenterParcs - My Profile/dobYearDropDown'  using regular expression
+
+2018-10-08 16:20:20 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Mobile' are selected in object 'Object Repository/CenterParcs/CenterParcs - My Profile/contactTypeDropDown'  using regular expression
+
+2018-10-08 16:20:20 - [MESSAGE][PASSED] - All options with value 'Mobile' are selected in object 'Object Repository/CenterParcs/CenterParcs - My Profile/contactTypeDropDown'  using regular expression
+
+2018-10-08 16:20:20 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '+44' are selected in object 'Object Repository/CenterParcs/CenterParcs - My Profile/phoneCode' 
+
+2018-10-08 16:20:20 - [MESSAGE][PASSED] - All options with value '+44' are selected in object 'Object Repository/CenterParcs/CenterParcs - My Profile/phoneCode' 
+
+2018-10-08 16:20:20 - [TEST_STEP][PASSED] - setText: Text '7777777777' is set on object 'Object Repository/CenterParcs/Centerparcs - Login_Register/Register/phoneNumber'
+
+2018-10-08 16:20:20 - [MESSAGE][PASSED] - Text '7777777777' is set on object 'Object Repository/CenterParcs/Centerparcs - Login_Register/Register/phoneNumber'
+
+2018-10-08 16:20:20 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'UK' are selected in object 'Object Repository/CenterParcs/CenterParcs - My Profile/contryDropDown'  using regular expression
+
+2018-10-08 16:20:23 - [MESSAGE][PASSED] - All options with value 'UK' are selected in object 'Object Repository/CenterParcs/CenterParcs - My Profile/contryDropDown'  using regular expression
+
+2018-10-08 16:20:23 - [TEST_STEP][PASSED] - setText: Text 'NG22 9DP' is set on object 'Object Repository/CenterParcs/Centerparcs - Login_Register/Register/postcode'
+
+2018-10-08 16:20:23 - [MESSAGE][PASSED] - Text 'NG22 9DP' is set on object 'Object Repository/CenterParcs/Centerparcs - Login_Register/Register/postcode'
+
+2018-10-08 16:20:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CenterParcs/CenterParcs - My Profile/findAddressBtn' is clicked on
+
+2018-10-08 16:20:23 - [MESSAGE][PASSED] - Object: 'Object Repository/CenterParcs/CenterParcs - My Profile/findAddressBtn' is clicked on
+
+2018-10-08 16:20:23 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/CenterParcs/CenterParcs - My Profile/addressListSelection' successfully
+
+2018-10-08 16:20:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2018-10-08 16:20:24 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/CenterParcs/CenterParcs - My Profile/addressListSelection' successfully
+
+2018-10-08 16:20:24 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/CenterParcs/CenterParcs - My Profile/addressListSelection' is visible
+
+2018-10-08 16:20:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2018-10-08 16:20:24 - [MESSAGE][PASSED] - Object 'Object Repository/CenterParcs/CenterParcs - My Profile/addressListSelection' is visible
+
+2018-10-08 16:20:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CenterParcs/CenterParcs - My Profile/addressListSelection' is clicked on
+
+2018-10-08 16:20:24 - [MESSAGE][PASSED] - Object: 'Object Repository/CenterParcs/CenterParcs - My Profile/addressListSelection' is clicked on
+
+2018-10-08 16:20:24 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2018-10-08 16:20:24 - [TEST_STEP][PASSED] - Statement - actions = new org.openqa.selenium.interactions.Actions(driver): null
+
+2018-10-08 16:20:24 - [TEST_STEP][PASSED] - Statement - wait = new org.openqa.selenium.support.ui.WebDriverWait(driver, 10): null
+
+2018-10-08 16:20:24 - [TEST_STEP][PASSED] - Statement - If (emailComms == true): null
+
+2018-10-08 16:20:24 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/CenterParcs/CenterParcs - My Profile/postcodeInput' successfully
+
+2018-10-08 16:20:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2018-10-08 16:20:24 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/CenterParcs/CenterParcs - My Profile/postcodeInput' successfully
+
+2018-10-08 16:20:24 - [TEST_STEP][PASSED] - Statement - wait.until(org.openqa.selenium.support.ui.ExpectedConditions.visibilityOfElementLocated(org.openqa.selenium.By.cssSelector("#subscribe_cp_email"))): null
+
+2018-10-08 16:20:24 - [TEST_STEP][PASSED] - Statement - emailCheckBox = driver.findElement(org.openqa.selenium.By.cssSelector("#subscribe_cp_email")): null
+
+2018-10-08 16:20:24 - [TEST_STEP][PASSED] - Statement - actions.moveToElement(emailCheckBox).click().perform(): null
+
+2018-10-08 16:20:24 - [TEST_STEP][PASSED] - Statement - If (postComms == true): null
+
+2018-10-08 16:20:24 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/CenterParcs/CenterParcs - My Profile/postcodeInput' successfully
+
+2018-10-08 16:20:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2018-10-08 16:20:24 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/CenterParcs/CenterParcs - My Profile/postcodeInput' successfully
+
+2018-10-08 16:20:24 - [TEST_STEP][PASSED] - Statement - wait.until(org.openqa.selenium.support.ui.ExpectedConditions.visibilityOfElementLocated(org.openqa.selenium.By.cssSelector("#subscribe_cp_directmail"))): null
+
+2018-10-08 16:20:24 - [TEST_STEP][PASSED] - Statement - postCheckBox = driver.findElement(org.openqa.selenium.By.cssSelector("#subscribe_cp_directmail")): null
+
+2018-10-08 16:20:24 - [TEST_STEP][PASSED] - Statement - actions.moveToElement(postCheckBox).click().perform(): null
+
+2018-10-08 16:20:24 - [TEST_STEP][PASSED] - Statement - If (smsComms == true): null
+
+2018-10-08 16:20:24 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/CenterParcs/CenterParcs - My Profile/postcodeInput' successfully
+
+2018-10-08 16:20:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2018-10-08 16:20:24 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/CenterParcs/CenterParcs - My Profile/postcodeInput' successfully
+
+2018-10-08 16:20:24 - [TEST_STEP][PASSED] - Statement - wait.until(org.openqa.selenium.support.ui.ExpectedConditions.visibilityOfElementLocated(org.openqa.selenium.By.cssSelector("#subscribe_cp_sms"))): null
+
+2018-10-08 16:20:24 - [TEST_STEP][PASSED] - Statement - smsCheckBox = driver.findElement(org.openqa.selenium.By.cssSelector("#subscribe_cp_sms")): null
+
+2018-10-08 16:20:24 - [TEST_STEP][PASSED] - Statement - actions.moveToElement(smsCheckBox).click().perform(): null
+
+2018-10-08 16:20:24 - [TEST_STEP][PASSED] - Statement - sleep(1000): null
+
+2018-10-08 16:20:25 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/CenterParcs/CenterParcs - My Profile/updateDetailsBtn' successfully
+
+2018-10-08 16:20:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2018-10-08 16:20:25 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/CenterParcs/CenterParcs - My Profile/updateDetailsBtn' successfully
+
+2018-10-08 16:20:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CenterParcs/CenterParcs - My Profile/updateDetailsBtn' is clicked on
+
+2018-10-08 16:20:25 - [MESSAGE][PASSED] - Object: 'Object Repository/CenterParcs/CenterParcs - My Profile/updateDetailsBtn' is clicked on
+
+2018-10-08 16:20:25 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/CenterParcs/CenterParcs - My Profile/savedText' is visible
+
+2018-10-08 16:20:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2018-10-08 16:20:26 - [MESSAGE][PASSED] - Object 'Object Repository/CenterParcs/CenterParcs - My Profile/savedText' is visible
+
+2018-10-08 16:20:26 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/helperMethods/CenterParcs/CenterParcs_Register_Additional' successfully
+
+2018-10-08 16:20:26 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2018-10-08 16:20:26 - [TEST_STEP][PASSED] - Statement - wait = new org.openqa.selenium.support.ui.WebDriverWait(driver, 10): null
+
+2018-10-08 16:20:26 - [TEST_STEP][PASSED] - Statement - userMenu = driver.findElements(org.openqa.selenium.By.xpath("//*[@class = 'subnav__myprofile__username']")): null
+
+2018-10-08 16:20:26 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/helperMethods/Generic/sendDwEmail (NEEDS TO BE FINISHED)' successfully
+
+2018-10-08 16:20:26 - [TEST_CASE][PASSED] - Test Cases/helperMethods/Generic/sendDwEmail (NEEDS TO BE FINISHED): Test Cases/helperMethods/Generic/sendDwEmail (NEEDS TO BE FINISHED)
+
+2018-10-08 16:20:26 - [TEST_STEP][PASSED] - Statement - runScript(): null
+
+2018-10-08 16:20:26 - [TEST_STEP][PASSED] - Statement - MAILER_HOST = "smtp.gmail.com": null
+
+2018-10-08 16:20:26 - [TEST_STEP][PASSED] - Statement - MAILER_USER = "centerparcsauto@gmail.com": null
+
+2018-10-08 16:20:26 - [TEST_STEP][PASSED] - Statement - MAILER_PASS = "P455word123": null
+
+2018-10-08 16:20:26 - [TEST_STEP][PASSED] - Statement - MAILER_PORT = 465: null
+
+2018-10-08 16:20:26 - [TEST_STEP][PASSED] - Statement - properties = java.lang.System.getProperties(): null
+
+2018-10-08 16:20:26 - [TEST_STEP][PASSED] - Statement - properties.put("mail.smtp.host", MAILER_HOST): null
+
+2018-10-08 16:20:26 - [TEST_STEP][PASSED] - Statement - properties.put("mail.smtp.user", MAILER_USER): null
+
+2018-10-08 16:20:26 - [TEST_STEP][PASSED] - Statement - properties.put("mail.smtp.password", MAILER_PASS): null
+
+2018-10-08 16:20:26 - [TEST_STEP][PASSED] - Statement - properties.put("mail.smtp.port", MAILER_PORT): null
+
+2018-10-08 16:20:26 - [TEST_STEP][PASSED] - Statement - properties.put("mail.smtp.socketFactory.port", MAILER_PORT): null
+
+2018-10-08 16:20:26 - [TEST_STEP][PASSED] - Statement - properties.put("mail.smtp.socketFactory.class", "javax.net.ssl.SSLSocketFactory"): null
+
+2018-10-08 16:20:26 - [TEST_STEP][PASSED] - Statement - session = javax.mail.Session.getDefaultInstance(properties): null
+
+2018-10-08 16:20:26 - [TEST_STEP][PASSED] - Statement - message = new javax.mail.internet.MimeMessage(session): null
+
+2018-10-08 16:20:26 - [TEST_STEP][PASSED] - Statement - message.setFrom("no.reply@example.org"): null
+
+2018-10-08 16:20:26 - [TEST_STEP][PASSED] - Statement - message.setRecipient(TO, new javax.mail.internet.InternetAddress(joe.batt@centerparcs.co.uk)): null
+
+2018-10-08 16:20:26 - [TEST_STEP][PASSED] - Statement - message.setSubject("Data Warehouse Check"): null
+
+2018-10-08 16:20:26 - [TEST_STEP][PASSED] - Statement - message.setText("Would you check the following details in DW after 24 hours please?" + "
+" + "
+ Username: cpsit.tester1+" + emailAddress + "@gmail.com" + "
+ Email Preferences: " + emailComms + "
+ Post Preferences: " + postComms + "
+ SMS Preferences: " + smsComms): null
+
+2018-10-08 16:20:26 - [TEST_STEP][PASSED] - Statement - transport = session.getTransport("smtp"): null
+
+2018-10-08 16:20:26 - [TEST_STEP][PASSED] - Statement - transport.connect(MAILER_HOST, MAILER_PORT, MAILER_USER, MAILER_PASS): null
+
+2018-10-08 16:20:26 - [TEST_STEP][PASSED] - Statement - transport.sendMessage(message, message.getAllRecipients()): null
+
+2018-10-08 16:20:27 - [TEST_STEP][PASSED] - Statement - transport.close(): null
+
+2018-10-08 16:20:27 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/helperMethods/Generic/sendDwEmail (NEEDS TO BE FINISHED)' successfully
+
+2018-10-08 16:20:27 - [TEST_STEP][PASSED] - Start listener action : tearDown: Browser is closed
+
+2018-10-08 16:20:27 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-10-08 16:20:28 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-10-08 16:11:59 - [TEST_SUITE][PASSED] - CenterParcs: Test Cases/CenterParcs/CPDRMIN-7633]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

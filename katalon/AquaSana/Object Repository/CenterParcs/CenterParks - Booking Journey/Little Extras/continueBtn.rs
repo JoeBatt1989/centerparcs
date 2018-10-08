@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>CSS</key>
-         <value>.enhancements__submit div button</value>
+         <value>.enhancements__submit div:nth-child(2) button</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

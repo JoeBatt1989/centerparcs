@@ -1,0 +1,72 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+CenterParcs,,,2018-10-08 16:11:01,2018-10-08 16:11:25,23.138s,FAILED
+,,,,,,
+Test Cases/CenterParcs/CPDRMIN-7698,,Booking outside of 6 month window,2018-10-08 16:11:02,2018-10-08 16:11:06,4.594s,FAILED
+"Statement - emailAddress = ""winston""",,,2018-10-08 16:11:02,2018-10-08 16:11:02,0.008s,PASSED
+"Statement - currentPassword = ""Password123""",,,2018-10-08 16:11:02,2018-10-08 16:11:02,0.000s,PASSED
+openBrowser,,,2018-10-08 16:11:02,2018-10-08 16:11:06,4.390s,FAILED
+Start listener action : tearDown,,,2018-10-08 16:11:06,2018-10-08 16:11:06,0.020s,PASSED
+,,,,,,
+Test Cases/CenterParcs/CPDRMIN-4702,,Registration - Tickbox,2018-10-08 16:11:06,2018-10-08 16:11:08,2.177s,FAILED
+openBrowser,,,2018-10-08 16:11:06,2018-10-08 16:11:08,2.025s,FAILED
+Start listener action : tearDown,,,2018-10-08 16:11:08,2018-10-08 16:11:08,0.003s,PASSED
+,,,,,,
+Test Cases/CenterParcs/CPDRMIN-4720,,Account Management - User gets locked out of account,2018-10-08 16:11:08,2018-10-08 16:11:11,2.203s,FAILED
+"Statement - currentPassword = ""PasswordWrong1""",,,2018-10-08 16:11:09,2018-10-08 16:11:09,0.002s,PASSED
+"Statement - emailAddress = ""winston""",,,2018-10-08 16:11:09,2018-10-08 16:11:09,0.001s,PASSED
+openBrowser,,,2018-10-08 16:11:09,2018-10-08 16:11:11,2.034s,FAILED
+Start listener action : tearDown,,,2018-10-08 16:11:11,2018-10-08 16:11:11,0.002s,PASSED
+,,,,,,
+Test Cases/CenterParcs/CPDRMIN-4704,,"Registration - Correct details
+
+Check in Gigya - to be done",2018-10-08 16:11:11,2018-10-08 16:11:13,2.480s,FAILED
+callTestCase,,,2018-10-08 16:11:11,2018-10-08 16:11:11,0.263s,PASSED
+Statement - emailComms = false,,,2018-10-08 16:11:11,2018-10-08 16:11:11,0.001s,PASSED
+Statement - postComms = false,,,2018-10-08 16:11:11,2018-10-08 16:11:11,0.000s,PASSED
+Statement - smsComms = false,,,2018-10-08 16:11:11,2018-10-08 16:11:11,0.000s,PASSED
+"Statement - currentPassword = ""Password123""",,,2018-10-08 16:11:11,2018-10-08 16:11:11,0.000s,PASSED
+openBrowser,,,2018-10-08 16:11:11,2018-10-08 16:11:13,2.021s,FAILED
+Start listener action : tearDown,,,2018-10-08 16:11:13,2018-10-08 16:11:13,0.002s,PASSED
+,,,,,,
+Test Cases/CenterParcs/CPDRMIN-4734,,"Registration - Correct details
+
+Check in Gigya - to be done",2018-10-08 16:11:13,2018-10-08 16:11:15,2.266s,FAILED
+callTestCase,,,2018-10-08 16:11:13,2018-10-08 16:11:13,0.073s,PASSED
+Statement - emailComms = true,,,2018-10-08 16:11:13,2018-10-08 16:11:13,0.001s,PASSED
+Statement - postComms = false,,,2018-10-08 16:11:13,2018-10-08 16:11:13,0.001s,PASSED
+Statement - smsComms = false,,,2018-10-08 16:11:13,2018-10-08 16:11:13,0.000s,PASSED
+openBrowser,,,2018-10-08 16:11:13,2018-10-08 16:11:15,2.044s,FAILED
+Start listener action : tearDown,,,2018-10-08 16:11:15,2018-10-08 16:11:15,0.004s,PASSED
+,,,,,,
+Test Cases/CenterParcs/CPDRMIN-4735,,Account creation & Login - Try to register against an account that already exists,2018-10-08 16:11:15,2018-10-08 16:11:18,2.186s,FAILED
+"Statement - emailAddress = ""winston""",,,2018-10-08 16:11:16,2018-10-08 16:11:16,0.000s,PASSED
+"Statement - firstName = ""Tony""",,,2018-10-08 16:11:16,2018-10-08 16:11:16,0.000s,PASSED
+"Statement - lastName = ""Test""",,,2018-10-08 16:11:16,2018-10-08 16:11:16,0.001s,PASSED
+openBrowser,,,2018-10-08 16:11:16,2018-10-08 16:11:18,2.022s,FAILED
+Start listener action : tearDown,,,2018-10-08 16:11:18,2018-10-08 16:11:18,0.002s,PASSED
+,,,,,,
+Test Cases/CenterParcs/CPDRMIN-7626,,"Registration - Correct details
+
+Check in Gigya - to be done",2018-10-08 16:11:18,2018-10-08 16:11:20,2.261s,FAILED
+callTestCase,,,2018-10-08 16:11:18,2018-10-08 16:11:18,0.073s,PASSED
+Statement - emailComms = false,,,2018-10-08 16:11:18,2018-10-08 16:11:18,0.001s,PASSED
+Statement - postComms = false,,,2018-10-08 16:11:18,2018-10-08 16:11:18,0.000s,PASSED
+Statement - smsComms = false,,,2018-10-08 16:11:18,2018-10-08 16:11:18,0.001s,PASSED
+openBrowser,,,2018-10-08 16:11:18,2018-10-08 16:11:20,2.018s,FAILED
+Start listener action : tearDown,,,2018-10-08 16:11:20,2018-10-08 16:11:20,0.001s,PASSED
+,,,,,,
+Test Cases/CenterParcs/CPDRMIN-7632,,Create an account - Marketing Preference - all unset,2018-10-08 16:11:20,2018-10-08 16:11:22,2.333s,FAILED
+callTestCase,,,2018-10-08 16:11:20,2018-10-08 16:11:20,0.078s,PASSED
+Statement - emailComms = false,,,2018-10-08 16:11:20,2018-10-08 16:11:20,0.001s,PASSED
+Statement - postComms = false,,,2018-10-08 16:11:20,2018-10-08 16:11:20,0.000s,PASSED
+Statement - smsComms = false,,,2018-10-08 16:11:20,2018-10-08 16:11:20,0.001s,PASSED
+openBrowser,,,2018-10-08 16:11:20,2018-10-08 16:11:22,2.024s,FAILED
+Start listener action : tearDown,,,2018-10-08 16:11:22,2018-10-08 16:11:22,0.003s,PASSED
+,,,,,,
+Test Cases/CenterParcs/CPDRMIN-7633,,Create an account - Marketing Preference - all set,2018-10-08 16:11:22,2018-10-08 16:11:24,2.273s,FAILED
+callTestCase,,,2018-10-08 16:11:22,2018-10-08 16:11:22,0.068s,PASSED
+Statement - emailComms = true,,,2018-10-08 16:11:22,2018-10-08 16:11:22,0.001s,PASSED
+Statement - postComms = true,,,2018-10-08 16:11:22,2018-10-08 16:11:22,0.000s,PASSED
+Statement - smsComms = true,,,2018-10-08 16:11:22,2018-10-08 16:11:22,0.000s,PASSED
+openBrowser,,,2018-10-08 16:11:22,2018-10-08 16:11:24,2.028s,FAILED
+Start listener action : tearDown,,,2018-10-08 16:11:24,2018-10-08 16:11:24,0.002s,PASSED

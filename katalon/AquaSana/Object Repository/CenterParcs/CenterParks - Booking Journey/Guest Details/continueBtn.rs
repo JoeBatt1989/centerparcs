@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>.details__submit div button</value>
+         <value>.details__submit div:nth-child(2) button</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>css</name>
       <type>Main</type>
-      <value>.details__submit div button</value>
+      <value>.details__submit div:nth-child(2) button</value>
    </webElementProperties>
 </WebElementEntity>
