@@ -13,23 +13,23 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('helperMethods/Generic/SettingUserDetails'), [:], FailureHandling.STOP_ON_FAILURE)
+GlobalVariable.currentPassword = 'Password123'
 
-GlobalVariable.emailComms = false
-
-GlobalVariable.postComms = false
-
-GlobalVariable.smsComms = false
-
-WebUI.openBrowser('https://uat.centerparcs.co.uk')
+WebUI.openBrowser('https://uat.aquasana.co.uk')
 
 WebUI.maximizeWindow()
 
-WebUI.callTestCase(findTestCase('helperMethods/CenterParcs/CenterParcs_Register_Base'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('AquaSana/AquaSana - Homepage/Header Links/Aqua sana Experience/discoverAquaSanaTab'))
 
-WebUI.callTestCase(findTestCase('helperMethods/CenterParcs/CenterParcs_Register_Additional'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('AquaSana/AquaSana - Homepage/Header Links/Aqua sana Experience/aquaSanaExperienceLink'))
 
-WebUI.click(findTestObject('CenterParcs/Centerparcs_my_profile/updateDetailsBtn'))
+WebUI.click(findTestObject('AquaSana/AquaSana - login/signInBtn'))
 
-WebUI.waitForElementVisible(findTestObject('CenterParcs/Centerparcs_homepage_logged_in/myBookingMenu'), 0)
+WebUI.callTestCase(findTestCase('helperMethods/AquaSana/AquaSana_Login_Existing_User'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('AquaSana/AquaSana - login/myAccountLink'))
+
+WebUI.verifyElementVisible(findTestObject('AquaSana/AquaSana - login/Signout button'))
+
+WebUI.callTestCase(findTestCase('helperMethods/AquaSana/Aquasana_Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 

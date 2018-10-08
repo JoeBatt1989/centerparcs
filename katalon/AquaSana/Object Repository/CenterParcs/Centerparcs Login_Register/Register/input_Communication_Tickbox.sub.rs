@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Create password_data.sub</name>
+   <name>input_Communication_Tickbox.sub</name>
    <tag></tag>
    <elementGuidId>942d0a42-ed26-4eda-9f6a-29e30d8601d0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@name = 'data.subscribe_cp_email' and @type = 'checkbox' and @id = 'gigya-checkbox-subscribe']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='gigya-checkbox-subscribe']</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

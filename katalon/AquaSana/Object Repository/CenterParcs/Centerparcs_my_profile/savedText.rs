@@ -9,6 +9,10 @@
          <key>BASIC</key>
          <value>//*[(text() = 'Your update has been saved.' or . = 'Your update has been saved.')]</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
