@@ -23,11 +23,11 @@ WebUI.callTestCase(findTestCase('helperMethods/Generic/SettingUserDetails'), [:]
 
 WebUI.callTestCase(findTestCase('helperMethods/Generic/SettingGuestDetails'), [:], FailureHandling.STOP_ON_FAILURE)
 
-GlobalVariable.emailComms = false
+GlobalVariable.emailComms = true
 
-GlobalVariable.postComms = false
+GlobalVariable.postComms = true
 
-GlobalVariable.smsComms = false
+GlobalVariable.smsComms = true
 
 WebUI.openBrowser('https://uat.centerparcs.co.uk')
 
@@ -51,4 +51,6 @@ WebUI.callTestCase(findTestCase('helperMethods/CenterParcs/CenterParcs_Booking_P
 
 not_run: WebUI.waitForElementVisible(findTestObject('CenterParcs/CenterParcs - Booking Confirmation/bookingConfirmText'), 
     0)
+
+WebUI.callTestCase(findTestCase('helperMethods/Generic/sendDwEmail (NEEDS TO BE FINISHED)'), [:], FailureHandling.STOP_ON_FAILURE)
 

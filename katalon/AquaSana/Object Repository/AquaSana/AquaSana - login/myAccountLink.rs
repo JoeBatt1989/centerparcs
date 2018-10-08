@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>MyAccount link</name>
+   <name>myAccountLink</name>
    <tag></tag>
    <elementGuidId>46aaf5d4-9bee-45d8-bd08-5dd20df2f93f</elementGuidId>
    <selectorCollection>

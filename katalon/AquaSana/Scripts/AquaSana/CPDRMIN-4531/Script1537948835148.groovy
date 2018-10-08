@@ -23,6 +23,8 @@ GlobalVariable.spaDateRequired = true
 
 GlobalVariable.spaDateValue = 'Today'
 
+GlobalVariable.currentPassword = 'Password123'
+
 WebUI.openBrowser('https://uat.aquasana.co.uk/')
 
 WebUI.maximizeWindow()

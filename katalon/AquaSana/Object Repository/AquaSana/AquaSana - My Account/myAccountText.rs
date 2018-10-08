@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>startDate</description>
-   <name>validFrom</name>
+   <description></description>
+   <name>myAccountText</name>
    <tag></tag>
-   <elementGuidId>cb283852-5978-44ef-a84d-92f5431d2203</elementGuidId>
+   <elementGuidId>9c227b37-99be-4e6c-96b9-6cd767ff6e0c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id = 'startDate']</value>
+         <value>//*[(contains(text(), 'Edit your personal details') or contains(., 'Edit your personal details'))]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <matchCondition>contains</matchCondition>
+      <name>text</name>
       <type>Main</type>
-      <value>startDate</value>
+      <value>Edit your personal details</value>
    </webElementProperties>
 </WebElementEntity>

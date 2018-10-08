@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>startDate</description>
-   <name>validFrom</name>
+   <description></description>
+   <name>activitiesLink</name>
    <tag></tag>
-   <elementGuidId>cb283852-5978-44ef-a84d-92f5431d2203</elementGuidId>
+   <elementGuidId>221d3980-5b32-428f-b71c-ca8803c6539f</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id = 'startDate']</value>
+         <value>.nav__list .subnav__wrapper .subnav__inner-wrapper ul:nth-child(2) li a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -15,8 +15,8 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>css</name>
       <type>Main</type>
-      <value>startDate</value>
+      <value>.nav__list .subnav__wrapper .subnav__inner-wrapper ul:nth-child(2) li a</value>
    </webElementProperties>
 </WebElementEntity>

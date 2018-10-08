@@ -17,7 +17,7 @@ import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-sleep(2000)
+sleep(1000)
 
 WebDriver driver = DriverFactory.getWebDriver()
 

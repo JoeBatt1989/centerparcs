@@ -13,22 +13,17 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-not_run: WebUI.openBrowser('https://uat.centerparcs.co.uk')
+GlobalVariable.emailAddress = 'winston'
 
-not_run: WebUI.maximizeWindow()
+WebUI.openBrowser('https://uat.centerparcs.co.uk')
 
-WebUI.waitForElementVisible(findTestObject('CenterParcs/Centerparcs - homepage/signInRegisterBtn'), 0)
+WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('CenterParcs/Centerparcs - homepage/signInRegisterBtn'))
+WebUI.callTestCase(findTestCase('helperMethods/CenterParcs/CenterParcs_Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('CenterParcs/Centerparcs Login_Register/LogIn/submitBtn'), 0)
+WebUI.click(findTestObject('CenterParcs/Centerparcs - homepage/Header Links/Discover Center Parcs/DiscoverCPTab'))
 
-WebUI.sendKeys(findTestObject('CenterParcs/Centerparcs Login_Register/LogIn/inputUserName'), ('cpsit.tester1+' + GlobalVariable.emailAddress) + 
-    '@gmail.com')
+WebUI.click(findTestObject('CenterParcs/Centerparcs - homepage/Header Links/Discover Center Parcs/activitiesLink'))
 
-WebUI.sendKeys(findTestObject('CenterParcs/Centerparcs Login_Register/LogIn/inputPassword'), 'Password123')
-
-WebUI.click(findTestObject('CenterParcs/Centerparcs Login_Register/LogIn/submitBtn'))
-
-WebUI.waitForElementVisible(findTestObject('CenterParcs/Centerparcs_homepage_logged_in/Find_out_how_it_works'), 0)
+WebUI.waitForElementVisible(findTestObject('CenterParcs/CenterParcs - Activities/actvitiesText'), 0)
 

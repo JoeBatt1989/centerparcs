@@ -26,7 +26,7 @@ WebUI.openBrowser('https://uat.aquasana.co.uk')
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('AquaSana/AquaSana - login/Signin button'))
+WebUI.click(findTestObject('AquaSana/AquaSana - login/signInBtn'))
 
 WebUI.verifyElementVisible(findTestObject('AquaSana/AquaSana - login/Submit button'))
 

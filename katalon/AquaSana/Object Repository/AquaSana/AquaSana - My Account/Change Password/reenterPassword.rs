@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>startDate</description>
-   <name>validFrom</name>
+   <description></description>
+   <name>reenterPassword</name>
    <tag></tag>
-   <elementGuidId>cb283852-5978-44ef-a84d-92f5431d2203</elementGuidId>
+   <elementGuidId>9e9222ff-628c-469e-bbd0-33671ec97af8</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id = 'startDate']</value>
+         <value>//*[@id = 'gigya-password-13236139971520388']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>startDate</value>
+      <value>gigya-password-13236139971520388</value>
    </webElementProperties>
 </WebElementEntity>

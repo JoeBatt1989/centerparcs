@@ -13,10 +13,11 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-GlobalVariable.spaVillageValue = "SF"
+GlobalVariable.spaVillageValue = "WF"
 GlobalVariable.spaVillageRequired = true
 GlobalVariable.spaFlexibleDays = "0"
 GlobalVariable.spaDateRequired = true
+GlobalVariable.spaDateValue = "3 Months"
 
 WebUI.openBrowser('https://uat.aquasana.co.uk/')
 

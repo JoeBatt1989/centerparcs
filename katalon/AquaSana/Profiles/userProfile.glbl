@@ -34,4 +34,14 @@
       <initValue>true</initValue>
       <name>smsComms</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>currentPassword</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>newPassword</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

@@ -13,5 +13,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.scrollToElement(findTestObject('AquaSana/AquaSana - Homepage logged in/logoutBtn'), 0)
+
 WebUI.click(findTestObject('AquaSana/AquaSana - Homepage logged in/logoutBtn'))
 

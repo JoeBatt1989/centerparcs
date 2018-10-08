@@ -20,11 +20,11 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
-WebUI.verifyElementVisible(findTestObject('AquaSana/AquaSana - login/Submit button'))
+WebUI.waitForElementVisible(findTestObject('AquaSana/AquaSana - login/Submit button'), 0)
 
-WebUI.sendKeys(findTestObject('AquaSana/AquaSana - login/Username Field'), ('cpsit.tester1+winston@gmail.com'))
+WebUI.sendKeys(findTestObject('AquaSana/AquaSana - login/Username Field'), 'cpsit.tester1+winston@gmail.com')
 
-WebUI.sendKeys(findTestObject('AquaSana/AquaSana - login/Password field'), 'Password123')
+WebUI.sendKeys(findTestObject('AquaSana/AquaSana - login/Password field'), GlobalVariable.currentPassword)
 
 WebUI.click(findTestObject('AquaSana/AquaSana - login/Submit button'))
 

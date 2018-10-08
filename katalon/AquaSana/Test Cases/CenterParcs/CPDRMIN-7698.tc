@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Booking outside of 6 month window</description>
+   <name>CPDRMIN-7698</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e2f3b934-7c9e-4c47-9ee0-9d29d862014e</testCaseGuid>
+</TestCaseEntity>

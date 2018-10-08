@@ -17,9 +17,9 @@ import org.openqa.selenium.By as By
 import org.openqa.selenium.WebDriver as WebDriver
 import org.openqa.selenium.WebElement as WebElement
 
-WebUI.waitForElementVisible(findTestObject('AquaSana/AquaSana - login/Signin button'), 0)
+WebUI.waitForElementVisible(findTestObject('AquaSana/AquaSana - login/signInBtn'), 0)
 
-WebUI.click(findTestObject('AquaSana/AquaSana - login/Signin button'))
+WebUI.click(findTestObject('AquaSana/AquaSana - login/signInBtn'))
 
 WebUI.verifyElementVisible(findTestObject('AquaSana/AquaSana - login/Submit button'))
 

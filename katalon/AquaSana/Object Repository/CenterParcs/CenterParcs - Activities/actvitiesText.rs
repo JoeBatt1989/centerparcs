@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>startDate</description>
-   <name>validFrom</name>
+   <description></description>
+   <name>actvitiesText</name>
    <tag></tag>
-   <elementGuidId>cb283852-5978-44ef-a84d-92f5431d2203</elementGuidId>
+   <elementGuidId>94d38ac8-4a07-4de2-a12e-9bc32a125972</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id = 'startDate']</value>
+         <value>//*[(contains(text(), 'Hundreds of activities to discover') or contains(., 'Hundreds of activities to discover'))]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <matchCondition>contains</matchCondition>
+      <name>text</name>
       <type>Main</type>
-      <value>startDate</value>
+      <value>Hundreds of activities to discover</value>
    </webElementProperties>
 </WebElementEntity>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Signin button</name>
+   <name>signInBtn</name>
    <tag></tag>
    <elementGuidId>4daf40af-2838-458f-8a55-2f0bc727fae4</elementGuidId>
    <selectorCollection>

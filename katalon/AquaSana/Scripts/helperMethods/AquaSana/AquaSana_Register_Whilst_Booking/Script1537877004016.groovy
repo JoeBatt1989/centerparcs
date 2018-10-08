@@ -51,7 +51,9 @@ WebUI.setText(findTestObject('AquaSana/AquaSana - Payment/Register Details/conta
 WebUI.selectOptionByValue(findTestObject('AquaSana/AquaSana - Payment/Register Details/contactTypeDropDown'), 'Mobile', 
     true)
 
-WebUI.click(findTestObject('AquaSana/AquaSana - Payment/Register Details/termsConditionsCheckbox'))
+WebUI.check(findTestObject('AquaSana/AquaSana - Payment/Register Details/termsConditionsCheckbox'))
 
-WebUI.click(findTestObject('AquaSana/AquaSana - Payment/continuePaymentBtn'))
+WebUI.scrollToElement(findTestObject('AquaSana/AquaSana - Payment/Register Details/continuePaymentBtn'), 0)
+
+WebUI.click(findTestObject('AquaSana/AquaSana - Payment/Register Details/continuePaymentBtn'))
 
