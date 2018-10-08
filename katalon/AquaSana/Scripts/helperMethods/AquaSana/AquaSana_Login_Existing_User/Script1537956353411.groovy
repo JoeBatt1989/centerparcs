@@ -22,7 +22,8 @@ import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as Cucumber
 
 WebUI.waitForElementVisible(findTestObject('AquaSana/AquaSana - login/Submit button'), 0)
 
-WebUI.sendKeys(findTestObject('AquaSana/AquaSana - login/Username Field'), 'cpsit.tester1+winston@gmail.com')
+WebUI.sendKeys(findTestObject('AquaSana/AquaSana - login/Username Field'), ('cpsit.tester1+' + GlobalVariable.emailAddress) + 
+    '@gmail.com')
 
 WebUI.sendKeys(findTestObject('AquaSana/AquaSana - login/Password field'), GlobalVariable.currentPassword)
 

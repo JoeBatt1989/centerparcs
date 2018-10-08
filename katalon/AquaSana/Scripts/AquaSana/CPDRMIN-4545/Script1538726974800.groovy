@@ -15,6 +15,8 @@ import internal.GlobalVariable as GlobalVariable
 
 GlobalVariable.currentPassword = 'Password123'
 
+GlobalVariable.emailAddress = 'winston'
+
 WebUI.openBrowser('https://uat.aquasana.co.uk')
 
 WebUI.maximizeWindow()

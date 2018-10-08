@@ -17,6 +17,8 @@ GlobalVariable.currentPassword = 'Password123'
 
 GlobalVariable.newPassword = 'PasswordNew1'
 
+GlobalVariable.emailAddress = 'winston'
+
 WebUI.openBrowser('https://uat.aquasana.co.uk/')
 
 WebUI.maximizeWindow()
