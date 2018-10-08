@@ -20,27 +20,27 @@ import org.openqa.selenium.WebElement as WebElement
 
 WebUI.callTestCase(findTestCase('helperMethods/CenterParcs/CenterParcs_Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('CenterParcs/Centerparcs_homepage_logged_in/avatar'), 0)
+WebUI.waitForElementVisible(findTestObject('CenterParcs/CenterParcs - Homepage_logged_in/avatar'), 0)
 
-WebUI.click(findTestObject('CenterParcs/Centerparcs_homepage_logged_in/myBookingMenu'))
+WebUI.click(findTestObject('CenterParcs/CenterParcs - Homepage_logged_in/myBookingMenu'))
 
-WebUI.waitForElementVisible(findTestObject('CenterParcs/Centerparcs_homepage_logged_in/myBookingSubmenu'), 0)
+WebUI.waitForElementVisible(findTestObject('CenterParcs/CenterParcs - Homepage_logged_in/myBookingSubmenu'), 0)
 
-WebUI.click(findTestObject('CenterParcs/Centerparcs_homepage_logged_in/addBookingToAccount'))
+WebUI.click(findTestObject('CenterParcs/CenterParcs - Homepage_logged_in/addBookingToAccount'))
 
-WebUI.waitForElementVisible(findTestObject('CenterParcs/Centerparcs_add_your_bookings/addBookingsTitle'), 0)
+WebUI.waitForElementVisible(findTestObject('CenterParcs/Centerparcs - add your bookings/addBookingsTitle'), 0)
 
-WebUI.setText(findTestObject('CenterParcs/Centerparcs_add_your_bookings/bookingRefInput'), 'CP1_Test')
+WebUI.setText(findTestObject('CenterParcs/Centerparcs - add your bookings/bookingRefInput'), 'CP1_Test')
 
-WebUI.scrollToElement(findTestObject('CenterParcs/Centerparcs_add_your_bookings/addBookingBtn'), 0)
+WebUI.scrollToElement(findTestObject('CenterParcs/Centerparcs - add your bookings/addBookingBtn'), 0)
 
-WebUI.click(findTestObject('CenterParcs/Centerparcs_add_your_bookings/addBookingBtn'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('CenterParcs/Centerparcs - add your bookings/addBookingBtn'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('CenterParcs/Centerparcs_add_your_bookings/bookingValidationMessage'), 0)
+WebUI.waitForElementVisible(findTestObject('CenterParcs/Centerparcs - add your bookings/bookingValidationMessage'), 0)
 
-WebUI.scrollToElement(findTestObject('CenterParcs/Centerparcs_add_your_bookings/bookingValidationMessage'), 0)
+WebUI.scrollToElement(findTestObject('CenterParcs/Centerparcs - add your bookings/bookingValidationMessage'), 0)
 
-actualValidationMessage = WebUI.getText(findTestObject('CenterParcs/Centerparcs_add_your_bookings/bookingValidationMessage'), FailureHandling.STOP_ON_FAILURE)
+actualValidationMessage = WebUI.getText(findTestObject('CenterParcs/Centerparcs - add your bookings/bookingValidationMessage'), FailureHandling.STOP_ON_FAILURE)
 
 assert expectedValidationMessage == actualValidationMessage
 
@@ -51,24 +51,24 @@ allBookingsLink = driver.findElements(By.xpath('//*[contains(text(),\'View all C
 
 allBookingsLink[1].click()
 
-WebUI.waitForElementVisible(findTestObject('CenterParcs/Centerparcs_all_bookings/viewBookingInfoBtn'), 0)
+WebUI.waitForElementVisible(findTestObject('CenterParcs/Centerparcs - All Bookings/viewBookingInfoBtn'), 0)
 
 // Manual code for finding the number of booking refs matching 
 bookingRefCount = driver.findElements(By.xpath('//*[contains(text(),\'CP1_Test\')]')).size()
 
 assert bookingRefCount == 0
 
-WebUI.click(findTestObject('CenterParcs/Centerparcs_homepage_logged_in/myBookingMenu'))
+WebUI.click(findTestObject('CenterParcs/CenterParcs - Homepage_logged_in/myBookingMenu'))
 
-WebUI.waitForElementVisible(findTestObject('CenterParcs/Centerparcs_homepage_logged_in/myBookingSubmenu'), 0)
+WebUI.waitForElementVisible(findTestObject('CenterParcs/CenterParcs - Homepage_logged_in/myBookingSubmenu'), 0)
 
-WebUI.click(findTestObject('CenterParcs/Centerparcs_homepage_logged_in/addBookingToAccount'))
+WebUI.click(findTestObject('CenterParcs/CenterParcs - Homepage_logged_in/addBookingToAccount'))
 
-WebUI.waitForElementVisible(findTestObject('CenterParcs/Centerparcs_add_your_bookings/addBookingsTitle'), 0)
+WebUI.waitForElementVisible(findTestObject('CenterParcs/Centerparcs - add your bookings/addBookingsTitle'), 0)
 
-WebUI.setText(findTestObject('CenterParcs/Centerparcs_add_your_bookings/bookingRefInput'), '1545652')
+WebUI.setText(findTestObject('CenterParcs/Centerparcs - add your bookings/bookingRefInput'), '1545652')
 
-WebUI.scrollToElement(findTestObject('CenterParcs/Centerparcs_add_your_bookings/addBookingBtn'), 0)
+WebUI.scrollToElement(findTestObject('CenterParcs/Centerparcs - add your bookings/addBookingBtn'), 0)
 
-WebUI.click(findTestObject('CenterParcs/Centerparcs_add_your_bookings/addBookingBtn'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('CenterParcs/Centerparcs - add your bookings/addBookingBtn'), FailureHandling.STOP_ON_FAILURE)
 

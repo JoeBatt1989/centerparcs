@@ -21,11 +21,11 @@ GlobalVariable.lastName = 'Test'
 
 WebUI.callTestCase(findTestCase('helperMethods/CenterParcs/CenterParcs_Register_Base'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('CenterParcs/Centerparcs Login_Register/Register/inputFirstName'))
+WebUI.click(findTestObject('CenterParcs/Centerparcs - Login_Register/Register/inputFirstName'))
 
-WebUI.waitForElementVisible(findTestObject('CenterParcs/Centerparcs Login_Register/Register/accountAlreadyExists'), 0)
+WebUI.waitForElementVisible(findTestObject('CenterParcs/Centerparcs - Login_Register/Register/accountAlreadyExists'), 0)
 
-//errorMessageText = WebUI.getText(findTestObject('CenterParcs/Centerparcs Login_Register/Register/accountAlreadyExists'))
+//errorMessageText = WebUI.getText(findTestObject('CenterParcs/Centerparcs - Login_Register/Register/accountAlreadyExists'))
 
 //assert errorMessageText == "We recognise your email address. If you have previously made a booking on Center Parcs or Aqua Sana, please follow the forgotten password link on the sign in page, to reset your password."
 

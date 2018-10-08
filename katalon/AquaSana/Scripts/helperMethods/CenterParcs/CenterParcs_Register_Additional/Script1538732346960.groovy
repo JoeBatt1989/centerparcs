@@ -21,27 +21,27 @@ import org.openqa.selenium.interactions.Actions as Actions
 import org.openqa.selenium.support.ui.ExpectedConditions
 import org.openqa.selenium.support.ui.WebDriverWait
 
-WebUI.waitForElementVisible(findTestObject('CenterParcs/Centerparcs_my_profile/dobDayDropDown'), 0)
+WebUI.waitForElementVisible(findTestObject('CenterParcs/CenterParcs - My Profile/dobDayDropDown'), 0)
 
-WebUI.selectOptionByValue(findTestObject('CenterParcs/Centerparcs_my_profile/dobDayDropDown'), '1', true)
+WebUI.selectOptionByValue(findTestObject('CenterParcs/CenterParcs - My Profile/dobDayDropDown'), '1', true)
 
-WebUI.selectOptionByValue(findTestObject('CenterParcs/Centerparcs_my_profile/dobMonthDropDown'), '1', true)
+WebUI.selectOptionByValue(findTestObject('CenterParcs/CenterParcs - My Profile/dobMonthDropDown'), '1', true)
 
-WebUI.selectOptionByValue(findTestObject('CenterParcs/Centerparcs_my_profile/dobYearDropDown'), '1980', true)
+WebUI.selectOptionByValue(findTestObject('CenterParcs/CenterParcs - My Profile/dobYearDropDown'), '1980', true)
 
-WebUI.selectOptionByValue(findTestObject('CenterParcs/Centerparcs_my_profile/contactTypeDropDown'), 'Mobile', true)
+WebUI.selectOptionByValue(findTestObject('CenterParcs/CenterParcs - My Profile/contactTypeDropDown'), 'Mobile', true)
 
-WebUI.selectOptionByValue(findTestObject('CenterParcs/Centerparcs_my_profile/phoneCode'), '+44', false)
+WebUI.selectOptionByValue(findTestObject('CenterParcs/CenterParcs - My Profile/phoneCode'), '+44', false)
 
-WebUI.setText(findTestObject('CenterParcs/Centerparcs Login_Register/Register/phoneNumber'), '7777777777')
+WebUI.setText(findTestObject('CenterParcs/Centerparcs - Login_Register/Register/phoneNumber'), '7777777777')
 
-WebUI.selectOptionByValue(findTestObject('CenterParcs/Centerparcs_my_profile/contryDropDown'), 'UK', true)
+WebUI.selectOptionByValue(findTestObject('CenterParcs/CenterParcs - My Profile/contryDropDown'), 'UK', true)
 
-WebUI.setText(findTestObject('CenterParcs/Centerparcs Login_Register/Register/postcode'), 'NG22 9DP')
+WebUI.setText(findTestObject('CenterParcs/Centerparcs - Login_Register/Register/postcode'), 'NG22 9DP')
 
-WebUI.click(findTestObject('CenterParcs/Centerparcs_my_profile/findAddressBtn'))
+WebUI.click(findTestObject('CenterParcs/CenterParcs - My Profile/findAddressBtn'))
 
-WebUI.click(findTestObject('CenterParcs/Centerparcs_my_profile/addressListSelection'))
+WebUI.click(findTestObject('CenterParcs/CenterParcs - My Profile/addressListSelection'))
 
 WebDriver driver = DriverFactory.getWebDriver()
 
@@ -50,29 +50,29 @@ Actions actions = new Actions(driver)
 WebDriverWait wait = new WebDriverWait(driver, 10)
 
 if (GlobalVariable.emailComms == true) {
-    WebUI.scrollToElement(findTestObject('CenterParcs/Centerparcs_my_profile/postcodeInput'), 0)
+    WebUI.scrollToElement(findTestObject('CenterParcs/CenterParcs - My Profile/postcodeInput'), 0)
 	wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector('#subscribe_cp_email')))
     WebElement emailCheckBox = driver.findElement(By.cssSelector('#subscribe_cp_email'))
     actions.moveToElement(emailCheckBox).click().perform()
 }
 
 if (GlobalVariable.postComms == true) {
-    WebUI.scrollToElement(findTestObject('CenterParcs/Centerparcs_my_profile/postcodeInput'), 0)
+    WebUI.scrollToElement(findTestObject('CenterParcs/CenterParcs - My Profile/postcodeInput'), 0)
 	wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector('#subscribe_cp_directmail')))
     WebElement postCheckBox = driver.findElement(By.cssSelector('#subscribe_cp_directmail'))
     actions.moveToElement(postCheckBox).click().perform()
 }
 
 if (GlobalVariable.smsComms == true) {
-    WebUI.scrollToElement(findTestObject('CenterParcs/Centerparcs_my_profile/postcodeInput'), 0)
+    WebUI.scrollToElement(findTestObject('CenterParcs/CenterParcs - My Profile/postcodeInput'), 0)
 	wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector('#subscribe_cp_sms')))
     WebElement smsCheckBox = driver.findElement(By.cssSelector('#subscribe_cp_sms'))
     actions.moveToElement(smsCheckBox).click().perform()
 }
 
-WebUI.scrollToElement(findTestObject('CenterParcs/Centerparcs_my_profile/updateDetailsBtn'), 0)
+WebUI.scrollToElement(findTestObject('CenterParcs/CenterParcs - My Profile/updateDetailsBtn'), 0)
 
-WebUI.click(findTestObject('CenterParcs/Centerparcs_my_profile/updateDetailsBtn'))
+WebUI.click(findTestObject('CenterParcs/CenterParcs - My Profile/updateDetailsBtn'))
 
-WebUI.waitForElementVisible(findTestObject('CenterParcs/Centerparcs_my_profile/savedText'), 0)
+WebUI.waitForElementVisible(findTestObject('CenterParcs/CenterParcs - My Profile/savedText'), 0)
 

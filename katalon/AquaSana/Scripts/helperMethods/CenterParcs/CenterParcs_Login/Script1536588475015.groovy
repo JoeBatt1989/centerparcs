@@ -18,28 +18,28 @@ WebUI.waitForElementVisible(findTestObject('CenterParcs/Centerparcs - homepage/s
 
 WebUI.click(findTestObject('CenterParcs/Centerparcs - homepage/signInRegisterBtn'))
 
-WebUI.waitForElementVisible(findTestObject('CenterParcs/Centerparcs Login_Register/LogIn/submitBtn'), 0)
+WebUI.waitForElementVisible(findTestObject('CenterParcs/Centerparcs - Login_Register/LogIn/submitBtn'), 0)
 
-WebUI.sendKeys(findTestObject('CenterParcs/Centerparcs Login_Register/LogIn/inputUserName'), ('cpsit.tester1+' + GlobalVariable.emailAddress) + 
+WebUI.sendKeys(findTestObject('CenterParcs/Centerparcs - Login_Register/LogIn/inputUserName'), ('cpsit.tester1+' + GlobalVariable.emailAddress) + 
     '@gmail.com')
 
-WebUI.sendKeys(findTestObject('CenterParcs/Centerparcs Login_Register/LogIn/inputPassword'), GlobalVariable.currentPassword)
+WebUI.sendKeys(findTestObject('CenterParcs/Centerparcs - Login_Register/LogIn/inputPassword'), GlobalVariable.currentPassword)
 
-WebUI.click(findTestObject('CenterParcs/Centerparcs Login_Register/LogIn/submitBtn'))
+WebUI.click(findTestObject('CenterParcs/Centerparcs - Login_Register/LogIn/submitBtn'))
 
 if (GlobalVariable.currentPassword == 'Password123') {
-    WebUI.waitForElementVisible(findTestObject('CenterParcs/Centerparcs_homepage_logged_in/Find_out_how_it_works'), 0)
+    WebUI.waitForElementVisible(findTestObject('CenterParcs/CenterParcs - Homepage_logged_in/Find_out_how_it_works'), 0)
 } else {
     for (int i = 0; i < 2; i++) {
 		sleep(1000)
-        WebUI.waitForElementVisible(findTestObject('CenterParcs/Centerparcs Login_Register/LogIn/loginErrorMessage'), 0)
+        WebUI.waitForElementVisible(findTestObject('CenterParcs/Centerparcs - Login_Register/LogIn/loginErrorMessage'), 0)
 
-        WebUI.click(findTestObject('CenterParcs/Centerparcs Login_Register/LogIn/submitBtn'))
+        WebUI.click(findTestObject('CenterParcs/Centerparcs - Login_Register/LogIn/submitBtn'))
     }
     sleep(1000)
-    WebUI.waitForElementVisible(findTestObject('CenterParcs/Centerparcs Login_Register/LogIn/loginErrorMessage'), 0)
+    WebUI.waitForElementVisible(findTestObject('CenterParcs/Centerparcs - Login_Register/LogIn/loginErrorMessage'), 0)
 
-    String errorText = WebUI.getText(findTestObject('CenterParcs/Centerparcs Login_Register/LogIn/loginErrorMessage'), FailureHandling.STOP_ON_FAILURE)
+    String errorText = WebUI.getText(findTestObject('CenterParcs/Centerparcs - Login_Register/LogIn/loginErrorMessage'), FailureHandling.STOP_ON_FAILURE)
 
     Assert.assertTrue(errorText == 'You have been temporarily locked out of your account for 5 minutes.')
 }

@@ -21,22 +21,22 @@ WebUI.waitForElementVisible(findTestObject('CenterParcs/Centerparcs - homepage/s
 
 WebUI.click(findTestObject('CenterParcs/Centerparcs - homepage/signInRegisterBtn'))
 
-WebUI.waitForElementVisible(findTestObject('CenterParcs/Centerparcs Login_Register/LogIn/submitBtn'), 0)
+WebUI.waitForElementVisible(findTestObject('CenterParcs/Centerparcs - Login_Register/LogIn/submitBtn'), 0)
 
-WebUI.click(findTestObject('CenterParcs/Centerparcs Login_Register/LogIn/registerTab'))
+WebUI.click(findTestObject('CenterParcs/Centerparcs - Login_Register/LogIn/registerTab'))
 
-WebUI.waitForElementVisible(findTestObject('CenterParcs/Centerparcs Login_Register/Register/inputFirstName'), 0)
+WebUI.waitForElementVisible(findTestObject('CenterParcs/Centerparcs - Login_Register/Register/inputFirstName'), 0)
 
-WebUI.selectOptionByValue(findTestObject('CenterParcs/Centerparcs Login_Register/Register/titleDropDown'), 'OTHR', true)
+WebUI.selectOptionByValue(findTestObject('CenterParcs/Centerparcs - Login_Register/Register/titleDropDown'), 'OTHR', true)
 
-WebUI.setText(findTestObject('CenterParcs/Centerparcs Login_Register/Register/inputFirstName'), GlobalVariable.firstName)
+WebUI.setText(findTestObject('CenterParcs/Centerparcs - Login_Register/Register/inputFirstName'), GlobalVariable.firstName)
 
-WebUI.setText(findTestObject('CenterParcs/Centerparcs Login_Register/Register/inputLastName'), GlobalVariable.lastName)
+WebUI.setText(findTestObject('CenterParcs/Centerparcs - Login_Register/Register/inputLastName'), GlobalVariable.lastName)
 
-WebUI.setText(findTestObject('CenterParcs/Centerparcs Login_Register/Register/emailAddress'), ('cpsit.tester1+' + GlobalVariable.emailAddress) + 
+WebUI.setText(findTestObject('CenterParcs/Centerparcs - Login_Register/Register/emailAddress'), ('cpsit.tester1+' + GlobalVariable.emailAddress) + 
     '@gmail.com')
 
-WebUI.setText(findTestObject('CenterParcs/Centerparcs Login_Register/Register/password'), 'Password123')
+WebUI.setText(findTestObject('CenterParcs/Centerparcs - Login_Register/Register/password'), 'Password123')
 
 WebDriver driver = DriverFactory.getWebDriver()
 

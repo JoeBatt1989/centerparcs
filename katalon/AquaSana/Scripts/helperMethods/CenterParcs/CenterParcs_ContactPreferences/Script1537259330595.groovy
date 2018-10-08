@@ -14,20 +14,20 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
 if (GlobalVariable.postComms == true) {
-    WebUI.scrollToElement(findTestObject('CenterParcs/Centerparcs_my_profile/postCommsPref'), 0)
+    WebUI.scrollToElement(findTestObject('CenterParcs/CenterParcs - My Profile/postCommsPref'), 0)
 
-    WebUI.check(findTestObject('CenterParcs/Centerparcs_my_profile/postCommsPref'))
+    WebUI.check(findTestObject('CenterParcs/CenterParcs - My Profile/postCommsPref'))
 }
 
 if (GlobalVariable.emailComms == true) {
-    WebUI.scrollToElement(findTestObject('CenterParcs/Centerparcs_my_profile/emailCommsPref'), 0)
+    WebUI.scrollToElement(findTestObject('CenterParcs/CenterParcs - My Profile/emailCommsPref'), 0)
 
-    WebUI.check(findTestObject('CenterParcs/Centerparcs_my_profile/emailCommsPref'))
+    WebUI.check(findTestObject('CenterParcs/CenterParcs - My Profile/emailCommsPref'))
 }
 
 if (GlobalVariable.smsComms == true) {
-    WebUI.scrollToElement(findTestObject('CenterParcs/Centerparcs_my_profile/smsCommsPref'), 0)
+    WebUI.scrollToElement(findTestObject('CenterParcs/CenterParcs - My Profile/smsCommsPref'), 0)
 
-    WebUI.check(findTestObject('CenterParcs/Centerparcs_my_profile/smsCommsPref'))
+    WebUI.check(findTestObject('CenterParcs/CenterParcs - My Profile/smsCommsPref'))
 }
 

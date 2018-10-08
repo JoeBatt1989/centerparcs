@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>Aqua Sana - sign in and sign out links</description>
    <name>CPDRMIN-4545</name>
    <tag></tag>
    <comment></comment>

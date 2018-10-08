@@ -19,17 +19,17 @@ WebUI.maximizeWindow()
 
 WebUI.click(findTestObject('CenterParcs/Centerparcs - homepage/signInRegisterBtn'))
 
-WebUI.click(findTestObject('CenterParcs/Centerparcs Login_Register/LogIn/registerTab'))
+WebUI.click(findTestObject('CenterParcs/Centerparcs - Login_Register/LogIn/registerTab'))
 
-WebUI.click(findTestObject('CenterParcs/Centerparcs Login_Register/Register/input_Communication_Tickbox.sub'))
+WebUI.click(findTestObject('CenterParcs/Centerparcs - Login_Register/Register/input_Communication_Tickbox.sub'))
 
-WebUI.click(findTestObject('CenterParcs/Centerparcs Login_Register/Register/input_Communication_Tickbox.sub'))
+WebUI.click(findTestObject('CenterParcs/Centerparcs - Login_Register/Register/input_Communication_Tickbox.sub'))
 
-WebUI.click(findTestObject('CenterParcs/Centerparcs Login_Register/Register/input_Communication_Tickbox.sub'))
+WebUI.click(findTestObject('CenterParcs/Centerparcs - Login_Register/Register/input_Communication_Tickbox.sub'))
 
-WebUI.click(findTestObject('CenterParcs/Centerparcs Login_Register/Register/input_Communication_Tickbox.sub'))
+WebUI.click(findTestObject('CenterParcs/Centerparcs - Login_Register/Register/input_Communication_Tickbox.sub'))
 
-WebUI.click(findTestObject('CenterParcs/Centerparcs Login_Register/Register/input_Communication_Tickbox.sub'))
+WebUI.click(findTestObject('CenterParcs/Centerparcs - Login_Register/Register/input_Communication_Tickbox.sub'))
 
-WebUI.click(findTestObject('CenterParcs/Centerparcs Login_Register/Register/input_Communication_Tickbox.sub'))
+WebUI.click(findTestObject('CenterParcs/Centerparcs - Login_Register/Register/input_Communication_Tickbox.sub'))
 

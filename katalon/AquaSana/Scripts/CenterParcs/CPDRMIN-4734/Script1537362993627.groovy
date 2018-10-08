@@ -29,9 +29,9 @@ WebUI.callTestCase(findTestCase('helperMethods/CenterParcs/CenterParcs_Register_
 
 WebUI.callTestCase(findTestCase('helperMethods/CenterParcs/CenterParcs_Register_Additional'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('CenterParcs/Centerparcs_my_profile/updateDetailsBtn'))
+WebUI.click(findTestObject('CenterParcs/CenterParcs - My Profile/updateDetailsBtn'))
 
-WebUI.waitForElementVisible(findTestObject('CenterParcs/Centerparcs_homepage_logged_in/myBookingMenu'), 0)
+WebUI.waitForElementVisible(findTestObject('CenterParcs/CenterParcs - Homepage_logged_in/myBookingMenu'), 0)
 
 WebUI.callTestCase(findTestCase('helperMethods/Generic/sendDwEmail (NEEDS TO BE FINISHED)'), [:], FailureHandling.STOP_ON_FAILURE)
 
