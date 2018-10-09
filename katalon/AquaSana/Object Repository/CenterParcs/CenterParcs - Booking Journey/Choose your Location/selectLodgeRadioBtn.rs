@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>guestsDropDown</name>
+   <name>selectLodgeRadioBtn</name>
    <tag></tag>
-   <elementGuidId>98602b21-93b6-4aa9-957f-35303c19ded7</elementGuidId>
+   <elementGuidId>044b51ec-4f82-4aa0-b52a-6b4cea9816d4</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>.js-guest-limit a</value>
+         <value>.js-select-lodge-radio</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>css</name>
       <type>Main</type>
-      <value>.js-guest-limit a</value>
+      <value>.js-select-lodge-radio</value>
    </webElementProperties>
 </WebElementEntity>

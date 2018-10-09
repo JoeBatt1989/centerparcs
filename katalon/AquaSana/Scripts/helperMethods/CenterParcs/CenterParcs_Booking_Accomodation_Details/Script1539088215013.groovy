@@ -2,11 +2,9 @@ import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import org.junit.After as After
 import org.openqa.selenium.By as By
 import org.openqa.selenium.WebDriver as WebDriver
-import org.openqa.selenium.interactions.Actions as Actions
-import org.openqa.selenium.support.ui.ExpectedConditions as ExpectedConditions
-import org.openqa.selenium.support.ui.WebDriverWait as WebDriverWait
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
@@ -19,29 +17,24 @@ import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.waitForElementVisible(findTestObject('CenterParcs/CenterParcs - Choose your accomodation/chooseAccomodationText'),
-	0)
+WebUI.waitForElementVisible(findTestObject('CenterParcs/CenterParcs - Accomodation Details/accomodationDetailsText'), 0)
 
 WebDriver driver = DriverFactory.getWebDriver()
 
-WebDriverWait wait = new WebDriverWait(driver, 10)
+checkBoxCount = driver.findElements(By.id('warning-checkbox'))
 
-wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector('.js-search-results-container article:nth-child(1) .item-card__title')))
+if (checkBoxCount.size() > 0) {
+    WebUI.scrollToElement(findTestObject('CenterParcs/CenterParcs - Accomodation Details/warningCheckBox'), 0)
 
-bookNow = driver.findElements(By.cssSelector('.js-book-button'))
+    WebUI.check(findTestObject('CenterParcs/CenterParcs - Accomodation Details/warningCheckBox'), FailureHandling.STOP_ON_FAILURE)
 
-details = driver.findElements(By.cssSelector('.js-detail-button'))
+    WebUI.waitForElementClickable(findTestObject('CenterParcs/CenterParcs - Accomodation Details/bookNowBtn'), 0)
 
-WebUI.scrollToElement(findTestObject('CenterParcs/CenterParcs - Choose your accomodation/cardTitle'), 0)
+    WebUI.click(findTestObject('CenterParcs/CenterParcs - Accomodation Details/bookNowBtn'), FailureHandling.STOP_ON_FAILURE)
+} else{
 
-if(GlobalVariable.dogs > 0){
-	wait.until(ExpectedConditions.visibilityOf(details[2]))
-	
-	details[2].click()
-} else {
+	WebUI.waitForElementClickable(findTestObject('CenterParcs/CenterParcs - Accomodation Details/bookNowBtn'), 0)
 
-	wait.until(ExpectedConditions.visibilityOf(bookNow[0]))
-
-	bookNow[0].click()
+	WebUI.click(findTestObject('CenterParcs/CenterParcs - Accomodation Details/bookNowBtn'), FailureHandling.STOP_ON_FAILURE)
 }
 

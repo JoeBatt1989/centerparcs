@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>guestsDropDown</name>
+   <name>dogFriendlyHolidaysBtn</name>
    <tag></tag>
-   <elementGuidId>98602b21-93b6-4aa9-957f-35303c19ded7</elementGuidId>
+   <elementGuidId>b68b0630-984e-47f0-a584-341d87ea07a9</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>.js-guest-limit a</value>
+         <value>//*[@title = 'Dog friendly holidays']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -15,8 +15,8 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>css</name>
+      <name>title</name>
       <type>Main</type>
-      <value>.js-guest-limit a</value>
+      <value>Dog friendly holidays</value>
    </webElementProperties>
 </WebElementEntity>

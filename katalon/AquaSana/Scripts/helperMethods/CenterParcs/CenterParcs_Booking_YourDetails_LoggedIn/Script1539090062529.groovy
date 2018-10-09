@@ -13,13 +13,18 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.waitForElementVisible(findTestObject('CenterParcs/CenterParcs - Booking Journey/CBSoon/bookerSurname'), 0)
+WebUI.waitForElementVisible(findTestObject('CenterParcs/CenterParcs - Booking Journey/Your Details/yourDetailsText'), 0)
 
-WebUI.scrollToElement(findTestObject('CenterParcs/CenterParcs - Booking Journey/CBSoon/noInsuranceRadio'), 0)
+WebUI.scrollToElement(findTestObject('CenterParcs/CenterParcs - Booking Journey/Your Details/leadBookerNextBtn'), 0)
 
-WebUI.click(findTestObject('CenterParcs/CenterParcs - Booking Journey/CBSoon/noInsuranceRadio'))
+WebUI.click(findTestObject('CenterParcs/CenterParcs - Booking Journey/Your Details/leadBookerNextBtn'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementClickable(findTestObject('CenterParcs/CenterParcs - Booking Journey/CBSoon/continueBtn'), 0)
+WebUI.scrollToElement(findTestObject('CenterParcs/CenterParcs - Booking Journey/Your Details/termsAndCondCheckBox'), 0)
 
-WebUI.click(findTestObject('CenterParcs/CenterParcs - Booking Journey/CBSoon/continueBtn'))
+WebUI.check(findTestObject('CenterParcs/CenterParcs - Booking Journey/Your Details/termsAndCondCheckBox'))
+
+WebUI.waitForElementClickable(findTestObject('CenterParcs/CenterParcs - Booking Journey/Your Details/Register/continueBtn'), 
+    0)
+
+WebUI.click(findTestObject('CenterParcs/CenterParcs - Booking Journey/Your Details/Register/continueBtn'))
 

@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>guestsDropDown</name>
+   <name>typesOfBreaksText</name>
    <tag></tag>
-   <elementGuidId>98602b21-93b6-4aa9-957f-35303c19ded7</elementGuidId>
+   <elementGuidId>32ca82ae-a5a1-47f1-9c58-88ed0fe53000</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>.js-guest-limit a</value>
+         <value>//*[(contains(text(), 'Find the perfect break for you') or contains(., 'Find the perfect break for you'))]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>css</name>
+      <matchCondition>contains</matchCondition>
+      <name>text</name>
       <type>Main</type>
-      <value>.js-guest-limit a</value>
+      <value>Find the perfect break for you</value>
    </webElementProperties>
 </WebElementEntity>

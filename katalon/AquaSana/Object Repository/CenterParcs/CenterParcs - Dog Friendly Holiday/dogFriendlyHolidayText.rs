@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>guestsDropDown</name>
+   <name>dogFriendlyHolidayText</name>
    <tag></tag>
-   <elementGuidId>98602b21-93b6-4aa9-957f-35303c19ded7</elementGuidId>
+   <elementGuidId>0d9bd76c-a1eb-4a3e-8d50-5270a404bc3a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>.js-guest-limit a</value>
+         <value>//*[(contains(text(), concat('Bring along man' , &quot;'&quot; , 's best friend')) or contains(., concat('Bring along man' , &quot;'&quot; , 's best friend')))]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>css</name>
+      <matchCondition>contains</matchCondition>
+      <name>text</name>
       <type>Main</type>
-      <value>.js-guest-limit a</value>
+      <value>Bring along man's best friend</value>
    </webElementProperties>
 </WebElementEntity>

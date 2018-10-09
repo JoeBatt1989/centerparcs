@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>guestsDropDown</name>
+   <name>typesOfBreaksLink</name>
    <tag></tag>
-   <elementGuidId>98602b21-93b6-4aa9-957f-35303c19ded7</elementGuidId>
+   <elementGuidId>97e1b6cc-1c40-4c5e-b72f-4826050e76ae</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>.js-guest-limit a</value>
+         <value>#nav ul li.nav__item.nav__item--active div div ul:nth-child(2) li:nth-child(4) a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>css</name>
       <type>Main</type>
-      <value>.js-guest-limit a</value>
+      <value>#nav ul li.nav__item.nav__item--active div div ul:nth-child(2) li:nth-child(4) a</value>
    </webElementProperties>
 </WebElementEntity>

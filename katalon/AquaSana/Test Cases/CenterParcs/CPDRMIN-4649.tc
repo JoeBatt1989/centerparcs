@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Booking - with dog</description>
+   <name>CPDRMIN-4649</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d7a25486-78ac-4ae9-8283-3a693f97ebc4</testCaseGuid>
+</TestCaseEntity>

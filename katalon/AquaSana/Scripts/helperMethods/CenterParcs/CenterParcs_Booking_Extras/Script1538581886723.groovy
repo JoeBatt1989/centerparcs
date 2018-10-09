@@ -13,10 +13,10 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.waitForElementVisible(findTestObject('CenterParcs/CenterParks - Booking Journey/Little Extras/littleExtrasText'), 
+WebUI.waitForElementVisible(findTestObject('CenterParcs/CenterParcs - Booking Journey/Little Extras/littleExtrasText'), 
     0)
 
-WebUI.scrollToElement(findTestObject('CenterParcs/CenterParks - Booking Journey/Little Extras/continueBtn'), 0)
+WebUI.scrollToElement(findTestObject('CenterParcs/CenterParcs - Booking Journey/Little Extras/continueBtn'), 0)
 
-WebUI.click(findTestObject('CenterParcs/CenterParks - Booking Journey/Little Extras/continueBtn'))
+WebUI.click(findTestObject('CenterParcs/CenterParcs - Booking Journey/Little Extras/continueBtn'))
 

@@ -13,21 +13,10 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('helperMethods/Generic/SettingGuestDetails'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.waitForElementVisible(findTestObject('CenterParcs/CenterParcs - Booking Journey/Guest Details/guestDropDown'), 0)
 
-WebUI.waitForElementVisible(findTestObject('CenterParcs/CenterParcs - Booking Journey/Guest Details/firstName'), 0)
-
-WebUI.scrollToElement(findTestObject('CenterParcs/CenterParcs - Booking Journey/Guest Details/titleDropDown'), 0)
-
-WebUI.selectOptionByValue(findTestObject('CenterParcs/CenterParcs - Booking Journey/Guest Details/titleDropDown'), 'OTHR', 
+WebUI.selectOptionByValue(findTestObject('CenterParcs/CenterParcs - Booking Journey/Guest Details/guestDropDown'), 'GuestGuest', 
     true)
-
-WebUI.setText(findTestObject('CenterParcs/CenterParcs - Booking Journey/Guest Details/firstName'), GlobalVariable.guestFirstName)
-
-WebUI.setText(findTestObject('CenterParcs/CenterParcs - Booking Journey/Guest Details/lastName'), GlobalVariable.guestLastName)
-
-WebUI.setText(findTestObject('CenterParcs/CenterParcs - Booking Journey/Guest Details/email'), ('cpsit.tester1+' + GlobalVariable.guestEmailAddress) + 
-    '@gmail.com')
 
 WebUI.waitForElementClickable(findTestObject('CenterParcs/CenterParcs - Booking Journey/Guest Details/guestDetailsNextBtn'), 
     0)

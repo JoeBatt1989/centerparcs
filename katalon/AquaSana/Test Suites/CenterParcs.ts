@@ -26,7 +26,7 @@
    <testCaseLink>
       <guid>8e82901e-511e-48fd-a86d-8d518c3085a7</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/CenterParcs/CPDRMIN-4720</testCaseId>
    </testCaseLink>
    <testCaseLink>
