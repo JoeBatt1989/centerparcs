@@ -23,27 +23,27 @@ WebDriver driver = DriverFactory.getWebDriver()
 
 driver.switchTo().frame(0)
 
-WebUI.waitForElementVisible(findTestObject('CenterParcs/CenterParcs - Booking Journey/Payment/nameOnCard'), 0)
+WebUI.waitForElementVisible(findTestObject('CenterParcs/CenterParks - Booking Journey/Payment/nameOnCard'), 0)
 
-WebUI.scrollToElement(findTestObject('CenterParcs/CenterParcs - Booking Journey/Payment/nameOnCard'), 0)
+WebUI.scrollToElement(findTestObject('CenterParcs/CenterParks - Booking Journey/Payment/nameOnCard'), 0)
 
-WebUI.setText(findTestObject('CenterParcs/CenterParcs - Booking Journey/Payment/nameOnCard'), GlobalVariable.lastName)
+WebUI.setText(findTestObject('CenterParcs/CenterParks - Booking Journey/Payment/nameOnCard'), GlobalVariable.lastName)
 
-WebUI.setText(findTestObject('CenterParcs/CenterParcs - Booking Journey/Payment/cardNumber'), '4929492949294929')
+WebUI.setText(findTestObject('CenterParcs/CenterParks - Booking Journey/Payment/cardNumber'), '4929492949294929')
 
-WebUI.selectOptionByValue(findTestObject('CenterParcs/CenterParcs - Booking Journey/Payment/expiryDateMonth'), '01', true)
+WebUI.selectOptionByValue(findTestObject('CenterParcs/CenterParks - Booking Journey/Payment/expiryDateMonth'), '01', true)
 
-WebUI.selectOptionByValue(findTestObject('CenterParcs/CenterParcs - Booking Journey/Payment/expirtDateYear'), '2021', true)
+WebUI.selectOptionByValue(findTestObject('CenterParcs/CenterParks - Booking Journey/Payment/expirtDateYear'), '2021', true)
 
-WebUI.setText(findTestObject('CenterParcs/CenterParcs - Booking Journey/Payment/cvv'), '424')
+WebUI.setText(findTestObject('CenterParcs/CenterParks - Booking Journey/Payment/cvv'), '424')
 
-WebUI.waitForElementClickable(findTestObject('CenterParcs/CenterParcs - Booking Journey/Payment/paymentConfirmBtn'), 0)
+WebUI.waitForElementClickable(findTestObject('CenterParcs/CenterParks - Booking Journey/Payment/paymentConfirmBtn'), 0)
 
 driver.findElement(By.cssSelector("[type='submit']")).click()
 
 //println(paymentConfirmBtn.size())
 
-//WebUI.click(findTestObject('CenterParcs/CenterParcs - Booking Journey/Payment/paymentConfirmBtn'), FailureHandling.STOP_ON_FAILURE)
+//WebUI.click(findTestObject('CenterParcs/CenterParks - Booking Journey/Payment/paymentConfirmBtn'), FailureHandling.STOP_ON_FAILURE)
 
 not_run: Actions actions = new Actions(driver)
 

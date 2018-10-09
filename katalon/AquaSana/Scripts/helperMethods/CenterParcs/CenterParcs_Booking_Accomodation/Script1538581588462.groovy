@@ -26,22 +26,14 @@ WebDriver driver = DriverFactory.getWebDriver()
 
 WebDriverWait wait = new WebDriverWait(driver, 10)
 
-wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector('.js-search-results-container article:nth-child(1) .item-card__title')))
+wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector('.js-search-results-container article:nth-child(1) .js-book-button')))
 
 bookNow = driver.findElements(By.cssSelector('.js-book-button'))
 
-details = driver.findElements(By.cssSelector('.js-detail-button'))
-
 WebUI.scrollToElement(findTestObject('CenterParcs/CenterParcs - Choose your accomodation/cardTitle'), 0)
 
-if(GlobalVariable.dogs > 0){
-	wait.until(ExpectedConditions.visibilityOf(details[2]))
-	
-	details[2].click()
-} else {
+wait.until(ExpectedConditions.visibilityOf(bookNow[0]))
 
-	wait.until(ExpectedConditions.visibilityOf(bookNow[0]))
+bookNow[0].click()
 
-	bookNow[0].click()
-}
 

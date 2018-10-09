@@ -67,7 +67,7 @@ WebUI.click(findTestObject('Object Repository/Recorded objects/Page_Payment  Cen
 WebUI.setText(findTestObject('Object Repository/Recorded objects/Page_Payment  Center Parcs/input_Enter security code (CVV'), 
     '424')
 
-WebUI.click(findTestObject('CenterParcs/CenterParcs - Booking Journey/Payment/input_Enter a new card_btn--bo'))
+WebUI.click(findTestObject('CenterParcs/CenterParks - Booking Journey/Payment/input_Enter a new card_btn--bo'))
 
 WebUI.closeBrowser()
 
