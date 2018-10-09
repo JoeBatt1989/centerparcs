@@ -17,7 +17,7 @@ WebUI.openBrowser('https://uat.centerparcs.co.uk')
 
 WebUI.maximizeWindow()
 
-WebUI.waitForElementVisible(findTestObject('CenterParcs/Centerparcs - homepage/signInRegisterBtn'), 0)
+WebUI.waitForElementVisible(findTestObject('CenterParcs/Centerparcs - homepage/signIn_btn'), 0)
 
 WebUI.waitForElementVisible(findTestObject('CenterParcs/Centerparcs - homepage/cookieBanner'), 0)
 

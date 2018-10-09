@@ -4,13 +4,18 @@
    <name>CenterParcs</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-10-08T16:11:57</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>10</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>e0c01beb-85d1-407e-8338-ffede250c73e</testSuiteGuid>
+   <testCaseLink>
+      <guid>7a8b118e-4516-4b39-9e20-b79d84a457ad</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CenterParcs/CPDRMIN-4644</testCaseId>
+   </testCaseLink>
    <testCaseLink>
       <guid>c42ace98-e356-4948-8950-e25b3e708773</guid>
       <isReuseDriver>false</isReuseDriver>
@@ -66,6 +71,12 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
+      <guid>b8dd779f-80bb-4b50-a33c-e4d7a529912b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CenterParcs/CPDRMIN-7624</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>95734556-7757-4d98-b0e7-4856fb57f612</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -90,15 +101,15 @@
       <testCaseId>Test Cases/CenterParcs/CPDRMIN-7633</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>2286ade6-83ff-435a-81e9-9a9bf771e5ee</guid>
+      <guid>645d68a6-ddf1-4705-8a61-b725fa325657</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CenterParcs/CPDRMIN-4644</testCaseId>
+      <testCaseId>Test Cases/CenterParcs/CPDRMIN-7635</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>fc9957fc-ba82-4c44-b83d-e4e9dbb60b69</guid>
+      <guid>d2865824-5071-4962-9e5a-0a33e5987b83</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CenterParcs/CPDRMIN-7624</testCaseId>
+      <testCaseId>Test Cases/CenterParcs/CPDRMIN-7690</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

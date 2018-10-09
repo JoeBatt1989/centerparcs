@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>CSS</key>
-         <value>.location__submit div:nth-child(2) button</value>
+         <value>.location__submit div button</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

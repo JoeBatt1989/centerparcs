@@ -21,7 +21,7 @@ WebUI.click(findTestObject('AquaSana/AquaSana - Booking Search/Spa Days/spaDayTa
 
 WebUI.waitForElementVisible(findTestObject('AquaSana/AquaSana - Booking Search/Spa Days/spaDaysMagnet'), 0)
 
-WebUI.selectOptionByValue(findTestObject('AquaSana/AquaSana - Booking Search/Spa Days/flexibleDropDown'), GlobalVariable.spaFlexibleDays, false)
+WebUI.selectOptionByValue(findTestObject('AquaSana/AquaSana - Booking Search/Spa Days/flexibleDropDown'), GlobalVariable.flexibleDays, false)
 
 WebUI.click(findTestObject('AquaSana/AquaSana - Booking Search/Spa Days/searchBtn'))
 

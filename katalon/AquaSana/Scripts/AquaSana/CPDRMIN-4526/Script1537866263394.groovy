@@ -13,8 +13,6 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.driver.DriverFactory
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-
-import org.junit.After
 import org.junit.Assert
 import org.openqa.selenium.By
 import org.openqa.selenium.By.ByCssSelector
@@ -29,13 +27,13 @@ WebUI.maximizeWindow()
 
 WebUI.callTestCase(findTestCase('helperMethods/AquaSana/AquaSana_Search_SpaDays - 3 Months'), [:], FailureHandling.STOP_ON_FAILURE)
 
-GlobalVariable.spaFlexibleDays = '1'
+GlobalVariable.flexibleDays = '1'
 
 WebUI.callTestCase(findTestCase('helperMethods/AquaSana/AquaSana_Search_Results_Edit_Search'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForElementVisible(findTestObject('AquaSana/AquaSana - Search Results/Edit Search/plus1DayText'), 0)
 
-GlobalVariable.spaFlexibleDays = '2'
+GlobalVariable.flexibleDays = '2'
 
 WebUI.callTestCase(findTestCase('helperMethods/AquaSana/AquaSana_Search_Results_Edit_Search'), [:], FailureHandling.STOP_ON_FAILURE)
 

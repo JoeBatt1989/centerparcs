@@ -59,7 +59,3 @@ String emailCheckBox = driver.findElement(By.cssSelector('#gigya-checkbox-110882
 
 Assert.assertTrue(emailCheckBox == 'gigya-input-checkbox')
 
-GlobalVariable.emailComms = true
-
-WebUI.callTestCase(findTestCase('helperMethods/Generic/sendDwEmail (NEEDS TO BE FINISHED)'), [:], FailureHandling.STOP_ON_FAILURE)
-
